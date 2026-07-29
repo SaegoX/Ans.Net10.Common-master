@@ -1,0 +1,1309 @@
+### YamlMime:ManagedReference
+items:
+- uid: Ans.Net10.Common.SuppValues
+  commentId: T:Ans.Net10.Common.SuppValues
+  id: SuppValues
+  parent: Ans.Net10.Common
+  children:
+  - Ans.Net10.Common.SuppValues.Default(System.Int32,System.Int32,System.Int32)
+  - Ans.Net10.Common.SuppValues.Default(System.String,System.String[])
+  - Ans.Net10.Common.SuppValues.FixTelephoneRuCityCode(System.String)
+  - Ans.Net10.Common.SuppValues.GetCurrencyBuh(System.Double)
+  - Ans.Net10.Common.SuppValues.GetCurrencyBuh(System.Single)
+  - Ans.Net10.Common.SuppValues.GetCurrencyLoc(System.Double)
+  - Ans.Net10.Common.SuppValues.GetCurrencyLoc(System.Single)
+  - Ans.Net10.Common.SuppValues.GetDigitalOnly(System.String)
+  - Ans.Net10.Common.SuppValues.GetDocNumber(System.String)
+  - Ans.Net10.Common.SuppValues.GetFamilyAndInitials(System.String,Ans.Net10.Common.LetterCasesEnum)
+  - Ans.Net10.Common.SuppValues.GetFamilyAndInitialsString(System.String,Ans.Net10.Common.LetterCasesEnum)
+  - Ans.Net10.Common.SuppValues.GetFamilyAndInitialsTranslit(System.String,System.String)
+  - Ans.Net10.Common.SuppValues.GetGender(System.String)
+  - Ans.Net10.Common.SuppValues.GetSubstitutionAddress(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  - Ans.Net10.Common.SuppValues.GetTelephoneNumber(System.String)
+  - Ans.Net10.Common.SuppValues.GetValueStringForWeb(System.Object)
+  - Ans.Net10.Common.SuppValues.HasAll(System.Object[])
+  - Ans.Net10.Common.SuppValues.HasAny(System.Object[])
+  langs:
+  - csharp
+  - vb
+  name: SuppValues
+  nameWithType: SuppValues
+  fullName: Ans.Net10.Common.SuppValues
+  type: Class
+  source:
+    id: SuppValues
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~supps\SuppValues.cs
+    startLine: 5
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static class SuppValues
+    content.vb: Public Module SuppValues
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Ans.Net10.Common.SuppValues.Default(System.String,System.String[])
+  commentId: M:Ans.Net10.Common.SuppValues.Default(System.String,System.String[])
+  id: Default(System.String,System.String[])
+  parent: Ans.Net10.Common.SuppValues
+  langs:
+  - csharp
+  - vb
+  name: Default(string, params string[])
+  nameWithType: SuppValues.Default(string, params string[])
+  fullName: Ans.Net10.Common.SuppValues.Default(string, params string[])
+  type: Method
+  source:
+    id: Default
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~supps\SuppValues.cs
+    startLine: 11
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static string Default(string current, params string[] defaultValues)
+    parameters:
+    - id: current
+      type: System.String
+    - id: defaultValues
+      type: System.String[]
+    return:
+      type: System.String
+    content.vb: Public Shared Function [Default](current As String, ParamArray defaultValues As String()) As String
+  overload: Ans.Net10.Common.SuppValues.Default*
+  nameWithType.vb: SuppValues.Default(String, ParamArray String())
+  fullName.vb: Ans.Net10.Common.SuppValues.Default(String, ParamArray String())
+  name.vb: Default(String, ParamArray String())
+- uid: Ans.Net10.Common.SuppValues.Default(System.Int32,System.Int32,System.Int32)
+  commentId: M:Ans.Net10.Common.SuppValues.Default(System.Int32,System.Int32,System.Int32)
+  id: Default(System.Int32,System.Int32,System.Int32)
+  parent: Ans.Net10.Common.SuppValues
+  langs:
+  - csharp
+  - vb
+  name: Default(int, int, int)
+  nameWithType: SuppValues.Default(int, int, int)
+  fullName: Ans.Net10.Common.SuppValues.Default(int, int, int)
+  type: Method
+  source:
+    id: Default
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~supps\SuppValues.cs
+    startLine: 24
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static int Default(int current, int defaultValue, int nullValue = 0)
+    parameters:
+    - id: current
+      type: System.Int32
+    - id: defaultValue
+      type: System.Int32
+    - id: nullValue
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function [Default](current As Integer, defaultValue As Integer, nullValue As Integer = 0) As Integer
+  overload: Ans.Net10.Common.SuppValues.Default*
+  nameWithType.vb: SuppValues.Default(Integer, Integer, Integer)
+  fullName.vb: Ans.Net10.Common.SuppValues.Default(Integer, Integer, Integer)
+  name.vb: Default(Integer, Integer, Integer)
+- uid: Ans.Net10.Common.SuppValues.HasAny(System.Object[])
+  commentId: M:Ans.Net10.Common.SuppValues.HasAny(System.Object[])
+  id: HasAny(System.Object[])
+  parent: Ans.Net10.Common.SuppValues
+  langs:
+  - csharp
+  - vb
+  name: HasAny(params object[])
+  nameWithType: SuppValues.HasAny(params object[])
+  fullName: Ans.Net10.Common.SuppValues.HasAny(params object[])
+  type: Method
+  source:
+    id: HasAny
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~supps\SuppValues.cs
+    startLine: 34
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static bool HasAny(params object[] values)
+    parameters:
+    - id: values
+      type: System.Object[]
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function HasAny(ParamArray values As Object()) As Boolean
+  overload: Ans.Net10.Common.SuppValues.HasAny*
+  nameWithType.vb: SuppValues.HasAny(ParamArray Object())
+  fullName.vb: Ans.Net10.Common.SuppValues.HasAny(ParamArray Object())
+  name.vb: HasAny(ParamArray Object())
+- uid: Ans.Net10.Common.SuppValues.HasAll(System.Object[])
+  commentId: M:Ans.Net10.Common.SuppValues.HasAll(System.Object[])
+  id: HasAll(System.Object[])
+  parent: Ans.Net10.Common.SuppValues
+  langs:
+  - csharp
+  - vb
+  name: HasAll(params object[])
+  nameWithType: SuppValues.HasAll(params object[])
+  fullName: Ans.Net10.Common.SuppValues.HasAll(params object[])
+  type: Method
+  source:
+    id: HasAll
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~supps\SuppValues.cs
+    startLine: 44
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static bool HasAll(params object[] values)
+    parameters:
+    - id: values
+      type: System.Object[]
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function HasAll(ParamArray values As Object()) As Boolean
+  overload: Ans.Net10.Common.SuppValues.HasAll*
+  nameWithType.vb: SuppValues.HasAll(ParamArray Object())
+  fullName.vb: Ans.Net10.Common.SuppValues.HasAll(ParamArray Object())
+  name.vb: HasAll(ParamArray Object())
+- uid: Ans.Net10.Common.SuppValues.GetFamilyAndInitials(System.String,Ans.Net10.Common.LetterCasesEnum)
+  commentId: M:Ans.Net10.Common.SuppValues.GetFamilyAndInitials(System.String,Ans.Net10.Common.LetterCasesEnum)
+  id: GetFamilyAndInitials(System.String,Ans.Net10.Common.LetterCasesEnum)
+  parent: Ans.Net10.Common.SuppValues
+  langs:
+  - csharp
+  - vb
+  name: GetFamilyAndInitials(string, LetterCasesEnum)
+  nameWithType: SuppValues.GetFamilyAndInitials(string, LetterCasesEnum)
+  fullName: Ans.Net10.Common.SuppValues.GetFamilyAndInitials(string, Ans.Net10.Common.LetterCasesEnum)
+  type: Method
+  source:
+    id: GetFamilyAndInitials
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~supps\SuppValues.cs
+    startLine: 64
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  summary: >-
+    Возвращает фамилию и инициалы из строки содержащей фамилию имя и отчество
+
+    (Пушкин Александр Сергеевич, Салтыков-Щедрин Михаил Евграфович, Эфендиев Эльчин Ильяс оглы)
+
+    [Пушкин А.С., Салтыков-Щедрин М.Е., Эфендиев Э.И.]
+  example: []
+  syntax:
+    content: public static (string family, string initials) GetFamilyAndInitials(string fullname, LetterCasesEnum textCase = LetterCasesEnum.StartWithACapital)
+    parameters:
+    - id: fullname
+      type: System.String
+      description: Исходная строка
+    - id: textCase
+      type: Ans.Net10.Common.LetterCasesEnum
+      description: Операция преобразования регистра букв
+    return:
+      type: System.ValueTuple{System.String,System.String}
+    content.vb: Public Shared Function GetFamilyAndInitials(fullname As String, textCase As LetterCasesEnum = LetterCasesEnum.StartWithACapital) As (family As String, initials As String)
+  overload: Ans.Net10.Common.SuppValues.GetFamilyAndInitials*
+  nameWithType.vb: SuppValues.GetFamilyAndInitials(String, LetterCasesEnum)
+  fullName.vb: Ans.Net10.Common.SuppValues.GetFamilyAndInitials(String, Ans.Net10.Common.LetterCasesEnum)
+  name.vb: GetFamilyAndInitials(String, LetterCasesEnum)
+- uid: Ans.Net10.Common.SuppValues.GetFamilyAndInitialsString(System.String,Ans.Net10.Common.LetterCasesEnum)
+  commentId: M:Ans.Net10.Common.SuppValues.GetFamilyAndInitialsString(System.String,Ans.Net10.Common.LetterCasesEnum)
+  id: GetFamilyAndInitialsString(System.String,Ans.Net10.Common.LetterCasesEnum)
+  parent: Ans.Net10.Common.SuppValues
+  langs:
+  - csharp
+  - vb
+  name: GetFamilyAndInitialsString(string, LetterCasesEnum)
+  nameWithType: SuppValues.GetFamilyAndInitialsString(string, LetterCasesEnum)
+  fullName: Ans.Net10.Common.SuppValues.GetFamilyAndInitialsString(string, Ans.Net10.Common.LetterCasesEnum)
+  type: Method
+  source:
+    id: GetFamilyAndInitialsString
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~supps\SuppValues.cs
+    startLine: 90
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  summary: >-
+    Возвращает строку содержащую фамилию и инициалы из строки содержащей фамилию имя и отчество
+
+    (Пушкин Александр Сергеевич, Салтыков-Щедрин Михаил Евграфович, Эфендиев Эльчин Ильяс оглы)
+
+    [Пушкин А.С., Салтыков-Щедрин М.Е., Эфендиев Э.И.]
+  example: []
+  syntax:
+    content: public static string GetFamilyAndInitialsString(string fullname, LetterCasesEnum textCase = LetterCasesEnum.StartWithACapital)
+    parameters:
+    - id: fullname
+      type: System.String
+      description: Фамилию имя и отчество
+    - id: textCase
+      type: Ans.Net10.Common.LetterCasesEnum
+      description: Операция преобразования регистра букв
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetFamilyAndInitialsString(fullname As String, textCase As LetterCasesEnum = LetterCasesEnum.StartWithACapital) As String
+  overload: Ans.Net10.Common.SuppValues.GetFamilyAndInitialsString*
+  nameWithType.vb: SuppValues.GetFamilyAndInitialsString(String, LetterCasesEnum)
+  fullName.vb: Ans.Net10.Common.SuppValues.GetFamilyAndInitialsString(String, Ans.Net10.Common.LetterCasesEnum)
+  name.vb: GetFamilyAndInitialsString(String, LetterCasesEnum)
+- uid: Ans.Net10.Common.SuppValues.GetFamilyAndInitialsTranslit(System.String,System.String)
+  commentId: M:Ans.Net10.Common.SuppValues.GetFamilyAndInitialsTranslit(System.String,System.String)
+  id: GetFamilyAndInitialsTranslit(System.String,System.String)
+  parent: Ans.Net10.Common.SuppValues
+  langs:
+  - csharp
+  - vb
+  name: GetFamilyAndInitialsTranslit(string, string)
+  nameWithType: SuppValues.GetFamilyAndInitialsTranslit(string, string)
+  fullName: Ans.Net10.Common.SuppValues.GetFamilyAndInitialsTranslit(string, string)
+  type: Method
+  source:
+    id: GetFamilyAndInitialsTranslit
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~supps\SuppValues.cs
+    startLine: 106
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  summary: >-
+    Возвращает строку содержащую латинскую транслитерацию для использования в идентификаторе
+
+    ГОСТ Р 7.0.34-2014
+
+    (https://www.ifap.ru/library/gost/70342014.pdf)
+
+    (Пушкин Александр Сергеевич, Салтыков-Щедрин Михаил Евграфович, Эфендиев Эльчин Ильяс оглы)
+
+    [pushkin_as, saltikovtschedrin_me, efendiev_ei]
+  example: []
+  syntax:
+    content: public static string GetFamilyAndInitialsTranslit(string family, string initials)
+    parameters:
+    - id: family
+      type: System.String
+    - id: initials
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetFamilyAndInitialsTranslit(family As String, initials As String) As String
+  overload: Ans.Net10.Common.SuppValues.GetFamilyAndInitialsTranslit*
+  nameWithType.vb: SuppValues.GetFamilyAndInitialsTranslit(String, String)
+  fullName.vb: Ans.Net10.Common.SuppValues.GetFamilyAndInitialsTranslit(String, String)
+  name.vb: GetFamilyAndInitialsTranslit(String, String)
+- uid: Ans.Net10.Common.SuppValues.GetGender(System.String)
+  commentId: M:Ans.Net10.Common.SuppValues.GetGender(System.String)
+  id: GetGender(System.String)
+  parent: Ans.Net10.Common.SuppValues
+  langs:
+  - csharp
+  - vb
+  name: GetGender(string)
+  nameWithType: SuppValues.GetGender(string)
+  fullName: Ans.Net10.Common.SuppValues.GetGender(string)
+  type: Method
+  source:
+    id: GetGender
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~supps\SuppValues.cs
+    startLine: 122
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  summary: >-
+    Возвращает пол по фамилии имени и отчеству
+
+    (Пушкин Александр Сергеевич, Эфендиев Эльчин Ильяс оглы)
+
+    [pushkin_as, saltikovtschedrin_me, efendiev_ei]
+  example: []
+  syntax:
+    content: public static GenderEnum GetGender(string fullname)
+    parameters:
+    - id: fullname
+      type: System.String
+    return:
+      type: Ans.Net10.Common.GenderEnum
+    content.vb: Public Shared Function GetGender(fullname As String) As GenderEnum
+  overload: Ans.Net10.Common.SuppValues.GetGender*
+  nameWithType.vb: SuppValues.GetGender(String)
+  fullName.vb: Ans.Net10.Common.SuppValues.GetGender(String)
+  name.vb: GetGender(String)
+- uid: Ans.Net10.Common.SuppValues.FixTelephoneRuCityCode(System.String)
+  commentId: M:Ans.Net10.Common.SuppValues.FixTelephoneRuCityCode(System.String)
+  id: FixTelephoneRuCityCode(System.String)
+  parent: Ans.Net10.Common.SuppValues
+  langs:
+  - csharp
+  - vb
+  name: FixTelephoneRuCityCode(string)
+  nameWithType: SuppValues.FixTelephoneRuCityCode(string)
+  fullName: Ans.Net10.Common.SuppValues.FixTelephoneRuCityCode(string)
+  type: Method
+  source:
+    id: FixTelephoneRuCityCode
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~supps\SuppValues.cs
+    startLine: 139
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static string FixTelephoneRuCityCode(string phone)
+    parameters:
+    - id: phone
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function FixTelephoneRuCityCode(phone As String) As String
+  overload: Ans.Net10.Common.SuppValues.FixTelephoneRuCityCode*
+  nameWithType.vb: SuppValues.FixTelephoneRuCityCode(String)
+  fullName.vb: Ans.Net10.Common.SuppValues.FixTelephoneRuCityCode(String)
+  name.vb: FixTelephoneRuCityCode(String)
+- uid: Ans.Net10.Common.SuppValues.GetDocNumber(System.String)
+  commentId: M:Ans.Net10.Common.SuppValues.GetDocNumber(System.String)
+  id: GetDocNumber(System.String)
+  parent: Ans.Net10.Common.SuppValues
+  langs:
+  - csharp
+  - vb
+  name: GetDocNumber(string)
+  nameWithType: SuppValues.GetDocNumber(string)
+  fullName: Ans.Net10.Common.SuppValues.GetDocNumber(string)
+  type: Method
+  source:
+    id: GetDocNumber
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~supps\SuppValues.cs
+    startLine: 149
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static string GetDocNumber(string number)
+    parameters:
+    - id: number
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetDocNumber(number As String) As String
+  overload: Ans.Net10.Common.SuppValues.GetDocNumber*
+  nameWithType.vb: SuppValues.GetDocNumber(String)
+  fullName.vb: Ans.Net10.Common.SuppValues.GetDocNumber(String)
+  name.vb: GetDocNumber(String)
+- uid: Ans.Net10.Common.SuppValues.GetTelephoneNumber(System.String)
+  commentId: M:Ans.Net10.Common.SuppValues.GetTelephoneNumber(System.String)
+  id: GetTelephoneNumber(System.String)
+  parent: Ans.Net10.Common.SuppValues
+  langs:
+  - csharp
+  - vb
+  name: GetTelephoneNumber(string)
+  nameWithType: SuppValues.GetTelephoneNumber(string)
+  fullName: Ans.Net10.Common.SuppValues.GetTelephoneNumber(string)
+  type: Method
+  source:
+    id: GetTelephoneNumber
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~supps\SuppValues.cs
+    startLine: 167
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static string GetTelephoneNumber(string number)
+    parameters:
+    - id: number
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetTelephoneNumber(number As String) As String
+  overload: Ans.Net10.Common.SuppValues.GetTelephoneNumber*
+  nameWithType.vb: SuppValues.GetTelephoneNumber(String)
+  fullName.vb: Ans.Net10.Common.SuppValues.GetTelephoneNumber(String)
+  name.vb: GetTelephoneNumber(String)
+- uid: Ans.Net10.Common.SuppValues.GetSubstitutionAddress(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:Ans.Net10.Common.SuppValues.GetSubstitutionAddress(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  id: GetSubstitutionAddress(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: Ans.Net10.Common.SuppValues
+  langs:
+  - csharp
+  - vb
+  name: GetSubstitutionAddress(string, Dictionary<string, string>)
+  nameWithType: SuppValues.GetSubstitutionAddress(string, Dictionary<string, string>)
+  fullName: Ans.Net10.Common.SuppValues.GetSubstitutionAddress(string, System.Collections.Generic.Dictionary<string, string>)
+  type: Method
+  source:
+    id: GetSubstitutionAddress
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~supps\SuppValues.cs
+    startLine: 193
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static string GetSubstitutionAddress(string address, Dictionary<string, string> dict)
+    parameters:
+    - id: address
+      type: System.String
+    - id: dict
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetSubstitutionAddress(address As String, dict As Dictionary(Of String, String)) As String
+  overload: Ans.Net10.Common.SuppValues.GetSubstitutionAddress*
+  nameWithType.vb: SuppValues.GetSubstitutionAddress(String, Dictionary(Of String, String))
+  fullName.vb: Ans.Net10.Common.SuppValues.GetSubstitutionAddress(String, System.Collections.Generic.Dictionary(Of String, String))
+  name.vb: GetSubstitutionAddress(String, Dictionary(Of String, String))
+- uid: Ans.Net10.Common.SuppValues.GetValueStringForWeb(System.Object)
+  commentId: M:Ans.Net10.Common.SuppValues.GetValueStringForWeb(System.Object)
+  id: GetValueStringForWeb(System.Object)
+  parent: Ans.Net10.Common.SuppValues
+  langs:
+  - csharp
+  - vb
+  name: GetValueStringForWeb(object)
+  nameWithType: SuppValues.GetValueStringForWeb(object)
+  fullName: Ans.Net10.Common.SuppValues.GetValueStringForWeb(object)
+  type: Method
+  source:
+    id: GetValueStringForWeb
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~supps\SuppValues.cs
+    startLine: 214
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static string GetValueStringForWeb(object value)
+    parameters:
+    - id: value
+      type: System.Object
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetValueStringForWeb(value As Object) As String
+  overload: Ans.Net10.Common.SuppValues.GetValueStringForWeb*
+  nameWithType.vb: SuppValues.GetValueStringForWeb(Object)
+  fullName.vb: Ans.Net10.Common.SuppValues.GetValueStringForWeb(Object)
+  name.vb: GetValueStringForWeb(Object)
+- uid: Ans.Net10.Common.SuppValues.GetDigitalOnly(System.String)
+  commentId: M:Ans.Net10.Common.SuppValues.GetDigitalOnly(System.String)
+  id: GetDigitalOnly(System.String)
+  parent: Ans.Net10.Common.SuppValues
+  langs:
+  - csharp
+  - vb
+  name: GetDigitalOnly(string)
+  nameWithType: SuppValues.GetDigitalOnly(string)
+  fullName: Ans.Net10.Common.SuppValues.GetDigitalOnly(string)
+  type: Method
+  source:
+    id: GetDigitalOnly
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~supps\SuppValues.cs
+    startLine: 235
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static string GetDigitalOnly(string number)
+    parameters:
+    - id: number
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetDigitalOnly(number As String) As String
+  overload: Ans.Net10.Common.SuppValues.GetDigitalOnly*
+  nameWithType.vb: SuppValues.GetDigitalOnly(String)
+  fullName.vb: Ans.Net10.Common.SuppValues.GetDigitalOnly(String)
+  name.vb: GetDigitalOnly(String)
+- uid: Ans.Net10.Common.SuppValues.GetCurrencyLoc(System.Single)
+  commentId: M:Ans.Net10.Common.SuppValues.GetCurrencyLoc(System.Single)
+  id: GetCurrencyLoc(System.Single)
+  parent: Ans.Net10.Common.SuppValues
+  langs:
+  - csharp
+  - vb
+  name: GetCurrencyLoc(float)
+  nameWithType: SuppValues.GetCurrencyLoc(float)
+  fullName: Ans.Net10.Common.SuppValues.GetCurrencyLoc(float)
+  type: Method
+  source:
+    id: GetCurrencyLoc
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~supps\SuppValues.cs
+    startLine: 242
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static string GetCurrencyLoc(float amount)
+    parameters:
+    - id: amount
+      type: System.Single
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetCurrencyLoc(amount As Single) As String
+  overload: Ans.Net10.Common.SuppValues.GetCurrencyLoc*
+  nameWithType.vb: SuppValues.GetCurrencyLoc(Single)
+  fullName.vb: Ans.Net10.Common.SuppValues.GetCurrencyLoc(Single)
+  name.vb: GetCurrencyLoc(Single)
+- uid: Ans.Net10.Common.SuppValues.GetCurrencyLoc(System.Double)
+  commentId: M:Ans.Net10.Common.SuppValues.GetCurrencyLoc(System.Double)
+  id: GetCurrencyLoc(System.Double)
+  parent: Ans.Net10.Common.SuppValues
+  langs:
+  - csharp
+  - vb
+  name: GetCurrencyLoc(double)
+  nameWithType: SuppValues.GetCurrencyLoc(double)
+  fullName: Ans.Net10.Common.SuppValues.GetCurrencyLoc(double)
+  type: Method
+  source:
+    id: GetCurrencyLoc
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~supps\SuppValues.cs
+    startLine: 249
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static string GetCurrencyLoc(double amount)
+    parameters:
+    - id: amount
+      type: System.Double
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetCurrencyLoc(amount As Double) As String
+  overload: Ans.Net10.Common.SuppValues.GetCurrencyLoc*
+  nameWithType.vb: SuppValues.GetCurrencyLoc(Double)
+  fullName.vb: Ans.Net10.Common.SuppValues.GetCurrencyLoc(Double)
+  name.vb: GetCurrencyLoc(Double)
+- uid: Ans.Net10.Common.SuppValues.GetCurrencyBuh(System.Single)
+  commentId: M:Ans.Net10.Common.SuppValues.GetCurrencyBuh(System.Single)
+  id: GetCurrencyBuh(System.Single)
+  parent: Ans.Net10.Common.SuppValues
+  langs:
+  - csharp
+  - vb
+  name: GetCurrencyBuh(float)
+  nameWithType: SuppValues.GetCurrencyBuh(float)
+  fullName: Ans.Net10.Common.SuppValues.GetCurrencyBuh(float)
+  type: Method
+  source:
+    id: GetCurrencyBuh
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~supps\SuppValues.cs
+    startLine: 256
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static string GetCurrencyBuh(float amount)
+    parameters:
+    - id: amount
+      type: System.Single
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetCurrencyBuh(amount As Single) As String
+  overload: Ans.Net10.Common.SuppValues.GetCurrencyBuh*
+  nameWithType.vb: SuppValues.GetCurrencyBuh(Single)
+  fullName.vb: Ans.Net10.Common.SuppValues.GetCurrencyBuh(Single)
+  name.vb: GetCurrencyBuh(Single)
+- uid: Ans.Net10.Common.SuppValues.GetCurrencyBuh(System.Double)
+  commentId: M:Ans.Net10.Common.SuppValues.GetCurrencyBuh(System.Double)
+  id: GetCurrencyBuh(System.Double)
+  parent: Ans.Net10.Common.SuppValues
+  langs:
+  - csharp
+  - vb
+  name: GetCurrencyBuh(double)
+  nameWithType: SuppValues.GetCurrencyBuh(double)
+  fullName: Ans.Net10.Common.SuppValues.GetCurrencyBuh(double)
+  type: Method
+  source:
+    id: GetCurrencyBuh
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~supps\SuppValues.cs
+    startLine: 265
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static string GetCurrencyBuh(double amount)
+    parameters:
+    - id: amount
+      type: System.Double
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetCurrencyBuh(amount As Double) As String
+  overload: Ans.Net10.Common.SuppValues.GetCurrencyBuh*
+  nameWithType.vb: SuppValues.GetCurrencyBuh(Double)
+  fullName.vb: Ans.Net10.Common.SuppValues.GetCurrencyBuh(Double)
+  name.vb: GetCurrencyBuh(Double)
+references:
+- uid: Ans.Net10.Common
+  commentId: N:Ans.Net10.Common
+  href: Ans.html
+  name: Ans.Net10.Common
+  nameWithType: Ans.Net10.Common
+  fullName: Ans.Net10.Common
+  spec.csharp:
+  - uid: Ans
+    name: Ans
+    href: Ans.html
+  - name: .
+  - uid: Ans.Net10
+    name: Net10
+    href: Ans.Net10.html
+  - name: .
+  - uid: Ans.Net10.Common
+    name: Common
+    href: Ans.Net10.Common.html
+  spec.vb:
+  - uid: Ans
+    name: Ans
+    href: Ans.html
+  - name: .
+  - uid: Ans.Net10
+    name: Net10
+    href: Ans.Net10.html
+  - name: .
+  - uid: Ans.Net10.Common
+    name: Common
+    href: Ans.Net10.Common.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Ans.Net10.Common.SuppValues.Default*
+  commentId: Overload:Ans.Net10.Common.SuppValues.Default
+  href: Ans.Net10.Common.SuppValues.html#Ans_Net10_Common_SuppValues_Default_System_String_System_String___
+  name: Default
+  nameWithType: SuppValues.Default
+  fullName: Ans.Net10.Common.SuppValues.Default
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Ans.Net10.Common.SuppValues.HasAny*
+  commentId: Overload:Ans.Net10.Common.SuppValues.HasAny
+  href: Ans.Net10.Common.SuppValues.html#Ans_Net10_Common_SuppValues_HasAny_System_Object___
+  name: HasAny
+  nameWithType: SuppValues.HasAny
+  fullName: Ans.Net10.Common.SuppValues.HasAny
+- uid: System.Object[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object[]
+  nameWithType: object[]
+  fullName: object[]
+  nameWithType.vb: Object()
+  fullName.vb: Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Ans.Net10.Common.SuppValues.HasAll*
+  commentId: Overload:Ans.Net10.Common.SuppValues.HasAll
+  href: Ans.Net10.Common.SuppValues.html#Ans_Net10_Common_SuppValues_HasAll_System_Object___
+  name: HasAll
+  nameWithType: SuppValues.HasAll
+  fullName: Ans.Net10.Common.SuppValues.HasAll
+- uid: Ans.Net10.Common.SuppValues.GetFamilyAndInitials*
+  commentId: Overload:Ans.Net10.Common.SuppValues.GetFamilyAndInitials
+  href: Ans.Net10.Common.SuppValues.html#Ans_Net10_Common_SuppValues_GetFamilyAndInitials_System_String_Ans_Net10_Common_LetterCasesEnum_
+  name: GetFamilyAndInitials
+  nameWithType: SuppValues.GetFamilyAndInitials
+  fullName: Ans.Net10.Common.SuppValues.GetFamilyAndInitials
+- uid: Ans.Net10.Common.LetterCasesEnum
+  commentId: T:Ans.Net10.Common.LetterCasesEnum
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.LetterCasesEnum.html
+  name: LetterCasesEnum
+  nameWithType: LetterCasesEnum
+  fullName: Ans.Net10.Common.LetterCasesEnum
+- uid: System.ValueTuple{System.String,System.String}
+  commentId: T:System.ValueTuple{System.String,System.String}
+  parent: System
+  definition: System.ValueTuple`2
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: (string family, string initials)
+  nameWithType: (string family, string initials)
+  fullName: (string family, string initials)
+  nameWithType.vb: (family As String, initials As String)
+  fullName.vb: (family As String, initials As String)
+  name.vb: (family As String, initials As String)
+  spec.csharp:
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.String}.family
+    name: family
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string-.family
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.String}.initials
+    name: initials
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string-.initials
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: System.ValueTuple{System.String,System.String}.family
+    name: family
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string-.family
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.String}.initials
+    name: initials
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string-.initials
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.ValueTuple`2
+  commentId: T:System.ValueTuple`2
+  name: (T1, T2)
+  nameWithType: (T1, T2)
+  fullName: (T1, T2)
+  spec.csharp:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: Ans.Net10.Common.SuppValues.GetFamilyAndInitialsString*
+  commentId: Overload:Ans.Net10.Common.SuppValues.GetFamilyAndInitialsString
+  href: Ans.Net10.Common.SuppValues.html#Ans_Net10_Common_SuppValues_GetFamilyAndInitialsString_System_String_Ans_Net10_Common_LetterCasesEnum_
+  name: GetFamilyAndInitialsString
+  nameWithType: SuppValues.GetFamilyAndInitialsString
+  fullName: Ans.Net10.Common.SuppValues.GetFamilyAndInitialsString
+- uid: Ans.Net10.Common.SuppValues.GetFamilyAndInitialsTranslit*
+  commentId: Overload:Ans.Net10.Common.SuppValues.GetFamilyAndInitialsTranslit
+  href: Ans.Net10.Common.SuppValues.html#Ans_Net10_Common_SuppValues_GetFamilyAndInitialsTranslit_System_String_System_String_
+  name: GetFamilyAndInitialsTranslit
+  nameWithType: SuppValues.GetFamilyAndInitialsTranslit
+  fullName: Ans.Net10.Common.SuppValues.GetFamilyAndInitialsTranslit
+- uid: Ans.Net10.Common.SuppValues.GetGender*
+  commentId: Overload:Ans.Net10.Common.SuppValues.GetGender
+  href: Ans.Net10.Common.SuppValues.html#Ans_Net10_Common_SuppValues_GetGender_System_String_
+  name: GetGender
+  nameWithType: SuppValues.GetGender
+  fullName: Ans.Net10.Common.SuppValues.GetGender
+- uid: Ans.Net10.Common.GenderEnum
+  commentId: T:Ans.Net10.Common.GenderEnum
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.GenderEnum.html
+  name: GenderEnum
+  nameWithType: GenderEnum
+  fullName: Ans.Net10.Common.GenderEnum
+- uid: Ans.Net10.Common.SuppValues.FixTelephoneRuCityCode*
+  commentId: Overload:Ans.Net10.Common.SuppValues.FixTelephoneRuCityCode
+  href: Ans.Net10.Common.SuppValues.html#Ans_Net10_Common_SuppValues_FixTelephoneRuCityCode_System_String_
+  name: FixTelephoneRuCityCode
+  nameWithType: SuppValues.FixTelephoneRuCityCode
+  fullName: Ans.Net10.Common.SuppValues.FixTelephoneRuCityCode
+- uid: Ans.Net10.Common.SuppValues.GetDocNumber*
+  commentId: Overload:Ans.Net10.Common.SuppValues.GetDocNumber
+  href: Ans.Net10.Common.SuppValues.html#Ans_Net10_Common_SuppValues_GetDocNumber_System_String_
+  name: GetDocNumber
+  nameWithType: SuppValues.GetDocNumber
+  fullName: Ans.Net10.Common.SuppValues.GetDocNumber
+- uid: Ans.Net10.Common.SuppValues.GetTelephoneNumber*
+  commentId: Overload:Ans.Net10.Common.SuppValues.GetTelephoneNumber
+  href: Ans.Net10.Common.SuppValues.html#Ans_Net10_Common_SuppValues_GetTelephoneNumber_System_String_
+  name: GetTelephoneNumber
+  nameWithType: SuppValues.GetTelephoneNumber
+  fullName: Ans.Net10.Common.SuppValues.GetTelephoneNumber
+- uid: Ans.Net10.Common.SuppValues.GetSubstitutionAddress*
+  commentId: Overload:Ans.Net10.Common.SuppValues.GetSubstitutionAddress
+  href: Ans.Net10.Common.SuppValues.html#Ans_Net10_Common_SuppValues_GetSubstitutionAddress_System_String_System_Collections_Generic_Dictionary_System_String_System_String__
+  name: GetSubstitutionAddress
+  nameWithType: SuppValues.GetSubstitutionAddress
+  fullName: Ans.Net10.Common.SuppValues.GetSubstitutionAddress
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, string>
+  nameWithType: Dictionary<string, string>
+  fullName: System.Collections.Generic.Dictionary<string, string>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Ans.Net10.Common.SuppValues.GetValueStringForWeb*
+  commentId: Overload:Ans.Net10.Common.SuppValues.GetValueStringForWeb
+  href: Ans.Net10.Common.SuppValues.html#Ans_Net10_Common_SuppValues_GetValueStringForWeb_System_Object_
+  name: GetValueStringForWeb
+  nameWithType: SuppValues.GetValueStringForWeb
+  fullName: Ans.Net10.Common.SuppValues.GetValueStringForWeb
+- uid: Ans.Net10.Common.SuppValues.GetDigitalOnly*
+  commentId: Overload:Ans.Net10.Common.SuppValues.GetDigitalOnly
+  href: Ans.Net10.Common.SuppValues.html#Ans_Net10_Common_SuppValues_GetDigitalOnly_System_String_
+  name: GetDigitalOnly
+  nameWithType: SuppValues.GetDigitalOnly
+  fullName: Ans.Net10.Common.SuppValues.GetDigitalOnly
+- uid: Ans.Net10.Common.SuppValues.GetCurrencyLoc*
+  commentId: Overload:Ans.Net10.Common.SuppValues.GetCurrencyLoc
+  href: Ans.Net10.Common.SuppValues.html#Ans_Net10_Common_SuppValues_GetCurrencyLoc_System_Single_
+  name: GetCurrencyLoc
+  nameWithType: SuppValues.GetCurrencyLoc
+  fullName: Ans.Net10.Common.SuppValues.GetCurrencyLoc
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Ans.Net10.Common.SuppValues.GetCurrencyBuh*
+  commentId: Overload:Ans.Net10.Common.SuppValues.GetCurrencyBuh
+  href: Ans.Net10.Common.SuppValues.html#Ans_Net10_Common_SuppValues_GetCurrencyBuh_System_Single_
+  name: GetCurrencyBuh
+  nameWithType: SuppValues.GetCurrencyBuh
+  fullName: Ans.Net10.Common.SuppValues.GetCurrencyBuh

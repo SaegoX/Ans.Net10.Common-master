@@ -1,0 +1,1176 @@
+### YamlMime:ManagedReference
+items:
+- uid: Ans.Net10.Common.CrudFieldInfo
+  commentId: T:Ans.Net10.Common.CrudFieldInfo
+  id: CrudFieldInfo
+  parent: Ans.Net10.Common
+  children:
+  - Ans.Net10.Common.CrudFieldInfo.Errors
+  - Ans.Net10.Common.CrudFieldInfo.Face
+  - Ans.Net10.Common.CrudFieldInfo.HasErrors
+  - Ans.Net10.Common.CrudFieldInfo.IsRequired
+  - Ans.Net10.Common.CrudFieldInfo.Name
+  langs:
+  - csharp
+  - vb
+  name: CrudFieldInfo
+  nameWithType: CrudFieldInfo
+  fullName: Ans.Net10.Common.CrudFieldInfo
+  type: Class
+  source:
+    id: CrudFieldInfo
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~classes\CrudFieldInfo.cs
+    startLine: 3
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public class CrudFieldInfo
+    content.vb: Public Class CrudFieldInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Ans.Net10.Common.__e_reflection.DefaultObject``1
+  - System.Object.Ans.Net10.Common.__e_reflection.DefaultObject``1({T})
+  - System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue(System.String)
+  - System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue(System.String,System.Type)
+  - System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.String)
+  - System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.String,System.Type)
+  - System.Object.Ans.Net10.Common.__e_reflection.ToDynamic
+- uid: Ans.Net10.Common.CrudFieldInfo.Name
+  commentId: P:Ans.Net10.Common.CrudFieldInfo.Name
+  id: Name
+  parent: Ans.Net10.Common.CrudFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: CrudFieldInfo.Name
+  fullName: Ans.Net10.Common.CrudFieldInfo.Name
+  type: Property
+  source:
+    id: Name
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~classes\CrudFieldInfo.cs
+    startLine: 5
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Ans.Net10.Common.CrudFieldInfo.Name*
+- uid: Ans.Net10.Common.CrudFieldInfo.Face
+  commentId: P:Ans.Net10.Common.CrudFieldInfo.Face
+  id: Face
+  parent: Ans.Net10.Common.CrudFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: Face
+  nameWithType: CrudFieldInfo.Face
+  fullName: Ans.Net10.Common.CrudFieldInfo.Face
+  type: Property
+  source:
+    id: Face
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~classes\CrudFieldInfo.cs
+    startLine: 6
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public CrudFaceHelper Face { get; set; }
+    parameters: []
+    return:
+      type: Ans.Net10.Common.CrudFaceHelper
+    content.vb: Public Property Face As CrudFaceHelper
+  overload: Ans.Net10.Common.CrudFieldInfo.Face*
+- uid: Ans.Net10.Common.CrudFieldInfo.IsRequired
+  commentId: P:Ans.Net10.Common.CrudFieldInfo.IsRequired
+  id: IsRequired
+  parent: Ans.Net10.Common.CrudFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: IsRequired
+  nameWithType: CrudFieldInfo.IsRequired
+  fullName: Ans.Net10.Common.CrudFieldInfo.IsRequired
+  type: Property
+  source:
+    id: IsRequired
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~classes\CrudFieldInfo.cs
+    startLine: 7
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public bool IsRequired { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsRequired As Boolean
+  overload: Ans.Net10.Common.CrudFieldInfo.IsRequired*
+- uid: Ans.Net10.Common.CrudFieldInfo.Errors
+  commentId: P:Ans.Net10.Common.CrudFieldInfo.Errors
+  id: Errors
+  parent: Ans.Net10.Common.CrudFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: Errors
+  nameWithType: CrudFieldInfo.Errors
+  fullName: Ans.Net10.Common.CrudFieldInfo.Errors
+  type: Property
+  source:
+    id: Errors
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~classes\CrudFieldInfo.cs
+    startLine: 8
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public string[] Errors { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property Errors As String()
+  overload: Ans.Net10.Common.CrudFieldInfo.Errors*
+- uid: Ans.Net10.Common.CrudFieldInfo.HasErrors
+  commentId: P:Ans.Net10.Common.CrudFieldInfo.HasErrors
+  id: HasErrors
+  parent: Ans.Net10.Common.CrudFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: HasErrors
+  nameWithType: CrudFieldInfo.HasErrors
+  fullName: Ans.Net10.Common.CrudFieldInfo.HasErrors
+  type: Property
+  source:
+    id: HasErrors
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~classes\CrudFieldInfo.cs
+    startLine: 10
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public bool HasErrors { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasErrors As Boolean
+  overload: Ans.Net10.Common.CrudFieldInfo.HasErrors*
+references:
+- uid: Ans.Net10.Common
+  commentId: N:Ans.Net10.Common
+  href: Ans.html
+  name: Ans.Net10.Common
+  nameWithType: Ans.Net10.Common
+  fullName: Ans.Net10.Common
+  spec.csharp:
+  - uid: Ans
+    name: Ans
+    href: Ans.html
+  - name: .
+  - uid: Ans.Net10
+    name: Net10
+    href: Ans.Net10.html
+  - name: .
+  - uid: Ans.Net10.Common
+    name: Common
+    href: Ans.Net10.Common.html
+  spec.vb:
+  - uid: Ans
+    name: Ans
+    href: Ans.html
+  - name: .
+  - uid: Ans.Net10
+    name: Net10
+    href: Ans.Net10.html
+  - name: .
+  - uid: Ans.Net10.Common
+    name: Common
+    href: Ans.Net10.Common.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Ans.Net10.Common.__e_reflection.DefaultObject``1
+  commentId: M:Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+  parent: Ans.Net10.Common.__e_reflection
+  definition: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object_
+  name: DefaultObject<T>(object)
+  nameWithType: __e_reflection.DefaultObject<T>(object)
+  fullName: Ans.Net10.Common.__e_reflection.DefaultObject<T>(object)
+  nameWithType.vb: __e_reflection.DefaultObject(Of T)(Object)
+  fullName.vb: Ans.Net10.Common.__e_reflection.DefaultObject(Of T)(Object)
+  name.vb: DefaultObject(Of T)(Object)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Ans.Net10.Common.__e_reflection.DefaultObject``1({T})
+  commentId: M:Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+  parent: Ans.Net10.Common.__e_reflection
+  definition: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object___0_
+  name: DefaultObject<T>(object, T)
+  nameWithType: __e_reflection.DefaultObject<T>(object, T)
+  fullName: Ans.Net10.Common.__e_reflection.DefaultObject<T>(object, T)
+  nameWithType.vb: __e_reflection.DefaultObject(Of T)(Object, T)
+  fullName.vb: Ans.Net10.Common.__e_reflection.DefaultObject(Of T)(Object, T)
+  name.vb: DefaultObject(Of T)(Object, T)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue(System.String)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+  parent: Ans.Net10.Common.__e_reflection
+  definition: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_
+  name: GetPropertyValue(object, string)
+  nameWithType: __e_reflection.GetPropertyValue(object, string)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue(object, string)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Object, String)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Object, String)
+  name.vb: GetPropertyValue(Object, String)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue(System.String,System.Type)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+  parent: Ans.Net10.Common.__e_reflection
+  definition: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_System_Type_
+  name: GetPropertyValue(object, string, Type)
+  nameWithType: __e_reflection.GetPropertyValue(object, string, Type)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue(object, string, System.Type)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Object, String, Type)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Object, String, System.Type)
+  name.vb: GetPropertyValue(Object, String, Type)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_System_Type_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_System_Type_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.String)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+  parent: Ans.Net10.Common.__e_reflection
+  definition: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_
+  name: GetPropertyValue<T>(object, string)
+  nameWithType: __e_reflection.GetPropertyValue<T>(object, string)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue<T>(object, string)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Of T)(Object, String)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Of T)(Object, String)
+  name.vb: GetPropertyValue(Of T)(Object, String)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.String,System.Type)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+  parent: Ans.Net10.Common.__e_reflection
+  definition: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_System_Type_
+  name: GetPropertyValue<T>(object, string, Type)
+  nameWithType: __e_reflection.GetPropertyValue<T>(object, string, Type)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue<T>(object, string, System.Type)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Of T)(Object, String, Type)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Of T)(Object, String, System.Type)
+  name.vb: GetPropertyValue(Of T)(Object, String, Type)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_System_Type_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_System_Type_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: System.Object.Ans.Net10.Common.__e_reflection.ToDynamic
+  commentId: M:Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+  parent: Ans.Net10.Common.__e_reflection
+  definition: Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_ToDynamic_System_Object_
+  name: ToDynamic(object)
+  nameWithType: __e_reflection.ToDynamic(object)
+  fullName: Ans.Net10.Common.__e_reflection.ToDynamic(object)
+  nameWithType.vb: __e_reflection.ToDynamic(Object)
+  fullName.vb: Ans.Net10.Common.__e_reflection.ToDynamic(Object)
+  name.vb: ToDynamic(Object)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+    name: ToDynamic
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_ToDynamic_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+    name: ToDynamic
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_ToDynamic_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+  commentId: M:Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+  isExternal: true
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object_
+  name: DefaultObject<T>(object)
+  nameWithType: __e_reflection.DefaultObject<T>(object)
+  fullName: Ans.Net10.Common.__e_reflection.DefaultObject<T>(object)
+  nameWithType.vb: __e_reflection.DefaultObject(Of T)(Object)
+  fullName.vb: Ans.Net10.Common.__e_reflection.DefaultObject(Of T)(Object)
+  name.vb: DefaultObject(Of T)(Object)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Ans.Net10.Common.__e_reflection
+  commentId: T:Ans.Net10.Common.__e_reflection
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.__e_reflection.html
+  name: __e_reflection
+  nameWithType: __e_reflection
+  fullName: Ans.Net10.Common.__e_reflection
+- uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+  commentId: M:Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+  isExternal: true
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object___0_
+  name: DefaultObject<T>(object, T)
+  nameWithType: __e_reflection.DefaultObject<T>(object, T)
+  fullName: Ans.Net10.Common.__e_reflection.DefaultObject<T>(object, T)
+  nameWithType.vb: __e_reflection.DefaultObject(Of T)(Object, T)
+  fullName.vb: Ans.Net10.Common.__e_reflection.DefaultObject(Of T)(Object, T)
+  name.vb: DefaultObject(Of T)(Object, T)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+  isExternal: true
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_
+  name: GetPropertyValue(object, string)
+  nameWithType: __e_reflection.GetPropertyValue(object, string)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue(object, string)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Object, String)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Object, String)
+  name.vb: GetPropertyValue(Object, String)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+  isExternal: true
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_System_Type_
+  name: GetPropertyValue(object, string, Type)
+  nameWithType: __e_reflection.GetPropertyValue(object, string, Type)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue(object, string, System.Type)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Object, String, Type)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Object, String, System.Type)
+  name.vb: GetPropertyValue(Object, String, Type)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_System_Type_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_System_Type_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+  isExternal: true
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_
+  name: GetPropertyValue<T>(object, string)
+  nameWithType: __e_reflection.GetPropertyValue<T>(object, string)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue<T>(object, string)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Of T)(Object, String)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Of T)(Object, String)
+  name.vb: GetPropertyValue(Of T)(Object, String)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+  isExternal: true
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_System_Type_
+  name: GetPropertyValue<T>(object, string, Type)
+  nameWithType: __e_reflection.GetPropertyValue<T>(object, string, Type)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue<T>(object, string, System.Type)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Of T)(Object, String, Type)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Of T)(Object, String, System.Type)
+  name.vb: GetPropertyValue(Of T)(Object, String, Type)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_System_Type_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_System_Type_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+  commentId: M:Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+  isExternal: true
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_ToDynamic_System_Object_
+  name: ToDynamic(object)
+  nameWithType: __e_reflection.ToDynamic(object)
+  fullName: Ans.Net10.Common.__e_reflection.ToDynamic(object)
+  nameWithType.vb: __e_reflection.ToDynamic(Object)
+  fullName.vb: Ans.Net10.Common.__e_reflection.ToDynamic(Object)
+  name.vb: ToDynamic(Object)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+    name: ToDynamic
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_ToDynamic_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+    name: ToDynamic
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_ToDynamic_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Ans.Net10.Common.CrudFieldInfo.Name*
+  commentId: Overload:Ans.Net10.Common.CrudFieldInfo.Name
+  href: Ans.Net10.Common.CrudFieldInfo.html#Ans_Net10_Common_CrudFieldInfo_Name
+  name: Name
+  nameWithType: CrudFieldInfo.Name
+  fullName: Ans.Net10.Common.CrudFieldInfo.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Ans.Net10.Common.CrudFieldInfo.Face*
+  commentId: Overload:Ans.Net10.Common.CrudFieldInfo.Face
+  href: Ans.Net10.Common.CrudFieldInfo.html#Ans_Net10_Common_CrudFieldInfo_Face
+  name: Face
+  nameWithType: CrudFieldInfo.Face
+  fullName: Ans.Net10.Common.CrudFieldInfo.Face
+- uid: Ans.Net10.Common.CrudFaceHelper
+  commentId: T:Ans.Net10.Common.CrudFaceHelper
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.CrudFaceHelper.html
+  name: CrudFaceHelper
+  nameWithType: CrudFaceHelper
+  fullName: Ans.Net10.Common.CrudFaceHelper
+- uid: Ans.Net10.Common.CrudFieldInfo.IsRequired*
+  commentId: Overload:Ans.Net10.Common.CrudFieldInfo.IsRequired
+  href: Ans.Net10.Common.CrudFieldInfo.html#Ans_Net10_Common_CrudFieldInfo_IsRequired
+  name: IsRequired
+  nameWithType: CrudFieldInfo.IsRequired
+  fullName: Ans.Net10.Common.CrudFieldInfo.IsRequired
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Ans.Net10.Common.CrudFieldInfo.Errors*
+  commentId: Overload:Ans.Net10.Common.CrudFieldInfo.Errors
+  href: Ans.Net10.Common.CrudFieldInfo.html#Ans_Net10_Common_CrudFieldInfo_Errors
+  name: Errors
+  nameWithType: CrudFieldInfo.Errors
+  fullName: Ans.Net10.Common.CrudFieldInfo.Errors
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: Ans.Net10.Common.CrudFieldInfo.HasErrors*
+  commentId: Overload:Ans.Net10.Common.CrudFieldInfo.HasErrors
+  href: Ans.Net10.Common.CrudFieldInfo.html#Ans_Net10_Common_CrudFieldInfo_HasErrors
+  name: HasErrors
+  nameWithType: CrudFieldInfo.HasErrors
+  fullName: Ans.Net10.Common.CrudFieldInfo.HasErrors

@@ -1,0 +1,1366 @@
+### YamlMime:ManagedReference
+items:
+- uid: Ans.Net10.Common.TreeEntityHelper`1
+  commentId: T:Ans.Net10.Common.TreeEntityHelper`1
+  id: TreeEntityHelper`1
+  parent: Ans.Net10.Common
+  children:
+  - Ans.Net10.Common.TreeEntityHelper`1.#ctor(System.Collections.Generic.IEnumerable{`0},System.Nullable{System.Int32},System.Func{System.Collections.Generic.IEnumerable{`0},System.Linq.IOrderedEnumerable{`0}})
+  - Ans.Net10.Common.TreeEntityHelper`1.AllItems
+  - Ans.Net10.Common.TreeEntityHelper`1.TopItems
+  langs:
+  - csharp
+  - vb
+  name: TreeEntityHelper<TEntity>
+  nameWithType: TreeEntityHelper<TEntity>
+  fullName: Ans.Net10.Common.TreeEntityHelper<TEntity>
+  type: Class
+  source:
+    id: TreeEntityHelper
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~classes\TreeEntityHelper.cs
+    startLine: 26
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: 'public class TreeEntityHelper<TEntity> where TEntity : class, ITreeEntity'
+    typeParameters:
+    - id: TEntity
+    content.vb: Public Class TreeEntityHelper(Of TEntity As {Class, ITreeEntity})
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Ans.Net10.Common.__e_reflection.DefaultObject``1
+  - System.Object.Ans.Net10.Common.__e_reflection.DefaultObject``1({T})
+  - System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue(System.String)
+  - System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue(System.String,System.Type)
+  - System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.String)
+  - System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.String,System.Type)
+  - System.Object.Ans.Net10.Common.__e_reflection.ToDynamic
+  nameWithType.vb: TreeEntityHelper(Of TEntity)
+  fullName.vb: Ans.Net10.Common.TreeEntityHelper(Of TEntity)
+  name.vb: TreeEntityHelper(Of TEntity)
+- uid: Ans.Net10.Common.TreeEntityHelper`1.#ctor(System.Collections.Generic.IEnumerable{`0},System.Nullable{System.Int32},System.Func{System.Collections.Generic.IEnumerable{`0},System.Linq.IOrderedEnumerable{`0}})
+  commentId: M:Ans.Net10.Common.TreeEntityHelper`1.#ctor(System.Collections.Generic.IEnumerable{`0},System.Nullable{System.Int32},System.Func{System.Collections.Generic.IEnumerable{`0},System.Linq.IOrderedEnumerable{`0}})
+  id: '#ctor(System.Collections.Generic.IEnumerable{`0},System.Nullable{System.Int32},System.Func{System.Collections.Generic.IEnumerable{`0},System.Linq.IOrderedEnumerable{`0}})'
+  parent: Ans.Net10.Common.TreeEntityHelper`1
+  langs:
+  - csharp
+  - vb
+  name: TreeEntityHelper(IEnumerable<TEntity>, int?, Func<IEnumerable<TEntity>, IOrderedEnumerable<TEntity>>)
+  nameWithType: TreeEntityHelper<TEntity>.TreeEntityHelper(IEnumerable<TEntity>, int?, Func<IEnumerable<TEntity>, IOrderedEnumerable<TEntity>>)
+  fullName: Ans.Net10.Common.TreeEntityHelper<TEntity>.TreeEntityHelper(System.Collections.Generic.IEnumerable<TEntity>, int?, System.Func<System.Collections.Generic.IEnumerable<TEntity>, System.Linq.IOrderedEnumerable<TEntity>>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~classes\TreeEntityHelper.cs
+    startLine: 37
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public TreeEntityHelper(IEnumerable<TEntity> source, int? currentId, Func<IEnumerable<TEntity>, IOrderedEnumerable<TEntity>> funcOrder)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{{TEntity}}
+    - id: currentId
+      type: System.Nullable{System.Int32}
+    - id: funcOrder
+      type: System.Func{System.Collections.Generic.IEnumerable{{TEntity}},System.Linq.IOrderedEnumerable{{TEntity}}}
+    content.vb: Public Sub New(source As IEnumerable(Of TEntity), currentId As Integer?, funcOrder As Func(Of IEnumerable(Of TEntity), IOrderedEnumerable(Of TEntity)))
+  overload: Ans.Net10.Common.TreeEntityHelper`1.#ctor*
+  nameWithType.vb: TreeEntityHelper(Of TEntity).New(IEnumerable(Of TEntity), Integer?, Func(Of IEnumerable(Of TEntity), IOrderedEnumerable(Of TEntity)))
+  fullName.vb: Ans.Net10.Common.TreeEntityHelper(Of TEntity).New(System.Collections.Generic.IEnumerable(Of TEntity), Integer?, System.Func(Of System.Collections.Generic.IEnumerable(Of TEntity), System.Linq.IOrderedEnumerable(Of TEntity)))
+  name.vb: New(IEnumerable(Of TEntity), Integer?, Func(Of IEnumerable(Of TEntity), IOrderedEnumerable(Of TEntity)))
+- uid: Ans.Net10.Common.TreeEntityHelper`1.TopItems
+  commentId: P:Ans.Net10.Common.TreeEntityHelper`1.TopItems
+  id: TopItems
+  parent: Ans.Net10.Common.TreeEntityHelper`1
+  langs:
+  - csharp
+  - vb
+  name: TopItems
+  nameWithType: TreeEntityHelper<TEntity>.TopItems
+  fullName: Ans.Net10.Common.TreeEntityHelper<TEntity>.TopItems
+  type: Property
+  source:
+    id: TopItems
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~classes\TreeEntityHelper.cs
+    startLine: 52
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public IEnumerable<TreeEntityWrapper<TEntity>> TopItems { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{Ans.Net10.Common.TreeEntityWrapper{{TEntity}}}
+    content.vb: Public ReadOnly Property TopItems As IEnumerable(Of TreeEntityWrapper(Of TEntity))
+  overload: Ans.Net10.Common.TreeEntityHelper`1.TopItems*
+  nameWithType.vb: TreeEntityHelper(Of TEntity).TopItems
+  fullName.vb: Ans.Net10.Common.TreeEntityHelper(Of TEntity).TopItems
+- uid: Ans.Net10.Common.TreeEntityHelper`1.AllItems
+  commentId: P:Ans.Net10.Common.TreeEntityHelper`1.AllItems
+  id: AllItems
+  parent: Ans.Net10.Common.TreeEntityHelper`1
+  langs:
+  - csharp
+  - vb
+  name: AllItems
+  nameWithType: TreeEntityHelper<TEntity>.AllItems
+  fullName: Ans.Net10.Common.TreeEntityHelper<TEntity>.AllItems
+  type: Property
+  source:
+    id: AllItems
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~classes\TreeEntityHelper.cs
+    startLine: 56
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public IEnumerable<TreeEntityWrapper<TEntity>> AllItems { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{Ans.Net10.Common.TreeEntityWrapper{{TEntity}}}
+    content.vb: Public ReadOnly Property AllItems As IEnumerable(Of TreeEntityWrapper(Of TEntity))
+  overload: Ans.Net10.Common.TreeEntityHelper`1.AllItems*
+  nameWithType.vb: TreeEntityHelper(Of TEntity).AllItems
+  fullName.vb: Ans.Net10.Common.TreeEntityHelper(Of TEntity).AllItems
+references:
+- uid: Ans.Net10.Common
+  commentId: N:Ans.Net10.Common
+  href: Ans.html
+  name: Ans.Net10.Common
+  nameWithType: Ans.Net10.Common
+  fullName: Ans.Net10.Common
+  spec.csharp:
+  - uid: Ans
+    name: Ans
+    href: Ans.html
+  - name: .
+  - uid: Ans.Net10
+    name: Net10
+    href: Ans.Net10.html
+  - name: .
+  - uid: Ans.Net10.Common
+    name: Common
+    href: Ans.Net10.Common.html
+  spec.vb:
+  - uid: Ans
+    name: Ans
+    href: Ans.html
+  - name: .
+  - uid: Ans.Net10
+    name: Net10
+    href: Ans.Net10.html
+  - name: .
+  - uid: Ans.Net10.Common
+    name: Common
+    href: Ans.Net10.Common.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Ans.Net10.Common.__e_reflection.DefaultObject``1
+  commentId: M:Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+  parent: Ans.Net10.Common.__e_reflection
+  definition: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object_
+  name: DefaultObject<T>(object)
+  nameWithType: __e_reflection.DefaultObject<T>(object)
+  fullName: Ans.Net10.Common.__e_reflection.DefaultObject<T>(object)
+  nameWithType.vb: __e_reflection.DefaultObject(Of T)(Object)
+  fullName.vb: Ans.Net10.Common.__e_reflection.DefaultObject(Of T)(Object)
+  name.vb: DefaultObject(Of T)(Object)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Ans.Net10.Common.__e_reflection.DefaultObject``1({T})
+  commentId: M:Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+  parent: Ans.Net10.Common.__e_reflection
+  definition: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object___0_
+  name: DefaultObject<T>(object, T)
+  nameWithType: __e_reflection.DefaultObject<T>(object, T)
+  fullName: Ans.Net10.Common.__e_reflection.DefaultObject<T>(object, T)
+  nameWithType.vb: __e_reflection.DefaultObject(Of T)(Object, T)
+  fullName.vb: Ans.Net10.Common.__e_reflection.DefaultObject(Of T)(Object, T)
+  name.vb: DefaultObject(Of T)(Object, T)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue(System.String)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+  parent: Ans.Net10.Common.__e_reflection
+  definition: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_
+  name: GetPropertyValue(object, string)
+  nameWithType: __e_reflection.GetPropertyValue(object, string)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue(object, string)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Object, String)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Object, String)
+  name.vb: GetPropertyValue(Object, String)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue(System.String,System.Type)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+  parent: Ans.Net10.Common.__e_reflection
+  definition: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_System_Type_
+  name: GetPropertyValue(object, string, Type)
+  nameWithType: __e_reflection.GetPropertyValue(object, string, Type)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue(object, string, System.Type)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Object, String, Type)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Object, String, System.Type)
+  name.vb: GetPropertyValue(Object, String, Type)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_System_Type_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_System_Type_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.String)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+  parent: Ans.Net10.Common.__e_reflection
+  definition: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_
+  name: GetPropertyValue<T>(object, string)
+  nameWithType: __e_reflection.GetPropertyValue<T>(object, string)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue<T>(object, string)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Of T)(Object, String)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Of T)(Object, String)
+  name.vb: GetPropertyValue(Of T)(Object, String)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.String,System.Type)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+  parent: Ans.Net10.Common.__e_reflection
+  definition: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_System_Type_
+  name: GetPropertyValue<T>(object, string, Type)
+  nameWithType: __e_reflection.GetPropertyValue<T>(object, string, Type)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue<T>(object, string, System.Type)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Of T)(Object, String, Type)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Of T)(Object, String, System.Type)
+  name.vb: GetPropertyValue(Of T)(Object, String, Type)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_System_Type_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_System_Type_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: System.Object.Ans.Net10.Common.__e_reflection.ToDynamic
+  commentId: M:Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+  parent: Ans.Net10.Common.__e_reflection
+  definition: Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_ToDynamic_System_Object_
+  name: ToDynamic(object)
+  nameWithType: __e_reflection.ToDynamic(object)
+  fullName: Ans.Net10.Common.__e_reflection.ToDynamic(object)
+  nameWithType.vb: __e_reflection.ToDynamic(Object)
+  fullName.vb: Ans.Net10.Common.__e_reflection.ToDynamic(Object)
+  name.vb: ToDynamic(Object)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+    name: ToDynamic
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_ToDynamic_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+    name: ToDynamic
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_ToDynamic_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+  commentId: M:Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+  isExternal: true
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object_
+  name: DefaultObject<T>(object)
+  nameWithType: __e_reflection.DefaultObject<T>(object)
+  fullName: Ans.Net10.Common.__e_reflection.DefaultObject<T>(object)
+  nameWithType.vb: __e_reflection.DefaultObject(Of T)(Object)
+  fullName.vb: Ans.Net10.Common.__e_reflection.DefaultObject(Of T)(Object)
+  name.vb: DefaultObject(Of T)(Object)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Ans.Net10.Common.__e_reflection
+  commentId: T:Ans.Net10.Common.__e_reflection
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.__e_reflection.html
+  name: __e_reflection
+  nameWithType: __e_reflection
+  fullName: Ans.Net10.Common.__e_reflection
+- uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+  commentId: M:Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+  isExternal: true
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object___0_
+  name: DefaultObject<T>(object, T)
+  nameWithType: __e_reflection.DefaultObject<T>(object, T)
+  fullName: Ans.Net10.Common.__e_reflection.DefaultObject<T>(object, T)
+  nameWithType.vb: __e_reflection.DefaultObject(Of T)(Object, T)
+  fullName.vb: Ans.Net10.Common.__e_reflection.DefaultObject(Of T)(Object, T)
+  name.vb: DefaultObject(Of T)(Object, T)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+  isExternal: true
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_
+  name: GetPropertyValue(object, string)
+  nameWithType: __e_reflection.GetPropertyValue(object, string)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue(object, string)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Object, String)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Object, String)
+  name.vb: GetPropertyValue(Object, String)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+  isExternal: true
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_System_Type_
+  name: GetPropertyValue(object, string, Type)
+  nameWithType: __e_reflection.GetPropertyValue(object, string, Type)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue(object, string, System.Type)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Object, String, Type)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Object, String, System.Type)
+  name.vb: GetPropertyValue(Object, String, Type)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_System_Type_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_System_Type_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+  isExternal: true
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_
+  name: GetPropertyValue<T>(object, string)
+  nameWithType: __e_reflection.GetPropertyValue<T>(object, string)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue<T>(object, string)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Of T)(Object, String)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Of T)(Object, String)
+  name.vb: GetPropertyValue(Of T)(Object, String)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+  isExternal: true
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_System_Type_
+  name: GetPropertyValue<T>(object, string, Type)
+  nameWithType: __e_reflection.GetPropertyValue<T>(object, string, Type)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue<T>(object, string, System.Type)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Of T)(Object, String, Type)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Of T)(Object, String, System.Type)
+  name.vb: GetPropertyValue(Of T)(Object, String, Type)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_System_Type_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_System_Type_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+  commentId: M:Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+  isExternal: true
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_ToDynamic_System_Object_
+  name: ToDynamic(object)
+  nameWithType: __e_reflection.ToDynamic(object)
+  fullName: Ans.Net10.Common.__e_reflection.ToDynamic(object)
+  nameWithType.vb: __e_reflection.ToDynamic(Object)
+  fullName.vb: Ans.Net10.Common.__e_reflection.ToDynamic(Object)
+  name.vb: ToDynamic(Object)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+    name: ToDynamic
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_ToDynamic_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+    name: ToDynamic
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_ToDynamic_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Ans.Net10.Common.TreeEntityHelper`1.#ctor*
+  commentId: Overload:Ans.Net10.Common.TreeEntityHelper`1.#ctor
+  href: Ans.Net10.Common.TreeEntityHelper-1.html#Ans_Net10_Common_TreeEntityHelper_1__ctor_System_Collections_Generic_IEnumerable__0__System_Nullable_System_Int32__System_Func_System_Collections_Generic_IEnumerable__0__System_Linq_IOrderedEnumerable__0___
+  name: TreeEntityHelper
+  nameWithType: TreeEntityHelper<TEntity>.TreeEntityHelper
+  fullName: Ans.Net10.Common.TreeEntityHelper<TEntity>.TreeEntityHelper
+  nameWithType.vb: TreeEntityHelper(Of TEntity).New
+  fullName.vb: Ans.Net10.Common.TreeEntityHelper(Of TEntity).New
+  name.vb: New
+- uid: System.Collections.Generic.IEnumerable{{TEntity}}
+  commentId: T:System.Collections.Generic.IEnumerable{`0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<TEntity>
+  nameWithType: IEnumerable<TEntity>
+  fullName: System.Collections.Generic.IEnumerable<TEntity>
+  nameWithType.vb: IEnumerable(Of TEntity)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of TEntity)
+  name.vb: IEnumerable(Of TEntity)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int?
+  nameWithType: int?
+  fullName: int?
+  nameWithType.vb: Integer?
+  fullName.vb: Integer?
+  name.vb: Integer?
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+- uid: System.Func{System.Collections.Generic.IEnumerable{{TEntity}},System.Linq.IOrderedEnumerable{{TEntity}}}
+  commentId: T:System.Func{System.Collections.Generic.IEnumerable{`0},System.Linq.IOrderedEnumerable{`0}}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<IEnumerable<TEntity>, IOrderedEnumerable<TEntity>>
+  nameWithType: Func<IEnumerable<TEntity>, IOrderedEnumerable<TEntity>>
+  fullName: System.Func<System.Collections.Generic.IEnumerable<TEntity>, System.Linq.IOrderedEnumerable<TEntity>>
+  nameWithType.vb: Func(Of IEnumerable(Of TEntity), IOrderedEnumerable(Of TEntity))
+  fullName.vb: System.Func(Of System.Collections.Generic.IEnumerable(Of TEntity), System.Linq.IOrderedEnumerable(Of TEntity))
+  name.vb: Func(Of IEnumerable(Of TEntity), IOrderedEnumerable(Of TEntity))
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: TEntity
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Linq.IOrderedEnumerable`1
+    name: IOrderedEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.iorderedenumerable-1
+  - name: <
+  - name: TEntity
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Linq.IOrderedEnumerable`1
+    name: IOrderedEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.iorderedenumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: Ans.Net10.Common.TreeEntityHelper`1.TopItems*
+  commentId: Overload:Ans.Net10.Common.TreeEntityHelper`1.TopItems
+  href: Ans.Net10.Common.TreeEntityHelper-1.html#Ans_Net10_Common_TreeEntityHelper_1_TopItems
+  name: TopItems
+  nameWithType: TreeEntityHelper<TEntity>.TopItems
+  fullName: Ans.Net10.Common.TreeEntityHelper<TEntity>.TopItems
+  nameWithType.vb: TreeEntityHelper(Of TEntity).TopItems
+  fullName.vb: Ans.Net10.Common.TreeEntityHelper(Of TEntity).TopItems
+- uid: System.Collections.Generic.IEnumerable{Ans.Net10.Common.TreeEntityWrapper{{TEntity}}}
+  commentId: T:System.Collections.Generic.IEnumerable{Ans.Net10.Common.TreeEntityWrapper{`0}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<TreeEntityWrapper<TEntity>>
+  nameWithType: IEnumerable<TreeEntityWrapper<TEntity>>
+  fullName: System.Collections.Generic.IEnumerable<Ans.Net10.Common.TreeEntityWrapper<TEntity>>
+  nameWithType.vb: IEnumerable(Of TreeEntityWrapper(Of TEntity))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Ans.Net10.Common.TreeEntityWrapper(Of TEntity))
+  name.vb: IEnumerable(Of TreeEntityWrapper(Of TEntity))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: Ans.Net10.Common.TreeEntityWrapper`1
+    name: TreeEntityWrapper
+    href: Ans.Net10.Common.TreeEntityWrapper-1.html
+  - name: <
+  - name: TEntity
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Ans.Net10.Common.TreeEntityWrapper`1
+    name: TreeEntityWrapper
+    href: Ans.Net10.Common.TreeEntityWrapper-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+  - name: )
+- uid: Ans.Net10.Common.TreeEntityHelper`1.AllItems*
+  commentId: Overload:Ans.Net10.Common.TreeEntityHelper`1.AllItems
+  href: Ans.Net10.Common.TreeEntityHelper-1.html#Ans_Net10_Common_TreeEntityHelper_1_AllItems
+  name: AllItems
+  nameWithType: TreeEntityHelper<TEntity>.AllItems
+  fullName: Ans.Net10.Common.TreeEntityHelper<TEntity>.AllItems
+  nameWithType.vb: TreeEntityHelper(Of TEntity).AllItems
+  fullName.vb: Ans.Net10.Common.TreeEntityHelper(Of TEntity).AllItems

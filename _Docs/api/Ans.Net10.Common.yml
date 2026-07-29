@@ -1,0 +1,1169 @@
+### YamlMime:ManagedReference
+items:
+- uid: Ans.Net10.Common
+  commentId: N:Ans.Net10.Common
+  id: Ans.Net10.Common
+  children:
+  - Ans.Net10.Common.ClassIdWrapper`1
+  - Ans.Net10.Common.CollectionsComparer`3
+  - Ans.Net10.Common.ConsoleMenu
+  - Ans.Net10.Common.ConsoleMenuItem
+  - Ans.Net10.Common.ContentGroupEnum
+  - Ans.Net10.Common.ContentInfo
+  - Ans.Net10.Common.CrudFaceHelper
+  - Ans.Net10.Common.CrudFieldInfo
+  - Ans.Net10.Common.DateTimeHelper
+  - Ans.Net10.Common.DictInt
+  - Ans.Net10.Common.DictString
+  - Ans.Net10.Common.DictTagStylers
+  - Ans.Net10.Common.EncodingsEnum
+  - Ans.Net10.Common.GenderEnum
+  - Ans.Net10.Common.ICrudFace
+  - Ans.Net10.Common.IPSubnet
+  - Ans.Net10.Common.IPSubnetsList
+  - Ans.Net10.Common.ITreeEntity
+  - Ans.Net10.Common.ITreeItem
+  - Ans.Net10.Common.ImageOrientationEnum
+  - Ans.Net10.Common.ImageResizeHelper
+  - Ans.Net10.Common.ImageShiftEnum
+  - Ans.Net10.Common.KeysComparer
+  - Ans.Net10.Common.LetterCasesEnum
+  - Ans.Net10.Common.LibCommonInfo
+  - Ans.Net10.Common.MailMessageModel
+  - Ans.Net10.Common.MemoryCacheHelper
+  - Ans.Net10.Common.ObjInfoBuilder
+  - Ans.Net10.Common.ObjInfoFunction
+  - Ans.Net10.Common.ObjInfoMethod
+  - Ans.Net10.Common.ObjInfoProperty
+  - Ans.Net10.Common.OrderBuilder
+  - Ans.Net10.Common.OrderItem
+  - Ans.Net10.Common.PaginatedQueryableHelper`1
+  - Ans.Net10.Common.PaginationDataModel
+  - Ans.Net10.Common.PaginationHelper
+  - Ans.Net10.Common.PaginationModel
+  - Ans.Net10.Common.ParamsBuilder
+  - Ans.Net10.Common.ParamsCollection
+  - Ans.Net10.Common.RegistryGroup
+  - Ans.Net10.Common.RegistryItem
+  - Ans.Net10.Common.RegistryItemEventArgs
+  - Ans.Net10.Common.RegistryItemEventHandler
+  - Ans.Net10.Common.RegistryList
+  - Ans.Net10.Common.RegistryModeEnum
+  - Ans.Net10.Common.ResourcesHelper
+  - Ans.Net10.Common.StringParser
+  - Ans.Net10.Common.SuppApp
+  - Ans.Net10.Common.SuppCache
+  - Ans.Net10.Common.SuppConsole
+  - Ans.Net10.Common.SuppCrud
+  - Ans.Net10.Common.SuppCrypto
+  - Ans.Net10.Common.SuppCsv
+  - Ans.Net10.Common.SuppCulture
+  - Ans.Net10.Common.SuppDateTime
+  - Ans.Net10.Common.SuppDictionary
+  - Ans.Net10.Common.SuppDynamic
+  - Ans.Net10.Common.SuppGrid
+  - Ans.Net10.Common.SuppIO
+  - Ans.Net10.Common.SuppJson
+  - Ans.Net10.Common.SuppLangEn
+  - Ans.Net10.Common.SuppLangRu
+  - Ans.Net10.Common.SuppLinq
+  - Ans.Net10.Common.SuppMath
+  - Ans.Net10.Common.SuppRandom
+  - Ans.Net10.Common.SuppReflection
+  - Ans.Net10.Common.SuppRegex
+  - Ans.Net10.Common.SuppResources
+  - Ans.Net10.Common.SuppString
+  - Ans.Net10.Common.SuppStringBuilder
+  - Ans.Net10.Common.SuppTypograph
+  - Ans.Net10.Common.SuppValues
+  - Ans.Net10.Common.SuppXml
+  - Ans.Net10.Common.TagAttributesBuilder
+  - Ans.Net10.Common.TagClassesBuilder
+  - Ans.Net10.Common.TagStyler
+  - Ans.Net10.Common.TagStylesBuilder
+  - Ans.Net10.Common.TensesEnum
+  - Ans.Net10.Common.TinyBreakerHelper
+  - Ans.Net10.Common.TinyLogWriterHelper
+  - Ans.Net10.Common.TinyTimerHelper
+  - Ans.Net10.Common.TreeEntityHelper`1
+  - Ans.Net10.Common.TreeEntityWrapper`1
+  - Ans.Net10.Common.TypografHelper
+  - Ans.Net10.Common.WebApiCachedHelper`1
+  - Ans.Net10.Common.WebApiHelper`1
+  - Ans.Net10.Common.WebApiResult`1
+  - Ans.Net10.Common.WebGridCachedHelper`1
+  - Ans.Net10.Common.WebGridHelper`1
+  - Ans.Net10.Common.WebGridResult`1
+  - Ans.Net10.Common.WidthEnum
+  - Ans.Net10.Common.WidthWrapper
+  - Ans.Net10.Common.WidthsEnum
+  - Ans.Net10.Common.WordCasesEnum
+  - Ans.Net10.Common._Consts
+  - Ans.Net10.Common._Dict_Proto`2
+  - Ans.Net10.Common._ListPaginatedModel_Base`2
+  - Ans.Net10.Common._ObjInfo_Base
+  - Ans.Net10.Common._TreeItem_Base
+  - Ans.Net10.Common.__e
+  - Ans.Net10.Common.__e_collections
+  - Ans.Net10.Common.__e_di
+  - Ans.Net10.Common.__e_dictionary
+  - Ans.Net10.Common.__e_io
+  - Ans.Net10.Common.__e_linq
+  - Ans.Net10.Common.__e_make
+  - Ans.Net10.Common.__e_reflection
+  - Ans.Net10.Common.__e_to
+  - Ans.Net10.Common.__e_typograph
+  - Ans.Net10.Common._e_Claims
+  - Ans.Net10.Common._e_DateTime
+  - Ans.Net10.Common._e_DbSet
+  - Ans.Net10.Common._e_Exception
+  - Ans.Net10.Common._e_IPAddress
+  - Ans.Net10.Common._e_String
+  - Ans.Net10.Common._e_StringBuilder
+  langs:
+  - csharp
+  - vb
+  name: Ans.Net10.Common
+  nameWithType: Ans.Net10.Common
+  fullName: Ans.Net10.Common
+  type: Namespace
+  assemblies:
+  - Ans.Net10.Common
+references:
+- uid: Ans.Net10.Common.LibCommonInfo
+  commentId: T:Ans.Net10.Common.LibCommonInfo
+  href: Ans.Net10.Common.LibCommonInfo.html
+  name: LibCommonInfo
+  nameWithType: LibCommonInfo
+  fullName: Ans.Net10.Common.LibCommonInfo
+- uid: Ans.Net10.Common.ClassIdWrapper`1
+  commentId: T:Ans.Net10.Common.ClassIdWrapper`1
+  href: Ans.Net10.Common.ClassIdWrapper-1.html
+  name: ClassIdWrapper<T>
+  nameWithType: ClassIdWrapper<T>
+  fullName: Ans.Net10.Common.ClassIdWrapper<T>
+  nameWithType.vb: ClassIdWrapper(Of T)
+  fullName.vb: Ans.Net10.Common.ClassIdWrapper(Of T)
+  name.vb: ClassIdWrapper(Of T)
+  spec.csharp:
+  - uid: Ans.Net10.Common.ClassIdWrapper`1
+    name: ClassIdWrapper
+    href: Ans.Net10.Common.ClassIdWrapper-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Ans.Net10.Common.ClassIdWrapper`1
+    name: ClassIdWrapper
+    href: Ans.Net10.Common.ClassIdWrapper-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Ans.Net10.Common.CollectionsComparer`3
+  commentId: T:Ans.Net10.Common.CollectionsComparer`3
+  href: Ans.Net10.Common.CollectionsComparer-3.html
+  name: CollectionsComparer<TCurrent, TNewest, TKey>
+  nameWithType: CollectionsComparer<TCurrent, TNewest, TKey>
+  fullName: Ans.Net10.Common.CollectionsComparer<TCurrent, TNewest, TKey>
+  nameWithType.vb: CollectionsComparer(Of TCurrent, TNewest, TKey)
+  fullName.vb: Ans.Net10.Common.CollectionsComparer(Of TCurrent, TNewest, TKey)
+  name.vb: CollectionsComparer(Of TCurrent, TNewest, TKey)
+  spec.csharp:
+  - uid: Ans.Net10.Common.CollectionsComparer`3
+    name: CollectionsComparer
+    href: Ans.Net10.Common.CollectionsComparer-3.html
+  - name: <
+  - name: TCurrent
+  - name: ','
+  - name: " "
+  - name: TNewest
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  spec.vb:
+  - uid: Ans.Net10.Common.CollectionsComparer`3
+    name: CollectionsComparer
+    href: Ans.Net10.Common.CollectionsComparer-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCurrent
+  - name: ','
+  - name: " "
+  - name: TNewest
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+- uid: Ans.Net10.Common.ConsoleMenuItem
+  commentId: T:Ans.Net10.Common.ConsoleMenuItem
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.ConsoleMenuItem.html
+  name: ConsoleMenuItem
+  nameWithType: ConsoleMenuItem
+  fullName: Ans.Net10.Common.ConsoleMenuItem
+- uid: Ans.Net10.Common.ConsoleMenu
+  commentId: T:Ans.Net10.Common.ConsoleMenu
+  href: Ans.Net10.Common.ConsoleMenu.html
+  name: ConsoleMenu
+  nameWithType: ConsoleMenu
+  fullName: Ans.Net10.Common.ConsoleMenu
+- uid: Ans.Net10.Common.ContentGroupEnum
+  commentId: T:Ans.Net10.Common.ContentGroupEnum
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.ContentGroupEnum.html
+  name: ContentGroupEnum
+  nameWithType: ContentGroupEnum
+  fullName: Ans.Net10.Common.ContentGroupEnum
+- uid: Ans.Net10.Common.ContentInfo
+  commentId: T:Ans.Net10.Common.ContentInfo
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.ContentInfo.html
+  name: ContentInfo
+  nameWithType: ContentInfo
+  fullName: Ans.Net10.Common.ContentInfo
+- uid: Ans.Net10.Common.ICrudFace
+  commentId: T:Ans.Net10.Common.ICrudFace
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.ICrudFace.html
+  name: ICrudFace
+  nameWithType: ICrudFace
+  fullName: Ans.Net10.Common.ICrudFace
+- uid: Ans.Net10.Common.CrudFaceHelper
+  commentId: T:Ans.Net10.Common.CrudFaceHelper
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.CrudFaceHelper.html
+  name: CrudFaceHelper
+  nameWithType: CrudFaceHelper
+  fullName: Ans.Net10.Common.CrudFaceHelper
+- uid: Ans.Net10.Common.CrudFieldInfo
+  commentId: T:Ans.Net10.Common.CrudFieldInfo
+  href: Ans.Net10.Common.CrudFieldInfo.html
+  name: CrudFieldInfo
+  nameWithType: CrudFieldInfo
+  fullName: Ans.Net10.Common.CrudFieldInfo
+- uid: Ans.Net10.Common.TensesEnum
+  commentId: T:Ans.Net10.Common.TensesEnum
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.TensesEnum.html
+  name: TensesEnum
+  nameWithType: TensesEnum
+  fullName: Ans.Net10.Common.TensesEnum
+- uid: Ans.Net10.Common.DateTimeHelper
+  commentId: T:Ans.Net10.Common.DateTimeHelper
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.DateTimeHelper.html
+  name: DateTimeHelper
+  nameWithType: DateTimeHelper
+  fullName: Ans.Net10.Common.DateTimeHelper
+- uid: Ans.Net10.Common.DictInt
+  commentId: T:Ans.Net10.Common.DictInt
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.DictInt.html
+  name: DictInt
+  nameWithType: DictInt
+  fullName: Ans.Net10.Common.DictInt
+- uid: Ans.Net10.Common.DictString
+  commentId: T:Ans.Net10.Common.DictString
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.DictString.html
+  name: DictString
+  nameWithType: DictString
+  fullName: Ans.Net10.Common.DictString
+- uid: Ans.Net10.Common.DictTagStylers
+  commentId: T:Ans.Net10.Common.DictTagStylers
+  href: Ans.Net10.Common.DictTagStylers.html
+  name: DictTagStylers
+  nameWithType: DictTagStylers
+  fullName: Ans.Net10.Common.DictTagStylers
+- uid: Ans.Net10.Common.ImageOrientationEnum
+  commentId: T:Ans.Net10.Common.ImageOrientationEnum
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.ImageOrientationEnum.html
+  name: ImageOrientationEnum
+  nameWithType: ImageOrientationEnum
+  fullName: Ans.Net10.Common.ImageOrientationEnum
+- uid: Ans.Net10.Common.ImageShiftEnum
+  commentId: T:Ans.Net10.Common.ImageShiftEnum
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.ImageShiftEnum.html
+  name: ImageShiftEnum
+  nameWithType: ImageShiftEnum
+  fullName: Ans.Net10.Common.ImageShiftEnum
+- uid: Ans.Net10.Common.ImageResizeHelper
+  commentId: T:Ans.Net10.Common.ImageResizeHelper
+  href: Ans.Net10.Common.ImageResizeHelper.html
+  name: ImageResizeHelper
+  nameWithType: ImageResizeHelper
+  fullName: Ans.Net10.Common.ImageResizeHelper
+- uid: Ans.Net10.Common.IPSubnetsList
+  commentId: T:Ans.Net10.Common.IPSubnetsList
+  href: Ans.Net10.Common.IPSubnetsList.html
+  name: IPSubnetsList
+  nameWithType: IPSubnetsList
+  fullName: Ans.Net10.Common.IPSubnetsList
+- uid: Ans.Net10.Common.IPSubnet
+  commentId: T:Ans.Net10.Common.IPSubnet
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.IPSubnet.html
+  name: IPSubnet
+  nameWithType: IPSubnet
+  fullName: Ans.Net10.Common.IPSubnet
+- uid: Ans.Net10.Common.KeysComparer
+  commentId: T:Ans.Net10.Common.KeysComparer
+  href: Ans.Net10.Common.KeysComparer.html
+  name: KeysComparer
+  nameWithType: KeysComparer
+  fullName: Ans.Net10.Common.KeysComparer
+- uid: Ans.Net10.Common.MailMessageModel
+  commentId: T:Ans.Net10.Common.MailMessageModel
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.MailMessageModel.html
+  name: MailMessageModel
+  nameWithType: MailMessageModel
+  fullName: Ans.Net10.Common.MailMessageModel
+- uid: Ans.Net10.Common.MemoryCacheHelper
+  commentId: T:Ans.Net10.Common.MemoryCacheHelper
+  href: Ans.Net10.Common.MemoryCacheHelper.html
+  name: MemoryCacheHelper
+  nameWithType: MemoryCacheHelper
+  fullName: Ans.Net10.Common.MemoryCacheHelper
+- uid: Ans.Net10.Common._ObjInfo_Base
+  commentId: T:Ans.Net10.Common._ObjInfo_Base
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common._ObjInfo_Base.html
+  name: _ObjInfo_Base
+  nameWithType: _ObjInfo_Base
+  fullName: Ans.Net10.Common._ObjInfo_Base
+- uid: Ans.Net10.Common.ObjInfoProperty
+  commentId: T:Ans.Net10.Common.ObjInfoProperty
+  href: Ans.Net10.Common.ObjInfoProperty.html
+  name: ObjInfoProperty
+  nameWithType: ObjInfoProperty
+  fullName: Ans.Net10.Common.ObjInfoProperty
+- uid: Ans.Net10.Common.ObjInfoMethod
+  commentId: T:Ans.Net10.Common.ObjInfoMethod
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.ObjInfoMethod.html
+  name: ObjInfoMethod
+  nameWithType: ObjInfoMethod
+  fullName: Ans.Net10.Common.ObjInfoMethod
+- uid: Ans.Net10.Common.ObjInfoFunction
+  commentId: T:Ans.Net10.Common.ObjInfoFunction
+  href: Ans.Net10.Common.ObjInfoFunction.html
+  name: ObjInfoFunction
+  nameWithType: ObjInfoFunction
+  fullName: Ans.Net10.Common.ObjInfoFunction
+- uid: Ans.Net10.Common.ObjInfoBuilder
+  commentId: T:Ans.Net10.Common.ObjInfoBuilder
+  href: Ans.Net10.Common.ObjInfoBuilder.html
+  name: ObjInfoBuilder
+  nameWithType: ObjInfoBuilder
+  fullName: Ans.Net10.Common.ObjInfoBuilder
+- uid: Ans.Net10.Common.OrderItem
+  commentId: T:Ans.Net10.Common.OrderItem
+  href: Ans.Net10.Common.OrderItem.html
+  name: OrderItem
+  nameWithType: OrderItem
+  fullName: Ans.Net10.Common.OrderItem
+- uid: Ans.Net10.Common.OrderBuilder
+  commentId: T:Ans.Net10.Common.OrderBuilder
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.OrderBuilder.html
+  name: OrderBuilder
+  nameWithType: OrderBuilder
+  fullName: Ans.Net10.Common.OrderBuilder
+- uid: Ans.Net10.Common.PaginatedQueryableHelper`1
+  commentId: T:Ans.Net10.Common.PaginatedQueryableHelper`1
+  href: Ans.Net10.Common.PaginatedQueryableHelper-1.html
+  name: PaginatedQueryableHelper<TEntity>
+  nameWithType: PaginatedQueryableHelper<TEntity>
+  fullName: Ans.Net10.Common.PaginatedQueryableHelper<TEntity>
+  nameWithType.vb: PaginatedQueryableHelper(Of TEntity)
+  fullName.vb: Ans.Net10.Common.PaginatedQueryableHelper(Of TEntity)
+  name.vb: PaginatedQueryableHelper(Of TEntity)
+  spec.csharp:
+  - uid: Ans.Net10.Common.PaginatedQueryableHelper`1
+    name: PaginatedQueryableHelper
+    href: Ans.Net10.Common.PaginatedQueryableHelper-1.html
+  - name: <
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: Ans.Net10.Common.PaginatedQueryableHelper`1
+    name: PaginatedQueryableHelper
+    href: Ans.Net10.Common.PaginatedQueryableHelper-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: Ans.Net10.Common.PaginationDataModel
+  commentId: T:Ans.Net10.Common.PaginationDataModel
+  href: Ans.Net10.Common.PaginationDataModel.html
+  name: PaginationDataModel
+  nameWithType: PaginationDataModel
+  fullName: Ans.Net10.Common.PaginationDataModel
+- uid: Ans.Net10.Common.PaginationHelper
+  commentId: T:Ans.Net10.Common.PaginationHelper
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.PaginationHelper.html
+  name: PaginationHelper
+  nameWithType: PaginationHelper
+  fullName: Ans.Net10.Common.PaginationHelper
+- uid: Ans.Net10.Common.PaginationModel
+  commentId: T:Ans.Net10.Common.PaginationModel
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.PaginationModel.html
+  name: PaginationModel
+  nameWithType: PaginationModel
+  fullName: Ans.Net10.Common.PaginationModel
+- uid: Ans.Net10.Common.ParamsBuilder
+  commentId: T:Ans.Net10.Common.ParamsBuilder
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.ParamsBuilder.html
+  name: ParamsBuilder
+  nameWithType: ParamsBuilder
+  fullName: Ans.Net10.Common.ParamsBuilder
+- uid: Ans.Net10.Common.ParamsCollection
+  commentId: T:Ans.Net10.Common.ParamsCollection
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.ParamsCollection.html
+  name: ParamsCollection
+  nameWithType: ParamsCollection
+  fullName: Ans.Net10.Common.ParamsCollection
+- uid: Ans.Net10.Common.RegistryGroup
+  commentId: T:Ans.Net10.Common.RegistryGroup
+  href: Ans.Net10.Common.RegistryGroup.html
+  name: RegistryGroup
+  nameWithType: RegistryGroup
+  fullName: Ans.Net10.Common.RegistryGroup
+- uid: Ans.Net10.Common.RegistryItem
+  commentId: T:Ans.Net10.Common.RegistryItem
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.RegistryItem.html
+  name: RegistryItem
+  nameWithType: RegistryItem
+  fullName: Ans.Net10.Common.RegistryItem
+- uid: Ans.Net10.Common.RegistryItemEventArgs
+  commentId: T:Ans.Net10.Common.RegistryItemEventArgs
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.RegistryItemEventArgs.html
+  name: RegistryItemEventArgs
+  nameWithType: RegistryItemEventArgs
+  fullName: Ans.Net10.Common.RegistryItemEventArgs
+- uid: Ans.Net10.Common.RegistryItemEventHandler
+  commentId: T:Ans.Net10.Common.RegistryItemEventHandler
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.RegistryItemEventHandler.html
+  name: RegistryItemEventHandler
+  nameWithType: RegistryItemEventHandler
+  fullName: Ans.Net10.Common.RegistryItemEventHandler
+- uid: Ans.Net10.Common.RegistryList
+  commentId: T:Ans.Net10.Common.RegistryList
+  href: Ans.Net10.Common.RegistryList.html
+  name: RegistryList
+  nameWithType: RegistryList
+  fullName: Ans.Net10.Common.RegistryList
+- uid: Ans.Net10.Common.ResourcesHelper
+  commentId: T:Ans.Net10.Common.ResourcesHelper
+  href: Ans.Net10.Common.ResourcesHelper.html
+  name: ResourcesHelper
+  nameWithType: ResourcesHelper
+  fullName: Ans.Net10.Common.ResourcesHelper
+- uid: Ans.Net10.Common.StringParser
+  commentId: T:Ans.Net10.Common.StringParser
+  href: Ans.Net10.Common.StringParser.html
+  name: StringParser
+  nameWithType: StringParser
+  fullName: Ans.Net10.Common.StringParser
+- uid: Ans.Net10.Common.TinyBreakerHelper
+  commentId: T:Ans.Net10.Common.TinyBreakerHelper
+  href: Ans.Net10.Common.TinyBreakerHelper.html
+  name: TinyBreakerHelper
+  nameWithType: TinyBreakerHelper
+  fullName: Ans.Net10.Common.TinyBreakerHelper
+- uid: Ans.Net10.Common.TinyLogWriterHelper
+  commentId: T:Ans.Net10.Common.TinyLogWriterHelper
+  href: Ans.Net10.Common.TinyLogWriterHelper.html
+  name: TinyLogWriterHelper
+  nameWithType: TinyLogWriterHelper
+  fullName: Ans.Net10.Common.TinyLogWriterHelper
+- uid: Ans.Net10.Common.TinyTimerHelper
+  commentId: T:Ans.Net10.Common.TinyTimerHelper
+  href: Ans.Net10.Common.TinyTimerHelper.html
+  name: TinyTimerHelper
+  nameWithType: TinyTimerHelper
+  fullName: Ans.Net10.Common.TinyTimerHelper
+- uid: Ans.Net10.Common.ITreeEntity
+  commentId: T:Ans.Net10.Common.ITreeEntity
+  href: Ans.Net10.Common.ITreeEntity.html
+  name: ITreeEntity
+  nameWithType: ITreeEntity
+  fullName: Ans.Net10.Common.ITreeEntity
+- uid: Ans.Net10.Common.TreeEntityWrapper`1
+  commentId: T:Ans.Net10.Common.TreeEntityWrapper`1
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.TreeEntityWrapper-1.html
+  name: TreeEntityWrapper<TEntity>
+  nameWithType: TreeEntityWrapper<TEntity>
+  fullName: Ans.Net10.Common.TreeEntityWrapper<TEntity>
+  nameWithType.vb: TreeEntityWrapper(Of TEntity)
+  fullName.vb: Ans.Net10.Common.TreeEntityWrapper(Of TEntity)
+  name.vb: TreeEntityWrapper(Of TEntity)
+  spec.csharp:
+  - uid: Ans.Net10.Common.TreeEntityWrapper`1
+    name: TreeEntityWrapper
+    href: Ans.Net10.Common.TreeEntityWrapper-1.html
+  - name: <
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: Ans.Net10.Common.TreeEntityWrapper`1
+    name: TreeEntityWrapper
+    href: Ans.Net10.Common.TreeEntityWrapper-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: Ans.Net10.Common.TreeEntityHelper`1
+  commentId: T:Ans.Net10.Common.TreeEntityHelper`1
+  href: Ans.Net10.Common.TreeEntityHelper-1.html
+  name: TreeEntityHelper<TEntity>
+  nameWithType: TreeEntityHelper<TEntity>
+  fullName: Ans.Net10.Common.TreeEntityHelper<TEntity>
+  nameWithType.vb: TreeEntityHelper(Of TEntity)
+  fullName.vb: Ans.Net10.Common.TreeEntityHelper(Of TEntity)
+  name.vb: TreeEntityHelper(Of TEntity)
+  spec.csharp:
+  - uid: Ans.Net10.Common.TreeEntityHelper`1
+    name: TreeEntityHelper
+    href: Ans.Net10.Common.TreeEntityHelper-1.html
+  - name: <
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: Ans.Net10.Common.TreeEntityHelper`1
+    name: TreeEntityHelper
+    href: Ans.Net10.Common.TreeEntityHelper-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: Ans.Net10.Common.TypografHelper
+  commentId: T:Ans.Net10.Common.TypografHelper
+  href: Ans.Net10.Common.TypografHelper.html
+  name: TypografHelper
+  nameWithType: TypografHelper
+  fullName: Ans.Net10.Common.TypografHelper
+- uid: Ans.Net10.Common.WebApiCachedHelper`1
+  commentId: T:Ans.Net10.Common.WebApiCachedHelper`1
+  href: Ans.Net10.Common.WebApiCachedHelper-1.html
+  name: WebApiCachedHelper<T>
+  nameWithType: WebApiCachedHelper<T>
+  fullName: Ans.Net10.Common.WebApiCachedHelper<T>
+  nameWithType.vb: WebApiCachedHelper(Of T)
+  fullName.vb: Ans.Net10.Common.WebApiCachedHelper(Of T)
+  name.vb: WebApiCachedHelper(Of T)
+  spec.csharp:
+  - uid: Ans.Net10.Common.WebApiCachedHelper`1
+    name: WebApiCachedHelper
+    href: Ans.Net10.Common.WebApiCachedHelper-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Ans.Net10.Common.WebApiCachedHelper`1
+    name: WebApiCachedHelper
+    href: Ans.Net10.Common.WebApiCachedHelper-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Ans.Net10.Common.WebApiResult`1
+  commentId: T:Ans.Net10.Common.WebApiResult`1
+  href: Ans.Net10.Common.WebApiResult-1.html
+  name: WebApiResult<T>
+  nameWithType: WebApiResult<T>
+  fullName: Ans.Net10.Common.WebApiResult<T>
+  nameWithType.vb: WebApiResult(Of T)
+  fullName.vb: Ans.Net10.Common.WebApiResult(Of T)
+  name.vb: WebApiResult(Of T)
+  spec.csharp:
+  - uid: Ans.Net10.Common.WebApiResult`1
+    name: WebApiResult
+    href: Ans.Net10.Common.WebApiResult-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Ans.Net10.Common.WebApiResult`1
+    name: WebApiResult
+    href: Ans.Net10.Common.WebApiResult-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Ans.Net10.Common.WebApiHelper`1
+  commentId: T:Ans.Net10.Common.WebApiHelper`1
+  href: Ans.Net10.Common.WebApiHelper-1.html
+  name: WebApiHelper<T>
+  nameWithType: WebApiHelper<T>
+  fullName: Ans.Net10.Common.WebApiHelper<T>
+  nameWithType.vb: WebApiHelper(Of T)
+  fullName.vb: Ans.Net10.Common.WebApiHelper(Of T)
+  name.vb: WebApiHelper(Of T)
+  spec.csharp:
+  - uid: Ans.Net10.Common.WebApiHelper`1
+    name: WebApiHelper
+    href: Ans.Net10.Common.WebApiHelper-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Ans.Net10.Common.WebApiHelper`1
+    name: WebApiHelper
+    href: Ans.Net10.Common.WebApiHelper-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Ans.Net10.Common.WebGridCachedHelper`1
+  commentId: T:Ans.Net10.Common.WebGridCachedHelper`1
+  href: Ans.Net10.Common.WebGridCachedHelper-1.html
+  name: WebGridCachedHelper<T>
+  nameWithType: WebGridCachedHelper<T>
+  fullName: Ans.Net10.Common.WebGridCachedHelper<T>
+  nameWithType.vb: WebGridCachedHelper(Of T)
+  fullName.vb: Ans.Net10.Common.WebGridCachedHelper(Of T)
+  name.vb: WebGridCachedHelper(Of T)
+  spec.csharp:
+  - uid: Ans.Net10.Common.WebGridCachedHelper`1
+    name: WebGridCachedHelper
+    href: Ans.Net10.Common.WebGridCachedHelper-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Ans.Net10.Common.WebGridCachedHelper`1
+    name: WebGridCachedHelper
+    href: Ans.Net10.Common.WebGridCachedHelper-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Ans.Net10.Common.WebGridResult`1
+  commentId: T:Ans.Net10.Common.WebGridResult`1
+  href: Ans.Net10.Common.WebGridResult-1.html
+  name: WebGridResult<T>
+  nameWithType: WebGridResult<T>
+  fullName: Ans.Net10.Common.WebGridResult<T>
+  nameWithType.vb: WebGridResult(Of T)
+  fullName.vb: Ans.Net10.Common.WebGridResult(Of T)
+  name.vb: WebGridResult(Of T)
+  spec.csharp:
+  - uid: Ans.Net10.Common.WebGridResult`1
+    name: WebGridResult
+    href: Ans.Net10.Common.WebGridResult-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Ans.Net10.Common.WebGridResult`1
+    name: WebGridResult
+    href: Ans.Net10.Common.WebGridResult-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Ans.Net10.Common.WebGridHelper`1
+  commentId: T:Ans.Net10.Common.WebGridHelper`1
+  href: Ans.Net10.Common.WebGridHelper-1.html
+  name: WebGridHelper<T>
+  nameWithType: WebGridHelper<T>
+  fullName: Ans.Net10.Common.WebGridHelper<T>
+  nameWithType.vb: WebGridHelper(Of T)
+  fullName.vb: Ans.Net10.Common.WebGridHelper(Of T)
+  name.vb: WebGridHelper(Of T)
+  spec.csharp:
+  - uid: Ans.Net10.Common.WebGridHelper`1
+    name: WebGridHelper
+    href: Ans.Net10.Common.WebGridHelper-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Ans.Net10.Common.WebGridHelper`1
+    name: WebGridHelper
+    href: Ans.Net10.Common.WebGridHelper-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Ans.Net10.Common.WidthsEnum
+  commentId: T:Ans.Net10.Common.WidthsEnum
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.WidthsEnum.html
+  name: WidthsEnum
+  nameWithType: WidthsEnum
+  fullName: Ans.Net10.Common.WidthsEnum
+- uid: Ans.Net10.Common.WidthWrapper
+  commentId: T:Ans.Net10.Common.WidthWrapper
+  href: Ans.Net10.Common.WidthWrapper.html
+  name: WidthWrapper
+  nameWithType: WidthWrapper
+  fullName: Ans.Net10.Common.WidthWrapper
+- uid: Ans.Net10.Common._Dict_Proto`2
+  commentId: T:Ans.Net10.Common._Dict_Proto`2
+  href: Ans.Net10.Common._Dict_Proto-2.html
+  name: _Dict_Proto<TKey, TValue>
+  nameWithType: _Dict_Proto<TKey, TValue>
+  fullName: Ans.Net10.Common._Dict_Proto<TKey, TValue>
+  nameWithType.vb: _Dict_Proto(Of TKey, TValue)
+  fullName.vb: Ans.Net10.Common._Dict_Proto(Of TKey, TValue)
+  name.vb: _Dict_Proto(Of TKey, TValue)
+  spec.csharp:
+  - uid: Ans.Net10.Common._Dict_Proto`2
+    name: _Dict_Proto
+    href: Ans.Net10.Common._Dict_Proto-2.html
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: Ans.Net10.Common._Dict_Proto`2
+    name: _Dict_Proto
+    href: Ans.Net10.Common._Dict_Proto-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: Ans.Net10.Common._ListPaginatedModel_Base`2
+  commentId: T:Ans.Net10.Common._ListPaginatedModel_Base`2
+  href: Ans.Net10.Common._ListPaginatedModel_Base-2.html
+  name: _ListPaginatedModel_Base<TEntity, TModel>
+  nameWithType: _ListPaginatedModel_Base<TEntity, TModel>
+  fullName: Ans.Net10.Common._ListPaginatedModel_Base<TEntity, TModel>
+  nameWithType.vb: _ListPaginatedModel_Base(Of TEntity, TModel)
+  fullName.vb: Ans.Net10.Common._ListPaginatedModel_Base(Of TEntity, TModel)
+  name.vb: _ListPaginatedModel_Base(Of TEntity, TModel)
+  spec.csharp:
+  - uid: Ans.Net10.Common._ListPaginatedModel_Base`2
+    name: _ListPaginatedModel_Base
+    href: Ans.Net10.Common._ListPaginatedModel_Base-2.html
+  - name: <
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TModel
+  - name: '>'
+  spec.vb:
+  - uid: Ans.Net10.Common._ListPaginatedModel_Base`2
+    name: _ListPaginatedModel_Base
+    href: Ans.Net10.Common._ListPaginatedModel_Base-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TModel
+  - name: )
+- uid: Ans.Net10.Common.ITreeItem
+  commentId: T:Ans.Net10.Common.ITreeItem
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.ITreeItem.html
+  name: ITreeItem
+  nameWithType: ITreeItem
+  fullName: Ans.Net10.Common.ITreeItem
+- uid: Ans.Net10.Common._TreeItem_Base
+  commentId: T:Ans.Net10.Common._TreeItem_Base
+  href: Ans.Net10.Common._TreeItem_Base.html
+  name: _TreeItem_Base
+  nameWithType: _TreeItem_Base
+  fullName: Ans.Net10.Common._TreeItem_Base
+- uid: Ans.Net10.Common.TagAttributesBuilder
+  commentId: T:Ans.Net10.Common.TagAttributesBuilder
+  href: Ans.Net10.Common.TagAttributesBuilder.html
+  name: TagAttributesBuilder
+  nameWithType: TagAttributesBuilder
+  fullName: Ans.Net10.Common.TagAttributesBuilder
+- uid: Ans.Net10.Common.TagClassesBuilder
+  commentId: T:Ans.Net10.Common.TagClassesBuilder
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.TagClassesBuilder.html
+  name: TagClassesBuilder
+  nameWithType: TagClassesBuilder
+  fullName: Ans.Net10.Common.TagClassesBuilder
+- uid: Ans.Net10.Common.TagStyler
+  commentId: T:Ans.Net10.Common.TagStyler
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.TagStyler.html
+  name: TagStyler
+  nameWithType: TagStyler
+  fullName: Ans.Net10.Common.TagStyler
+- uid: Ans.Net10.Common.TagStylesBuilder
+  commentId: T:Ans.Net10.Common.TagStylesBuilder
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.TagStylesBuilder.html
+  name: TagStylesBuilder
+  nameWithType: TagStylesBuilder
+  fullName: Ans.Net10.Common.TagStylesBuilder
+- uid: Ans.Net10.Common._Consts
+  commentId: T:Ans.Net10.Common._Consts
+  href: Ans.Net10.Common._Consts.html
+  name: _Consts
+  nameWithType: _Consts
+  fullName: Ans.Net10.Common._Consts
+- uid: Ans.Net10.Common.RegistryModeEnum
+  commentId: T:Ans.Net10.Common.RegistryModeEnum
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.RegistryModeEnum.html
+  name: RegistryModeEnum
+  nameWithType: RegistryModeEnum
+  fullName: Ans.Net10.Common.RegistryModeEnum
+- uid: Ans.Net10.Common.WidthEnum
+  commentId: T:Ans.Net10.Common.WidthEnum
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.WidthEnum.html
+  name: WidthEnum
+  nameWithType: WidthEnum
+  fullName: Ans.Net10.Common.WidthEnum
+- uid: Ans.Net10.Common.EncodingsEnum
+  commentId: T:Ans.Net10.Common.EncodingsEnum
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.EncodingsEnum.html
+  name: EncodingsEnum
+  nameWithType: EncodingsEnum
+  fullName: Ans.Net10.Common.EncodingsEnum
+- uid: Ans.Net10.Common.LetterCasesEnum
+  commentId: T:Ans.Net10.Common.LetterCasesEnum
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.LetterCasesEnum.html
+  name: LetterCasesEnum
+  nameWithType: LetterCasesEnum
+  fullName: Ans.Net10.Common.LetterCasesEnum
+- uid: Ans.Net10.Common.WordCasesEnum
+  commentId: T:Ans.Net10.Common.WordCasesEnum
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.WordCasesEnum.html
+  name: WordCasesEnum
+  nameWithType: WordCasesEnum
+  fullName: Ans.Net10.Common.WordCasesEnum
+- uid: Ans.Net10.Common.GenderEnum
+  commentId: T:Ans.Net10.Common.GenderEnum
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.GenderEnum.html
+  name: GenderEnum
+  nameWithType: GenderEnum
+  fullName: Ans.Net10.Common.GenderEnum
+- uid: Ans.Net10.Common._e_Claims
+  commentId: T:Ans.Net10.Common._e_Claims
+  href: Ans.Net10.Common._e_Claims.html
+  name: _e_Claims
+  nameWithType: _e_Claims
+  fullName: Ans.Net10.Common._e_Claims
+- uid: Ans.Net10.Common._e_DateTime
+  commentId: T:Ans.Net10.Common._e_DateTime
+  href: Ans.Net10.Common._e_DateTime.html
+  name: _e_DateTime
+  nameWithType: _e_DateTime
+  fullName: Ans.Net10.Common._e_DateTime
+- uid: Ans.Net10.Common._e_DbSet
+  commentId: T:Ans.Net10.Common._e_DbSet
+  href: Ans.Net10.Common._e_DbSet.html
+  name: _e_DbSet
+  nameWithType: _e_DbSet
+  fullName: Ans.Net10.Common._e_DbSet
+- uid: Ans.Net10.Common._e_Exception
+  commentId: T:Ans.Net10.Common._e_Exception
+  href: Ans.Net10.Common._e_Exception.html
+  name: _e_Exception
+  nameWithType: _e_Exception
+  fullName: Ans.Net10.Common._e_Exception
+- uid: Ans.Net10.Common._e_IPAddress
+  commentId: T:Ans.Net10.Common._e_IPAddress
+  href: Ans.Net10.Common._e_IPAddress.html
+  name: _e_IPAddress
+  nameWithType: _e_IPAddress
+  fullName: Ans.Net10.Common._e_IPAddress
+- uid: Ans.Net10.Common._e_String
+  commentId: T:Ans.Net10.Common._e_String
+  href: Ans.Net10.Common._e_String.html
+  name: _e_String
+  nameWithType: _e_String
+  fullName: Ans.Net10.Common._e_String
+- uid: Ans.Net10.Common._e_StringBuilder
+  commentId: T:Ans.Net10.Common._e_StringBuilder
+  href: Ans.Net10.Common._e_StringBuilder.html
+  name: _e_StringBuilder
+  nameWithType: _e_StringBuilder
+  fullName: Ans.Net10.Common._e_StringBuilder
+- uid: Ans.Net10.Common.__e
+  commentId: T:Ans.Net10.Common.__e
+  href: Ans.Net10.Common.__e.html
+  name: __e
+  nameWithType: __e
+  fullName: Ans.Net10.Common.__e
+- uid: Ans.Net10.Common.__e_collections
+  commentId: T:Ans.Net10.Common.__e_collections
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.__e_collections.html
+  name: __e_collections
+  nameWithType: __e_collections
+  fullName: Ans.Net10.Common.__e_collections
+- uid: Ans.Net10.Common.__e_di
+  commentId: T:Ans.Net10.Common.__e_di
+  href: Ans.Net10.Common.__e_di.html
+  name: __e_di
+  nameWithType: __e_di
+  fullName: Ans.Net10.Common.__e_di
+- uid: Ans.Net10.Common.__e_dictionary
+  commentId: T:Ans.Net10.Common.__e_dictionary
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.__e_dictionary.html
+  name: __e_dictionary
+  nameWithType: __e_dictionary
+  fullName: Ans.Net10.Common.__e_dictionary
+- uid: Ans.Net10.Common.__e_io
+  commentId: T:Ans.Net10.Common.__e_io
+  href: Ans.Net10.Common.__e_io.html
+  name: __e_io
+  nameWithType: __e_io
+  fullName: Ans.Net10.Common.__e_io
+- uid: Ans.Net10.Common.__e_linq
+  commentId: T:Ans.Net10.Common.__e_linq
+  href: Ans.Net10.Common.__e_linq.html
+  name: __e_linq
+  nameWithType: __e_linq
+  fullName: Ans.Net10.Common.__e_linq
+- uid: Ans.Net10.Common.__e_make
+  commentId: T:Ans.Net10.Common.__e_make
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.__e_make.html
+  name: __e_make
+  nameWithType: __e_make
+  fullName: Ans.Net10.Common.__e_make
+- uid: Ans.Net10.Common.__e_reflection
+  commentId: T:Ans.Net10.Common.__e_reflection
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.__e_reflection.html
+  name: __e_reflection
+  nameWithType: __e_reflection
+  fullName: Ans.Net10.Common.__e_reflection
+- uid: Ans.Net10.Common.__e_to
+  commentId: T:Ans.Net10.Common.__e_to
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.__e_to.html
+  name: __e_to
+  nameWithType: __e_to
+  fullName: Ans.Net10.Common.__e_to
+- uid: Ans.Net10.Common.__e_typograph
+  commentId: T:Ans.Net10.Common.__e_typograph
+  href: Ans.Net10.Common.__e_typograph.html
+  name: __e_typograph
+  nameWithType: __e_typograph
+  fullName: Ans.Net10.Common.__e_typograph
+- uid: Ans.Net10.Common.SuppApp
+  commentId: T:Ans.Net10.Common.SuppApp
+  href: Ans.Net10.Common.SuppApp.html
+  name: SuppApp
+  nameWithType: SuppApp
+  fullName: Ans.Net10.Common.SuppApp
+- uid: Ans.Net10.Common.SuppCache
+  commentId: T:Ans.Net10.Common.SuppCache
+  href: Ans.Net10.Common.SuppCache.html
+  name: SuppCache
+  nameWithType: SuppCache
+  fullName: Ans.Net10.Common.SuppCache
+- uid: Ans.Net10.Common.SuppConsole
+  commentId: T:Ans.Net10.Common.SuppConsole
+  href: Ans.Net10.Common.SuppConsole.html
+  name: SuppConsole
+  nameWithType: SuppConsole
+  fullName: Ans.Net10.Common.SuppConsole
+- uid: Ans.Net10.Common.SuppCrud
+  commentId: T:Ans.Net10.Common.SuppCrud
+  href: Ans.Net10.Common.SuppCrud.html
+  name: SuppCrud
+  nameWithType: SuppCrud
+  fullName: Ans.Net10.Common.SuppCrud
+- uid: Ans.Net10.Common.SuppCrypto
+  commentId: T:Ans.Net10.Common.SuppCrypto
+  href: Ans.Net10.Common.SuppCrypto.html
+  name: SuppCrypto
+  nameWithType: SuppCrypto
+  fullName: Ans.Net10.Common.SuppCrypto
+- uid: Ans.Net10.Common.SuppCsv
+  commentId: T:Ans.Net10.Common.SuppCsv
+  href: Ans.Net10.Common.SuppCsv.html
+  name: SuppCsv
+  nameWithType: SuppCsv
+  fullName: Ans.Net10.Common.SuppCsv
+- uid: Ans.Net10.Common.SuppCulture
+  commentId: T:Ans.Net10.Common.SuppCulture
+  href: Ans.Net10.Common.SuppCulture.html
+  name: SuppCulture
+  nameWithType: SuppCulture
+  fullName: Ans.Net10.Common.SuppCulture
+- uid: Ans.Net10.Common.SuppDateTime
+  commentId: T:Ans.Net10.Common.SuppDateTime
+  href: Ans.Net10.Common.SuppDateTime.html
+  name: SuppDateTime
+  nameWithType: SuppDateTime
+  fullName: Ans.Net10.Common.SuppDateTime
+- uid: Ans.Net10.Common.SuppDictionary
+  commentId: T:Ans.Net10.Common.SuppDictionary
+  href: Ans.Net10.Common.SuppDictionary.html
+  name: SuppDictionary
+  nameWithType: SuppDictionary
+  fullName: Ans.Net10.Common.SuppDictionary
+- uid: Ans.Net10.Common.SuppDynamic
+  commentId: T:Ans.Net10.Common.SuppDynamic
+  href: Ans.Net10.Common.SuppDynamic.html
+  name: SuppDynamic
+  nameWithType: SuppDynamic
+  fullName: Ans.Net10.Common.SuppDynamic
+- uid: Ans.Net10.Common.SuppGrid
+  commentId: T:Ans.Net10.Common.SuppGrid
+  href: Ans.Net10.Common.SuppGrid.html
+  name: SuppGrid
+  nameWithType: SuppGrid
+  fullName: Ans.Net10.Common.SuppGrid
+- uid: Ans.Net10.Common.SuppIO
+  commentId: T:Ans.Net10.Common.SuppIO
+  href: Ans.Net10.Common.SuppIO.html
+  name: SuppIO
+  nameWithType: SuppIO
+  fullName: Ans.Net10.Common.SuppIO
+- uid: Ans.Net10.Common.SuppJson
+  commentId: T:Ans.Net10.Common.SuppJson
+  href: Ans.Net10.Common.SuppJson.html
+  name: SuppJson
+  nameWithType: SuppJson
+  fullName: Ans.Net10.Common.SuppJson
+- uid: Ans.Net10.Common.SuppLangEn
+  commentId: T:Ans.Net10.Common.SuppLangEn
+  href: Ans.Net10.Common.SuppLangEn.html
+  name: SuppLangEn
+  nameWithType: SuppLangEn
+  fullName: Ans.Net10.Common.SuppLangEn
+- uid: Ans.Net10.Common.SuppLangRu
+  commentId: T:Ans.Net10.Common.SuppLangRu
+  href: Ans.Net10.Common.SuppLangRu.html
+  name: SuppLangRu
+  nameWithType: SuppLangRu
+  fullName: Ans.Net10.Common.SuppLangRu
+- uid: Ans.Net10.Common.SuppLinq
+  commentId: T:Ans.Net10.Common.SuppLinq
+  href: Ans.Net10.Common.SuppLinq.html
+  name: SuppLinq
+  nameWithType: SuppLinq
+  fullName: Ans.Net10.Common.SuppLinq
+- uid: Ans.Net10.Common.SuppMath
+  commentId: T:Ans.Net10.Common.SuppMath
+  href: Ans.Net10.Common.SuppMath.html
+  name: SuppMath
+  nameWithType: SuppMath
+  fullName: Ans.Net10.Common.SuppMath
+- uid: Ans.Net10.Common.SuppRandom
+  commentId: T:Ans.Net10.Common.SuppRandom
+  href: Ans.Net10.Common.SuppRandom.html
+  name: SuppRandom
+  nameWithType: SuppRandom
+  fullName: Ans.Net10.Common.SuppRandom
+- uid: Ans.Net10.Common.SuppReflection
+  commentId: T:Ans.Net10.Common.SuppReflection
+  href: Ans.Net10.Common.SuppReflection.html
+  name: SuppReflection
+  nameWithType: SuppReflection
+  fullName: Ans.Net10.Common.SuppReflection
+- uid: Ans.Net10.Common.SuppRegex
+  commentId: T:Ans.Net10.Common.SuppRegex
+  href: Ans.Net10.Common.SuppRegex.html
+  name: SuppRegex
+  nameWithType: SuppRegex
+  fullName: Ans.Net10.Common.SuppRegex
+- uid: Ans.Net10.Common.SuppResources
+  commentId: T:Ans.Net10.Common.SuppResources
+  href: Ans.Net10.Common.SuppResources.html
+  name: SuppResources
+  nameWithType: SuppResources
+  fullName: Ans.Net10.Common.SuppResources
+- uid: Ans.Net10.Common.SuppString
+  commentId: T:Ans.Net10.Common.SuppString
+  href: Ans.Net10.Common.SuppString.html
+  name: SuppString
+  nameWithType: SuppString
+  fullName: Ans.Net10.Common.SuppString
+- uid: Ans.Net10.Common.SuppStringBuilder
+  commentId: T:Ans.Net10.Common.SuppStringBuilder
+  href: Ans.Net10.Common.SuppStringBuilder.html
+  name: SuppStringBuilder
+  nameWithType: SuppStringBuilder
+  fullName: Ans.Net10.Common.SuppStringBuilder
+- uid: Ans.Net10.Common.SuppTypograph
+  commentId: T:Ans.Net10.Common.SuppTypograph
+  href: Ans.Net10.Common.SuppTypograph.html
+  name: SuppTypograph
+  nameWithType: SuppTypograph
+  fullName: Ans.Net10.Common.SuppTypograph
+- uid: Ans.Net10.Common.SuppValues
+  commentId: T:Ans.Net10.Common.SuppValues
+  href: Ans.Net10.Common.SuppValues.html
+  name: SuppValues
+  nameWithType: SuppValues
+  fullName: Ans.Net10.Common.SuppValues
+- uid: Ans.Net10.Common.SuppXml
+  commentId: T:Ans.Net10.Common.SuppXml
+  href: Ans.Net10.Common.SuppXml.html
+  name: SuppXml
+  nameWithType: SuppXml
+  fullName: Ans.Net10.Common.SuppXml
+- uid: Ans.Net10.Common
+  commentId: N:Ans.Net10.Common
+  href: Ans.html
+  name: Ans.Net10.Common
+  nameWithType: Ans.Net10.Common
+  fullName: Ans.Net10.Common
+  spec.csharp:
+  - uid: Ans
+    name: Ans
+    href: Ans.html
+  - name: .
+  - uid: Ans.Net10
+    name: Net10
+    href: Ans.Net10.html
+  - name: .
+  - uid: Ans.Net10.Common
+    name: Common
+    href: Ans.Net10.Common.html
+  spec.vb:
+  - uid: Ans
+    name: Ans
+    href: Ans.html
+  - name: .
+  - uid: Ans.Net10
+    name: Net10
+    href: Ans.Net10.html
+  - name: .
+  - uid: Ans.Net10.Common
+    name: Common
+    href: Ans.Net10.Common.html

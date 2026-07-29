@@ -1,0 +1,273 @@
+### YamlMime:ManagedReference
+items:
+- uid: Ans.Net10.Common.Crud
+  commentId: N:Ans.Net10.Common.Crud
+  id: Ans.Net10.Common.Crud
+  children:
+  - Ans.Net10.Common.Crud.CrudEntityAfterAddEnum
+  - Ans.Net10.Common.Crud.CrudEntityTypeEnum
+  - Ans.Net10.Common.Crud.CrudFieldModeEnum
+  - Ans.Net10.Common.Crud.CrudFieldRegistryModeEnum
+  - Ans.Net10.Common.Crud.CrudFieldTypeEnum
+  - Ans.Net10.Common.Crud.CrudManyrefViewEnum
+  - Ans.Net10.Common.Crud.ICrudMasterRepository`1
+  - Ans.Net10.Common.Crud.ICrudRepository`1
+  - Ans.Net10.Common.Crud.ICrudSlaveRepository`1
+  - Ans.Net10.Common.Crud.IMasterEntity
+  - Ans.Net10.Common.Crud.ISlaveEntity
+  - Ans.Net10.Common.Crud._CrudMasterRepository_Proto`1
+  - Ans.Net10.Common.Crud._CrudSlaveRepository_Proto`1
+  - Ans.Net10.Common.Crud.__CrudRepository_Base`1
+  langs:
+  - csharp
+  - vb
+  name: Ans.Net10.Common.Crud
+  nameWithType: Ans.Net10.Common.Crud
+  fullName: Ans.Net10.Common.Crud
+  type: Namespace
+  assemblies:
+  - Ans.Net10.Common
+references:
+- uid: Ans.Net10.Common.Crud.IMasterEntity
+  commentId: T:Ans.Net10.Common.Crud.IMasterEntity
+  parent: Ans.Net10.Common.Crud
+  href: Ans.Net10.Common.Crud.IMasterEntity.html
+  name: IMasterEntity
+  nameWithType: IMasterEntity
+  fullName: Ans.Net10.Common.Crud.IMasterEntity
+- uid: Ans.Net10.Common.Crud.ICrudMasterRepository`1
+  commentId: T:Ans.Net10.Common.Crud.ICrudMasterRepository`1
+  href: Ans.Net10.Common.Crud.ICrudMasterRepository-1.html
+  name: ICrudMasterRepository<T>
+  nameWithType: ICrudMasterRepository<T>
+  fullName: Ans.Net10.Common.Crud.ICrudMasterRepository<T>
+  nameWithType.vb: ICrudMasterRepository(Of T)
+  fullName.vb: Ans.Net10.Common.Crud.ICrudMasterRepository(Of T)
+  name.vb: ICrudMasterRepository(Of T)
+  spec.csharp:
+  - uid: Ans.Net10.Common.Crud.ICrudMasterRepository`1
+    name: ICrudMasterRepository
+    href: Ans.Net10.Common.Crud.ICrudMasterRepository-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Ans.Net10.Common.Crud.ICrudMasterRepository`1
+    name: ICrudMasterRepository
+    href: Ans.Net10.Common.Crud.ICrudMasterRepository-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Ans.Net10.Common.Crud._CrudMasterRepository_Proto`1
+  commentId: T:Ans.Net10.Common.Crud._CrudMasterRepository_Proto`1
+  href: Ans.Net10.Common.Crud._CrudMasterRepository_Proto-1.html
+  name: _CrudMasterRepository_Proto<T>
+  nameWithType: _CrudMasterRepository_Proto<T>
+  fullName: Ans.Net10.Common.Crud._CrudMasterRepository_Proto<T>
+  nameWithType.vb: _CrudMasterRepository_Proto(Of T)
+  fullName.vb: Ans.Net10.Common.Crud._CrudMasterRepository_Proto(Of T)
+  name.vb: _CrudMasterRepository_Proto(Of T)
+  spec.csharp:
+  - uid: Ans.Net10.Common.Crud._CrudMasterRepository_Proto`1
+    name: _CrudMasterRepository_Proto
+    href: Ans.Net10.Common.Crud._CrudMasterRepository_Proto-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Ans.Net10.Common.Crud._CrudMasterRepository_Proto`1
+    name: _CrudMasterRepository_Proto
+    href: Ans.Net10.Common.Crud._CrudMasterRepository_Proto-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Ans.Net10.Common.Crud.ISlaveEntity
+  commentId: T:Ans.Net10.Common.Crud.ISlaveEntity
+  href: Ans.Net10.Common.Crud.ISlaveEntity.html
+  name: ISlaveEntity
+  nameWithType: ISlaveEntity
+  fullName: Ans.Net10.Common.Crud.ISlaveEntity
+- uid: Ans.Net10.Common.Crud.ICrudSlaveRepository`1
+  commentId: T:Ans.Net10.Common.Crud.ICrudSlaveRepository`1
+  href: Ans.Net10.Common.Crud.ICrudSlaveRepository-1.html
+  name: ICrudSlaveRepository<T>
+  nameWithType: ICrudSlaveRepository<T>
+  fullName: Ans.Net10.Common.Crud.ICrudSlaveRepository<T>
+  nameWithType.vb: ICrudSlaveRepository(Of T)
+  fullName.vb: Ans.Net10.Common.Crud.ICrudSlaveRepository(Of T)
+  name.vb: ICrudSlaveRepository(Of T)
+  spec.csharp:
+  - uid: Ans.Net10.Common.Crud.ICrudSlaveRepository`1
+    name: ICrudSlaveRepository
+    href: Ans.Net10.Common.Crud.ICrudSlaveRepository-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Ans.Net10.Common.Crud.ICrudSlaveRepository`1
+    name: ICrudSlaveRepository
+    href: Ans.Net10.Common.Crud.ICrudSlaveRepository-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Ans.Net10.Common.Crud._CrudSlaveRepository_Proto`1
+  commentId: T:Ans.Net10.Common.Crud._CrudSlaveRepository_Proto`1
+  href: Ans.Net10.Common.Crud._CrudSlaveRepository_Proto-1.html
+  name: _CrudSlaveRepository_Proto<T>
+  nameWithType: _CrudSlaveRepository_Proto<T>
+  fullName: Ans.Net10.Common.Crud._CrudSlaveRepository_Proto<T>
+  nameWithType.vb: _CrudSlaveRepository_Proto(Of T)
+  fullName.vb: Ans.Net10.Common.Crud._CrudSlaveRepository_Proto(Of T)
+  name.vb: _CrudSlaveRepository_Proto(Of T)
+  spec.csharp:
+  - uid: Ans.Net10.Common.Crud._CrudSlaveRepository_Proto`1
+    name: _CrudSlaveRepository_Proto
+    href: Ans.Net10.Common.Crud._CrudSlaveRepository_Proto-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Ans.Net10.Common.Crud._CrudSlaveRepository_Proto`1
+    name: _CrudSlaveRepository_Proto
+    href: Ans.Net10.Common.Crud._CrudSlaveRepository_Proto-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Ans.Net10.Common.Crud.ICrudRepository`1
+  commentId: T:Ans.Net10.Common.Crud.ICrudRepository`1
+  href: Ans.Net10.Common.Crud.ICrudRepository-1.html
+  name: ICrudRepository<T>
+  nameWithType: ICrudRepository<T>
+  fullName: Ans.Net10.Common.Crud.ICrudRepository<T>
+  nameWithType.vb: ICrudRepository(Of T)
+  fullName.vb: Ans.Net10.Common.Crud.ICrudRepository(Of T)
+  name.vb: ICrudRepository(Of T)
+  spec.csharp:
+  - uid: Ans.Net10.Common.Crud.ICrudRepository`1
+    name: ICrudRepository
+    href: Ans.Net10.Common.Crud.ICrudRepository-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Ans.Net10.Common.Crud.ICrudRepository`1
+    name: ICrudRepository
+    href: Ans.Net10.Common.Crud.ICrudRepository-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Ans.Net10.Common.Crud.__CrudRepository_Base`1
+  commentId: T:Ans.Net10.Common.Crud.__CrudRepository_Base`1
+  href: Ans.Net10.Common.Crud.__CrudRepository_Base-1.html
+  name: __CrudRepository_Base<T>
+  nameWithType: __CrudRepository_Base<T>
+  fullName: Ans.Net10.Common.Crud.__CrudRepository_Base<T>
+  nameWithType.vb: __CrudRepository_Base(Of T)
+  fullName.vb: Ans.Net10.Common.Crud.__CrudRepository_Base(Of T)
+  name.vb: __CrudRepository_Base(Of T)
+  spec.csharp:
+  - uid: Ans.Net10.Common.Crud.__CrudRepository_Base`1
+    name: __CrudRepository_Base
+    href: Ans.Net10.Common.Crud.__CrudRepository_Base-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Ans.Net10.Common.Crud.__CrudRepository_Base`1
+    name: __CrudRepository_Base
+    href: Ans.Net10.Common.Crud.__CrudRepository_Base-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Ans.Net10.Common.Crud.CrudEntityTypeEnum
+  commentId: T:Ans.Net10.Common.Crud.CrudEntityTypeEnum
+  parent: Ans.Net10.Common.Crud
+  href: Ans.Net10.Common.Crud.CrudEntityTypeEnum.html
+  name: CrudEntityTypeEnum
+  nameWithType: CrudEntityTypeEnum
+  fullName: Ans.Net10.Common.Crud.CrudEntityTypeEnum
+- uid: Ans.Net10.Common.Crud.CrudEntityAfterAddEnum
+  commentId: T:Ans.Net10.Common.Crud.CrudEntityAfterAddEnum
+  parent: Ans.Net10.Common.Crud
+  href: Ans.Net10.Common.Crud.CrudEntityAfterAddEnum.html
+  name: CrudEntityAfterAddEnum
+  nameWithType: CrudEntityAfterAddEnum
+  fullName: Ans.Net10.Common.Crud.CrudEntityAfterAddEnum
+- uid: Ans.Net10.Common.Crud.CrudManyrefViewEnum
+  commentId: T:Ans.Net10.Common.Crud.CrudManyrefViewEnum
+  parent: Ans.Net10.Common.Crud
+  href: Ans.Net10.Common.Crud.CrudManyrefViewEnum.html
+  name: CrudManyrefViewEnum
+  nameWithType: CrudManyrefViewEnum
+  fullName: Ans.Net10.Common.Crud.CrudManyrefViewEnum
+- uid: Ans.Net10.Common.Crud.CrudFieldTypeEnum
+  commentId: T:Ans.Net10.Common.Crud.CrudFieldTypeEnum
+  parent: Ans.Net10.Common.Crud
+  href: Ans.Net10.Common.Crud.CrudFieldTypeEnum.html
+  name: CrudFieldTypeEnum
+  nameWithType: CrudFieldTypeEnum
+  fullName: Ans.Net10.Common.Crud.CrudFieldTypeEnum
+- uid: Ans.Net10.Common.Crud.CrudFieldModeEnum
+  commentId: T:Ans.Net10.Common.Crud.CrudFieldModeEnum
+  parent: Ans.Net10.Common.Crud
+  href: Ans.Net10.Common.Crud.CrudFieldModeEnum.html
+  name: CrudFieldModeEnum
+  nameWithType: CrudFieldModeEnum
+  fullName: Ans.Net10.Common.Crud.CrudFieldModeEnum
+- uid: Ans.Net10.Common.Crud.CrudFieldRegistryModeEnum
+  commentId: T:Ans.Net10.Common.Crud.CrudFieldRegistryModeEnum
+  parent: Ans.Net10.Common.Crud
+  href: Ans.Net10.Common.Crud.CrudFieldRegistryModeEnum.html
+  name: CrudFieldRegistryModeEnum
+  nameWithType: CrudFieldRegistryModeEnum
+  fullName: Ans.Net10.Common.Crud.CrudFieldRegistryModeEnum
+- uid: Ans.Net10.Common.Crud
+  commentId: N:Ans.Net10.Common.Crud
+  href: Ans.html
+  name: Ans.Net10.Common.Crud
+  nameWithType: Ans.Net10.Common.Crud
+  fullName: Ans.Net10.Common.Crud
+  spec.csharp:
+  - uid: Ans
+    name: Ans
+    href: Ans.html
+  - name: .
+  - uid: Ans.Net10
+    name: Net10
+    href: Ans.Net10.html
+  - name: .
+  - uid: Ans.Net10.Common
+    name: Common
+    href: Ans.Net10.Common.html
+  - name: .
+  - uid: Ans.Net10.Common.Crud
+    name: Crud
+    href: Ans.Net10.Common.Crud.html
+  spec.vb:
+  - uid: Ans
+    name: Ans
+    href: Ans.html
+  - name: .
+  - uid: Ans.Net10
+    name: Net10
+    href: Ans.Net10.html
+  - name: .
+  - uid: Ans.Net10.Common
+    name: Common
+    href: Ans.Net10.Common.html
+  - name: .
+  - uid: Ans.Net10.Common.Crud
+    name: Crud
+    href: Ans.Net10.Common.Crud.html

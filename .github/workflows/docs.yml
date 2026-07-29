@@ -1,0 +1,47 @@
+name: Deploy Docs
+
+on:
+  push:
+    branches: [ master ]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrently:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps: deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '10.0.x' # Укажите версию .NET, которая нужна для сборки вашего проекта
+
+    - name: Install DocFX
+      run: dotnet tool install -g docfx
+
+    - name: Build Project
+      run: dotnet build Ans.Net10.Common-master/Ans.Net10.Common.csproj # Замените на относительный путь к вашему .csproj от корня репозитория
+
+    - name: Build DocFX
+      run: docfx Ans.Net10.Common-master/_Docs/docfx.json
+
+    - name: Upload Artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: 'Ans.Net10.Common-master/_Docs/_site' # Путь к готовому сайту от корня репозитория
+
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4

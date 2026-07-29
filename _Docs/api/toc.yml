@@ -1,0 +1,468 @@
+### YamlMime:TableOfContent
+items:
+- uid: Ans.Net10.Common
+  name: Ans.Net10.Common
+  type: Namespace
+  items:
+  - uid: Ans.Net10.Common.ClassIdWrapper`1
+    name: ClassIdWrapper<T>
+    type: Class
+  - uid: Ans.Net10.Common.CollectionsComparer`3
+    name: CollectionsComparer<TCurrent, TNewest, TKey>
+    type: Class
+  - uid: Ans.Net10.Common.ConsoleMenu
+    name: ConsoleMenu
+    type: Class
+  - uid: Ans.Net10.Common.ConsoleMenuItem
+    name: ConsoleMenuItem
+    type: Class
+  - uid: Ans.Net10.Common.ContentGroupEnum
+    name: ContentGroupEnum
+    type: Enum
+  - uid: Ans.Net10.Common.ContentInfo
+    name: ContentInfo
+    type: Class
+  - uid: Ans.Net10.Common.CrudFaceHelper
+    name: CrudFaceHelper
+    type: Class
+  - uid: Ans.Net10.Common.CrudFieldInfo
+    name: CrudFieldInfo
+    type: Class
+  - uid: Ans.Net10.Common.DateTimeHelper
+    name: DateTimeHelper
+    type: Class
+  - uid: Ans.Net10.Common.DictInt
+    name: DictInt
+    type: Class
+  - uid: Ans.Net10.Common.DictString
+    name: DictString
+    type: Class
+  - uid: Ans.Net10.Common.DictTagStylers
+    name: DictTagStylers
+    type: Class
+  - uid: Ans.Net10.Common.EncodingsEnum
+    name: EncodingsEnum
+    type: Enum
+  - uid: Ans.Net10.Common.GenderEnum
+    name: GenderEnum
+    type: Enum
+  - uid: Ans.Net10.Common.ICrudFace
+    name: ICrudFace
+    type: Interface
+  - uid: Ans.Net10.Common.IPSubnet
+    name: IPSubnet
+    type: Class
+  - uid: Ans.Net10.Common.IPSubnetsList
+    name: IPSubnetsList
+    type: Class
+  - uid: Ans.Net10.Common.ITreeEntity
+    name: ITreeEntity
+    type: Interface
+  - uid: Ans.Net10.Common.ITreeItem
+    name: ITreeItem
+    type: Interface
+  - uid: Ans.Net10.Common.ImageOrientationEnum
+    name: ImageOrientationEnum
+    type: Enum
+  - uid: Ans.Net10.Common.ImageResizeHelper
+    name: ImageResizeHelper
+    type: Class
+  - uid: Ans.Net10.Common.ImageShiftEnum
+    name: ImageShiftEnum
+    type: Enum
+  - uid: Ans.Net10.Common.KeysComparer
+    name: KeysComparer
+    type: Class
+  - uid: Ans.Net10.Common.LetterCasesEnum
+    name: LetterCasesEnum
+    type: Enum
+  - uid: Ans.Net10.Common.LibCommonInfo
+    name: LibCommonInfo
+    type: Class
+  - uid: Ans.Net10.Common.MailMessageModel
+    name: MailMessageModel
+    type: Class
+  - uid: Ans.Net10.Common.MemoryCacheHelper
+    name: MemoryCacheHelper
+    type: Class
+  - uid: Ans.Net10.Common.ObjInfoBuilder
+    name: ObjInfoBuilder
+    type: Class
+  - uid: Ans.Net10.Common.ObjInfoFunction
+    name: ObjInfoFunction
+    type: Class
+  - uid: Ans.Net10.Common.ObjInfoMethod
+    name: ObjInfoMethod
+    type: Class
+  - uid: Ans.Net10.Common.ObjInfoProperty
+    name: ObjInfoProperty
+    type: Class
+  - uid: Ans.Net10.Common.OrderBuilder
+    name: OrderBuilder
+    type: Class
+  - uid: Ans.Net10.Common.OrderItem
+    name: OrderItem
+    type: Class
+  - uid: Ans.Net10.Common.PaginatedQueryableHelper`1
+    name: PaginatedQueryableHelper<TEntity>
+    type: Class
+  - uid: Ans.Net10.Common.PaginationDataModel
+    name: PaginationDataModel
+    type: Class
+  - uid: Ans.Net10.Common.PaginationHelper
+    name: PaginationHelper
+    type: Class
+  - uid: Ans.Net10.Common.PaginationModel
+    name: PaginationModel
+    type: Class
+  - uid: Ans.Net10.Common.ParamsBuilder
+    name: ParamsBuilder
+    type: Class
+  - uid: Ans.Net10.Common.ParamsCollection
+    name: ParamsCollection
+    type: Class
+  - uid: Ans.Net10.Common.RegistryGroup
+    name: RegistryGroup
+    type: Class
+  - uid: Ans.Net10.Common.RegistryItem
+    name: RegistryItem
+    type: Class
+  - uid: Ans.Net10.Common.RegistryItemEventArgs
+    name: RegistryItemEventArgs
+    type: Class
+  - uid: Ans.Net10.Common.RegistryItemEventHandler
+    name: RegistryItemEventHandler
+    type: Delegate
+  - uid: Ans.Net10.Common.RegistryList
+    name: RegistryList
+    type: Class
+  - uid: Ans.Net10.Common.RegistryModeEnum
+    name: RegistryModeEnum
+    type: Enum
+  - uid: Ans.Net10.Common.ResourcesHelper
+    name: ResourcesHelper
+    type: Class
+  - uid: Ans.Net10.Common.StringParser
+    name: StringParser
+    type: Class
+  - uid: Ans.Net10.Common.SuppApp
+    name: SuppApp
+    type: Class
+  - uid: Ans.Net10.Common.SuppCache
+    name: SuppCache
+    type: Class
+  - uid: Ans.Net10.Common.SuppConsole
+    name: SuppConsole
+    type: Class
+  - uid: Ans.Net10.Common.SuppCrud
+    name: SuppCrud
+    type: Class
+  - uid: Ans.Net10.Common.SuppCrypto
+    name: SuppCrypto
+    type: Class
+  - uid: Ans.Net10.Common.SuppCsv
+    name: SuppCsv
+    type: Class
+  - uid: Ans.Net10.Common.SuppCulture
+    name: SuppCulture
+    type: Class
+  - uid: Ans.Net10.Common.SuppDateTime
+    name: SuppDateTime
+    type: Class
+  - uid: Ans.Net10.Common.SuppDictionary
+    name: SuppDictionary
+    type: Class
+  - uid: Ans.Net10.Common.SuppDynamic
+    name: SuppDynamic
+    type: Class
+  - uid: Ans.Net10.Common.SuppGrid
+    name: SuppGrid
+    type: Class
+  - uid: Ans.Net10.Common.SuppIO
+    name: SuppIO
+    type: Class
+  - uid: Ans.Net10.Common.SuppJson
+    name: SuppJson
+    type: Class
+  - uid: Ans.Net10.Common.SuppLangEn
+    name: SuppLangEn
+    type: Class
+  - uid: Ans.Net10.Common.SuppLangRu
+    name: SuppLangRu
+    type: Class
+  - uid: Ans.Net10.Common.SuppLinq
+    name: SuppLinq
+    type: Class
+  - uid: Ans.Net10.Common.SuppMath
+    name: SuppMath
+    type: Class
+  - uid: Ans.Net10.Common.SuppRandom
+    name: SuppRandom
+    type: Class
+  - uid: Ans.Net10.Common.SuppReflection
+    name: SuppReflection
+    type: Class
+  - uid: Ans.Net10.Common.SuppRegex
+    name: SuppRegex
+    type: Class
+  - uid: Ans.Net10.Common.SuppResources
+    name: SuppResources
+    type: Class
+  - uid: Ans.Net10.Common.SuppString
+    name: SuppString
+    type: Class
+  - uid: Ans.Net10.Common.SuppStringBuilder
+    name: SuppStringBuilder
+    type: Class
+  - uid: Ans.Net10.Common.SuppTypograph
+    name: SuppTypograph
+    type: Class
+  - uid: Ans.Net10.Common.SuppValues
+    name: SuppValues
+    type: Class
+  - uid: Ans.Net10.Common.SuppXml
+    name: SuppXml
+    type: Class
+  - uid: Ans.Net10.Common.TagAttributesBuilder
+    name: TagAttributesBuilder
+    type: Class
+  - uid: Ans.Net10.Common.TagClassesBuilder
+    name: TagClassesBuilder
+    type: Class
+  - uid: Ans.Net10.Common.TagStyler
+    name: TagStyler
+    type: Class
+  - uid: Ans.Net10.Common.TagStylesBuilder
+    name: TagStylesBuilder
+    type: Class
+  - uid: Ans.Net10.Common.TensesEnum
+    name: TensesEnum
+    type: Enum
+  - uid: Ans.Net10.Common.TinyBreakerHelper
+    name: TinyBreakerHelper
+    type: Class
+  - uid: Ans.Net10.Common.TinyLogWriterHelper
+    name: TinyLogWriterHelper
+    type: Class
+  - uid: Ans.Net10.Common.TinyTimerHelper
+    name: TinyTimerHelper
+    type: Class
+  - uid: Ans.Net10.Common.TreeEntityHelper`1
+    name: TreeEntityHelper<TEntity>
+    type: Class
+  - uid: Ans.Net10.Common.TreeEntityWrapper`1
+    name: TreeEntityWrapper<TEntity>
+    type: Class
+  - uid: Ans.Net10.Common.TypografHelper
+    name: TypografHelper
+    type: Class
+  - uid: Ans.Net10.Common.WebApiCachedHelper`1
+    name: WebApiCachedHelper<T>
+    type: Class
+  - uid: Ans.Net10.Common.WebApiHelper`1
+    name: WebApiHelper<T>
+    type: Class
+  - uid: Ans.Net10.Common.WebApiResult`1
+    name: WebApiResult<T>
+    type: Class
+  - uid: Ans.Net10.Common.WebGridCachedHelper`1
+    name: WebGridCachedHelper<T>
+    type: Class
+  - uid: Ans.Net10.Common.WebGridHelper`1
+    name: WebGridHelper<T>
+    type: Class
+  - uid: Ans.Net10.Common.WebGridResult`1
+    name: WebGridResult<T>
+    type: Class
+  - uid: Ans.Net10.Common.WidthEnum
+    name: WidthEnum
+    type: Enum
+  - uid: Ans.Net10.Common.WidthWrapper
+    name: WidthWrapper
+    type: Class
+  - uid: Ans.Net10.Common.WidthsEnum
+    name: WidthsEnum
+    type: Enum
+  - uid: Ans.Net10.Common.WordCasesEnum
+    name: WordCasesEnum
+    type: Enum
+  - uid: Ans.Net10.Common._Consts
+    name: _Consts
+    type: Class
+  - uid: Ans.Net10.Common._Dict_Proto`2
+    name: _Dict_Proto<TKey, TValue>
+    type: Class
+  - uid: Ans.Net10.Common._ListPaginatedModel_Base`2
+    name: _ListPaginatedModel_Base<TEntity, TModel>
+    type: Class
+  - uid: Ans.Net10.Common._ObjInfo_Base
+    name: _ObjInfo_Base
+    type: Class
+  - uid: Ans.Net10.Common._TreeItem_Base
+    name: _TreeItem_Base
+    type: Class
+  - uid: Ans.Net10.Common.__e
+    name: __e
+    type: Class
+  - uid: Ans.Net10.Common.__e_collections
+    name: __e_collections
+    type: Class
+  - uid: Ans.Net10.Common.__e_di
+    name: __e_di
+    type: Class
+  - uid: Ans.Net10.Common.__e_dictionary
+    name: __e_dictionary
+    type: Class
+  - uid: Ans.Net10.Common.__e_io
+    name: __e_io
+    type: Class
+  - uid: Ans.Net10.Common.__e_linq
+    name: __e_linq
+    type: Class
+  - uid: Ans.Net10.Common.__e_make
+    name: __e_make
+    type: Class
+  - uid: Ans.Net10.Common.__e_reflection
+    name: __e_reflection
+    type: Class
+  - uid: Ans.Net10.Common.__e_to
+    name: __e_to
+    type: Class
+  - uid: Ans.Net10.Common.__e_typograph
+    name: __e_typograph
+    type: Class
+  - uid: Ans.Net10.Common._e_Claims
+    name: _e_Claims
+    type: Class
+  - uid: Ans.Net10.Common._e_DateTime
+    name: _e_DateTime
+    type: Class
+  - uid: Ans.Net10.Common._e_DbSet
+    name: _e_DbSet
+    type: Class
+  - uid: Ans.Net10.Common._e_Exception
+    name: _e_Exception
+    type: Class
+  - uid: Ans.Net10.Common._e_IPAddress
+    name: _e_IPAddress
+    type: Class
+  - uid: Ans.Net10.Common._e_String
+    name: _e_String
+    type: Class
+  - uid: Ans.Net10.Common._e_StringBuilder
+    name: _e_StringBuilder
+    type: Class
+- uid: Ans.Net10.Common.Attributes
+  name: Ans.Net10.Common.Attributes
+  type: Namespace
+  items:
+  - uid: Ans.Net10.Common.Attributes.AnsFieldAttribute
+    name: AnsFieldAttribute
+    type: Class
+  - uid: Ans.Net10.Common.Attributes.AnsLengthMaxAttribute
+    name: AnsLengthMaxAttribute
+    type: Class
+  - uid: Ans.Net10.Common.Attributes.AnsLengthMinAttribute
+    name: AnsLengthMinAttribute
+    type: Class
+  - uid: Ans.Net10.Common.Attributes.AnsRegexAttribute
+    name: AnsRegexAttribute
+    type: Class
+  - uid: Ans.Net10.Common.Attributes.AnsRequiredAttribute
+    name: AnsRequiredAttribute
+    type: Class
+- uid: Ans.Net10.Common.Crud
+  name: Ans.Net10.Common.Crud
+  type: Namespace
+  items:
+  - uid: Ans.Net10.Common.Crud.CrudEntityAfterAddEnum
+    name: CrudEntityAfterAddEnum
+    type: Enum
+  - uid: Ans.Net10.Common.Crud.CrudEntityTypeEnum
+    name: CrudEntityTypeEnum
+    type: Enum
+  - uid: Ans.Net10.Common.Crud.CrudFieldModeEnum
+    name: CrudFieldModeEnum
+    type: Enum
+  - uid: Ans.Net10.Common.Crud.CrudFieldRegistryModeEnum
+    name: CrudFieldRegistryModeEnum
+    type: Enum
+  - uid: Ans.Net10.Common.Crud.CrudFieldTypeEnum
+    name: CrudFieldTypeEnum
+    type: Enum
+  - uid: Ans.Net10.Common.Crud.CrudManyrefViewEnum
+    name: CrudManyrefViewEnum
+    type: Enum
+  - uid: Ans.Net10.Common.Crud.ICrudMasterRepository`1
+    name: ICrudMasterRepository<T>
+    type: Interface
+  - uid: Ans.Net10.Common.Crud.ICrudRepository`1
+    name: ICrudRepository<T>
+    type: Interface
+  - uid: Ans.Net10.Common.Crud.ICrudSlaveRepository`1
+    name: ICrudSlaveRepository<T>
+    type: Interface
+  - uid: Ans.Net10.Common.Crud.IMasterEntity
+    name: IMasterEntity
+    type: Interface
+  - uid: Ans.Net10.Common.Crud.ISlaveEntity
+    name: ISlaveEntity
+    type: Interface
+  - uid: Ans.Net10.Common.Crud._CrudMasterRepository_Proto`1
+    name: _CrudMasterRepository_Proto<T>
+    type: Class
+  - uid: Ans.Net10.Common.Crud._CrudSlaveRepository_Proto`1
+    name: _CrudSlaveRepository_Proto<T>
+    type: Class
+  - uid: Ans.Net10.Common.Crud.__CrudRepository_Base`1
+    name: __CrudRepository_Base<T>
+    type: Class
+- uid: Ans.Net10.Common.Json
+  name: Ans.Net10.Common.Json
+  type: Namespace
+  items:
+  - uid: Ans.Net10.Common.Json.AutoNumberToStringConverter
+    name: AutoNumberToStringConverter
+    type: Class
+  - uid: Ans.Net10.Common.Json.AutoStringToNumberConverter
+    name: AutoStringToNumberConverter
+    type: Class
+  - uid: Ans.Net10.Common.Json.BoolConverter
+    name: BoolConverter
+    type: Class
+  - uid: Ans.Net10.Common.Json.IntToStringConverter
+    name: IntToStringConverter
+    type: Class
+- uid: Ans.Net10.Common.Resources
+  name: Ans.Net10.Common.Resources
+  type: Namespace
+  items:
+  - uid: Ans.Net10.Common.Resources.Common
+    name: Common
+    type: Class
+  - uid: Ans.Net10.Common.Resources.Exceptions
+    name: Exceptions
+    type: Class
+  - uid: Ans.Net10.Common.Resources.Faces
+    name: Faces
+    type: Class
+  - uid: Ans.Net10.Common.Resources.Form
+    name: Form
+    type: Class
+- uid: Ans.Net10.Common.Services
+  name: Ans.Net10.Common.Services
+  type: Namespace
+  items:
+  - uid: Ans.Net10.Common.Services.AnsMailerService
+    name: AnsMailerService
+    type: Class
+  - uid: Ans.Net10.Common.Services.FakeMailerService
+    name: FakeMailerService
+    type: Class
+  - uid: Ans.Net10.Common.Services.IMailerService
+    name: IMailerService
+    type: Interface
+  - uid: Ans.Net10.Common.Services.IMailerServiceOptions
+    name: IMailerServiceOptions
+    type: Interface
+memberLayout: SamePage

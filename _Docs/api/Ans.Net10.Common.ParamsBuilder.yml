@@ -1,0 +1,1593 @@
+### YamlMime:ManagedReference
+items:
+- uid: Ans.Net10.Common.ParamsBuilder
+  commentId: T:Ans.Net10.Common.ParamsBuilder
+  id: ParamsBuilder
+  parent: Ans.Net10.Common
+  children:
+  - Ans.Net10.Common.ParamsBuilder.Append(System.String,System.Boolean)
+  - Ans.Net10.Common.ParamsBuilder.Append(System.String,System.Decimal)
+  - Ans.Net10.Common.ParamsBuilder.Append(System.String,System.Double)
+  - Ans.Net10.Common.ParamsBuilder.Append(System.String,System.Int32)
+  - Ans.Net10.Common.ParamsBuilder.Append(System.String,System.Int64)
+  - Ans.Net10.Common.ParamsBuilder.Append(System.String,System.Nullable{System.DateOnly})
+  - Ans.Net10.Common.ParamsBuilder.Append(System.String,System.Nullable{System.DateTime})
+  - Ans.Net10.Common.ParamsBuilder.Append(System.String,System.Nullable{System.TimeOnly})
+  - Ans.Net10.Common.ParamsBuilder.Append(System.String,System.Single)
+  - Ans.Net10.Common.ParamsBuilder.Append(System.String,System.String)
+  - Ans.Net10.Common.ParamsBuilder.GetString(System.String,System.Int32)
+  - Ans.Net10.Common.ParamsBuilder.GetString(System.String,System.String)
+  - Ans.Net10.Common.ParamsBuilder.Parameters
+  - Ans.Net10.Common.ParamsBuilder.ToString
+  langs:
+  - csharp
+  - vb
+  name: ParamsBuilder
+  nameWithType: ParamsBuilder
+  fullName: Ans.Net10.Common.ParamsBuilder
+  type: Class
+  source:
+    id: ParamsBuilder
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~classes\ParamsBuilder.cs
+    startLine: 3
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public class ParamsBuilder
+    content.vb: Public Class ParamsBuilder
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.Ans.Net10.Common.__e_reflection.DefaultObject``1
+  - System.Object.Ans.Net10.Common.__e_reflection.DefaultObject``1({T})
+  - System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue(System.String)
+  - System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue(System.String,System.Type)
+  - System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.String)
+  - System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.String,System.Type)
+  - System.Object.Ans.Net10.Common.__e_reflection.ToDynamic
+- uid: Ans.Net10.Common.ParamsBuilder.Parameters
+  commentId: P:Ans.Net10.Common.ParamsBuilder.Parameters
+  id: Parameters
+  parent: Ans.Net10.Common.ParamsBuilder
+  langs:
+  - csharp
+  - vb
+  name: Parameters
+  nameWithType: ParamsBuilder.Parameters
+  fullName: Ans.Net10.Common.ParamsBuilder.Parameters
+  type: Property
+  source:
+    id: Parameters
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~classes\ParamsBuilder.cs
+    startLine: 9
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public ParamsCollection Parameters { get; }
+    parameters: []
+    return:
+      type: Ans.Net10.Common.ParamsCollection
+    content.vb: Public ReadOnly Property Parameters As ParamsCollection
+  overload: Ans.Net10.Common.ParamsBuilder.Parameters*
+- uid: Ans.Net10.Common.ParamsBuilder.Append(System.String,System.String)
+  commentId: M:Ans.Net10.Common.ParamsBuilder.Append(System.String,System.String)
+  id: Append(System.String,System.String)
+  parent: Ans.Net10.Common.ParamsBuilder
+  langs:
+  - csharp
+  - vb
+  name: Append(string, string)
+  nameWithType: ParamsBuilder.Append(string, string)
+  fullName: Ans.Net10.Common.ParamsBuilder.Append(string, string)
+  type: Method
+  source:
+    id: Append
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~classes\ParamsBuilder.cs
+    startLine: 15
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public void Append(string name, string value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.String
+    content.vb: Public Sub Append(name As String, value As String)
+  overload: Ans.Net10.Common.ParamsBuilder.Append*
+  nameWithType.vb: ParamsBuilder.Append(String, String)
+  fullName.vb: Ans.Net10.Common.ParamsBuilder.Append(String, String)
+  name.vb: Append(String, String)
+- uid: Ans.Net10.Common.ParamsBuilder.Append(System.String,System.Boolean)
+  commentId: M:Ans.Net10.Common.ParamsBuilder.Append(System.String,System.Boolean)
+  id: Append(System.String,System.Boolean)
+  parent: Ans.Net10.Common.ParamsBuilder
+  langs:
+  - csharp
+  - vb
+  name: Append(string, bool)
+  nameWithType: ParamsBuilder.Append(string, bool)
+  fullName: Ans.Net10.Common.ParamsBuilder.Append(string, bool)
+  type: Method
+  source:
+    id: Append
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~classes\ParamsBuilder.cs
+    startLine: 23
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public void Append(string name, bool value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.Boolean
+    content.vb: Public Sub Append(name As String, value As Boolean)
+  overload: Ans.Net10.Common.ParamsBuilder.Append*
+  nameWithType.vb: ParamsBuilder.Append(String, Boolean)
+  fullName.vb: Ans.Net10.Common.ParamsBuilder.Append(String, Boolean)
+  name.vb: Append(String, Boolean)
+- uid: Ans.Net10.Common.ParamsBuilder.Append(System.String,System.Int32)
+  commentId: M:Ans.Net10.Common.ParamsBuilder.Append(System.String,System.Int32)
+  id: Append(System.String,System.Int32)
+  parent: Ans.Net10.Common.ParamsBuilder
+  langs:
+  - csharp
+  - vb
+  name: Append(string, int)
+  nameWithType: ParamsBuilder.Append(string, int)
+  fullName: Ans.Net10.Common.ParamsBuilder.Append(string, int)
+  type: Method
+  source:
+    id: Append
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~classes\ParamsBuilder.cs
+    startLine: 31
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public void Append(string name, int value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.Int32
+    content.vb: Public Sub Append(name As String, value As Integer)
+  overload: Ans.Net10.Common.ParamsBuilder.Append*
+  nameWithType.vb: ParamsBuilder.Append(String, Integer)
+  fullName.vb: Ans.Net10.Common.ParamsBuilder.Append(String, Integer)
+  name.vb: Append(String, Integer)
+- uid: Ans.Net10.Common.ParamsBuilder.Append(System.String,System.Int64)
+  commentId: M:Ans.Net10.Common.ParamsBuilder.Append(System.String,System.Int64)
+  id: Append(System.String,System.Int64)
+  parent: Ans.Net10.Common.ParamsBuilder
+  langs:
+  - csharp
+  - vb
+  name: Append(string, long)
+  nameWithType: ParamsBuilder.Append(string, long)
+  fullName: Ans.Net10.Common.ParamsBuilder.Append(string, long)
+  type: Method
+  source:
+    id: Append
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~classes\ParamsBuilder.cs
+    startLine: 39
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public void Append(string name, long value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.Int64
+    content.vb: Public Sub Append(name As String, value As Long)
+  overload: Ans.Net10.Common.ParamsBuilder.Append*
+  nameWithType.vb: ParamsBuilder.Append(String, Long)
+  fullName.vb: Ans.Net10.Common.ParamsBuilder.Append(String, Long)
+  name.vb: Append(String, Long)
+- uid: Ans.Net10.Common.ParamsBuilder.Append(System.String,System.Double)
+  commentId: M:Ans.Net10.Common.ParamsBuilder.Append(System.String,System.Double)
+  id: Append(System.String,System.Double)
+  parent: Ans.Net10.Common.ParamsBuilder
+  langs:
+  - csharp
+  - vb
+  name: Append(string, double)
+  nameWithType: ParamsBuilder.Append(string, double)
+  fullName: Ans.Net10.Common.ParamsBuilder.Append(string, double)
+  type: Method
+  source:
+    id: Append
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~classes\ParamsBuilder.cs
+    startLine: 47
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public void Append(string name, double value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.Double
+    content.vb: Public Sub Append(name As String, value As Double)
+  overload: Ans.Net10.Common.ParamsBuilder.Append*
+  nameWithType.vb: ParamsBuilder.Append(String, Double)
+  fullName.vb: Ans.Net10.Common.ParamsBuilder.Append(String, Double)
+  name.vb: Append(String, Double)
+- uid: Ans.Net10.Common.ParamsBuilder.Append(System.String,System.Single)
+  commentId: M:Ans.Net10.Common.ParamsBuilder.Append(System.String,System.Single)
+  id: Append(System.String,System.Single)
+  parent: Ans.Net10.Common.ParamsBuilder
+  langs:
+  - csharp
+  - vb
+  name: Append(string, float)
+  nameWithType: ParamsBuilder.Append(string, float)
+  fullName: Ans.Net10.Common.ParamsBuilder.Append(string, float)
+  type: Method
+  source:
+    id: Append
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~classes\ParamsBuilder.cs
+    startLine: 55
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public void Append(string name, float value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.Single
+    content.vb: Public Sub Append(name As String, value As Single)
+  overload: Ans.Net10.Common.ParamsBuilder.Append*
+  nameWithType.vb: ParamsBuilder.Append(String, Single)
+  fullName.vb: Ans.Net10.Common.ParamsBuilder.Append(String, Single)
+  name.vb: Append(String, Single)
+- uid: Ans.Net10.Common.ParamsBuilder.Append(System.String,System.Decimal)
+  commentId: M:Ans.Net10.Common.ParamsBuilder.Append(System.String,System.Decimal)
+  id: Append(System.String,System.Decimal)
+  parent: Ans.Net10.Common.ParamsBuilder
+  langs:
+  - csharp
+  - vb
+  name: Append(string, decimal)
+  nameWithType: ParamsBuilder.Append(string, decimal)
+  fullName: Ans.Net10.Common.ParamsBuilder.Append(string, decimal)
+  type: Method
+  source:
+    id: Append
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~classes\ParamsBuilder.cs
+    startLine: 63
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public void Append(string name, decimal value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.Decimal
+    content.vb: Public Sub Append(name As String, value As Decimal)
+  overload: Ans.Net10.Common.ParamsBuilder.Append*
+  nameWithType.vb: ParamsBuilder.Append(String, Decimal)
+  fullName.vb: Ans.Net10.Common.ParamsBuilder.Append(String, Decimal)
+  name.vb: Append(String, Decimal)
+- uid: Ans.Net10.Common.ParamsBuilder.Append(System.String,System.Nullable{System.DateTime})
+  commentId: M:Ans.Net10.Common.ParamsBuilder.Append(System.String,System.Nullable{System.DateTime})
+  id: Append(System.String,System.Nullable{System.DateTime})
+  parent: Ans.Net10.Common.ParamsBuilder
+  langs:
+  - csharp
+  - vb
+  name: Append(string, DateTime?)
+  nameWithType: ParamsBuilder.Append(string, DateTime?)
+  fullName: Ans.Net10.Common.ParamsBuilder.Append(string, System.DateTime?)
+  type: Method
+  source:
+    id: Append
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~classes\ParamsBuilder.cs
+    startLine: 71
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public void Append(string name, DateTime? value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Sub Append(name As String, value As Date?)
+  overload: Ans.Net10.Common.ParamsBuilder.Append*
+  nameWithType.vb: ParamsBuilder.Append(String, Date?)
+  fullName.vb: Ans.Net10.Common.ParamsBuilder.Append(String, Date?)
+  name.vb: Append(String, Date?)
+- uid: Ans.Net10.Common.ParamsBuilder.Append(System.String,System.Nullable{System.DateOnly})
+  commentId: M:Ans.Net10.Common.ParamsBuilder.Append(System.String,System.Nullable{System.DateOnly})
+  id: Append(System.String,System.Nullable{System.DateOnly})
+  parent: Ans.Net10.Common.ParamsBuilder
+  langs:
+  - csharp
+  - vb
+  name: Append(string, DateOnly?)
+  nameWithType: ParamsBuilder.Append(string, DateOnly?)
+  fullName: Ans.Net10.Common.ParamsBuilder.Append(string, System.DateOnly?)
+  type: Method
+  source:
+    id: Append
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~classes\ParamsBuilder.cs
+    startLine: 79
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public void Append(string name, DateOnly? value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.Nullable{System.DateOnly}
+    content.vb: Public Sub Append(name As String, value As DateOnly?)
+  overload: Ans.Net10.Common.ParamsBuilder.Append*
+  nameWithType.vb: ParamsBuilder.Append(String, DateOnly?)
+  fullName.vb: Ans.Net10.Common.ParamsBuilder.Append(String, System.DateOnly?)
+  name.vb: Append(String, DateOnly?)
+- uid: Ans.Net10.Common.ParamsBuilder.Append(System.String,System.Nullable{System.TimeOnly})
+  commentId: M:Ans.Net10.Common.ParamsBuilder.Append(System.String,System.Nullable{System.TimeOnly})
+  id: Append(System.String,System.Nullable{System.TimeOnly})
+  parent: Ans.Net10.Common.ParamsBuilder
+  langs:
+  - csharp
+  - vb
+  name: Append(string, TimeOnly?)
+  nameWithType: ParamsBuilder.Append(string, TimeOnly?)
+  fullName: Ans.Net10.Common.ParamsBuilder.Append(string, System.TimeOnly?)
+  type: Method
+  source:
+    id: Append
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~classes\ParamsBuilder.cs
+    startLine: 87
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public void Append(string name, TimeOnly? value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.Nullable{System.TimeOnly}
+    content.vb: Public Sub Append(name As String, value As TimeOnly?)
+  overload: Ans.Net10.Common.ParamsBuilder.Append*
+  nameWithType.vb: ParamsBuilder.Append(String, TimeOnly?)
+  fullName.vb: Ans.Net10.Common.ParamsBuilder.Append(String, System.TimeOnly?)
+  name.vb: Append(String, TimeOnly?)
+- uid: Ans.Net10.Common.ParamsBuilder.GetString(System.String,System.String)
+  commentId: M:Ans.Net10.Common.ParamsBuilder.GetString(System.String,System.String)
+  id: GetString(System.String,System.String)
+  parent: Ans.Net10.Common.ParamsBuilder
+  langs:
+  - csharp
+  - vb
+  name: GetString(string, string)
+  nameWithType: ParamsBuilder.GetString(string, string)
+  fullName: Ans.Net10.Common.ParamsBuilder.GetString(string, string)
+  type: Method
+  source:
+    id: GetString
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~classes\ParamsBuilder.cs
+    startLine: 98
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public string GetString(string additionName, string additionValue)
+    parameters:
+    - id: additionName
+      type: System.String
+    - id: additionValue
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetString(additionName As String, additionValue As String) As String
+  overload: Ans.Net10.Common.ParamsBuilder.GetString*
+  nameWithType.vb: ParamsBuilder.GetString(String, String)
+  fullName.vb: Ans.Net10.Common.ParamsBuilder.GetString(String, String)
+  name.vb: GetString(String, String)
+- uid: Ans.Net10.Common.ParamsBuilder.GetString(System.String,System.Int32)
+  commentId: M:Ans.Net10.Common.ParamsBuilder.GetString(System.String,System.Int32)
+  id: GetString(System.String,System.Int32)
+  parent: Ans.Net10.Common.ParamsBuilder
+  langs:
+  - csharp
+  - vb
+  name: GetString(string, int)
+  nameWithType: ParamsBuilder.GetString(string, int)
+  fullName: Ans.Net10.Common.ParamsBuilder.GetString(string, int)
+  type: Method
+  source:
+    id: GetString
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~classes\ParamsBuilder.cs
+    startLine: 110
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public string GetString(string additionName, int additionValue)
+    parameters:
+    - id: additionName
+      type: System.String
+    - id: additionValue
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function GetString(additionName As String, additionValue As Integer) As String
+  overload: Ans.Net10.Common.ParamsBuilder.GetString*
+  nameWithType.vb: ParamsBuilder.GetString(String, Integer)
+  fullName.vb: Ans.Net10.Common.ParamsBuilder.GetString(String, Integer)
+  name.vb: GetString(String, Integer)
+- uid: Ans.Net10.Common.ParamsBuilder.ToString
+  commentId: M:Ans.Net10.Common.ParamsBuilder.ToString
+  id: ToString
+  parent: Ans.Net10.Common.ParamsBuilder
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ParamsBuilder.ToString()
+  fullName: Ans.Net10.Common.ParamsBuilder.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~classes\ParamsBuilder.cs
+    startLine: 118
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  summary: Returns a string that represents the current object.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: A string that represents the current object.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: Ans.Net10.Common.ParamsBuilder.ToString*
+references:
+- uid: Ans.Net10.Common
+  commentId: N:Ans.Net10.Common
+  href: Ans.html
+  name: Ans.Net10.Common
+  nameWithType: Ans.Net10.Common
+  fullName: Ans.Net10.Common
+  spec.csharp:
+  - uid: Ans
+    name: Ans
+    href: Ans.html
+  - name: .
+  - uid: Ans.Net10
+    name: Net10
+    href: Ans.Net10.html
+  - name: .
+  - uid: Ans.Net10.Common
+    name: Common
+    href: Ans.Net10.Common.html
+  spec.vb:
+  - uid: Ans
+    name: Ans
+    href: Ans.html
+  - name: .
+  - uid: Ans.Net10
+    name: Net10
+    href: Ans.Net10.html
+  - name: .
+  - uid: Ans.Net10.Common
+    name: Common
+    href: Ans.Net10.Common.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Ans.Net10.Common.__e_reflection.DefaultObject``1
+  commentId: M:Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+  parent: Ans.Net10.Common.__e_reflection
+  definition: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object_
+  name: DefaultObject<T>(object)
+  nameWithType: __e_reflection.DefaultObject<T>(object)
+  fullName: Ans.Net10.Common.__e_reflection.DefaultObject<T>(object)
+  nameWithType.vb: __e_reflection.DefaultObject(Of T)(Object)
+  fullName.vb: Ans.Net10.Common.__e_reflection.DefaultObject(Of T)(Object)
+  name.vb: DefaultObject(Of T)(Object)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Ans.Net10.Common.__e_reflection.DefaultObject``1({T})
+  commentId: M:Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+  parent: Ans.Net10.Common.__e_reflection
+  definition: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object___0_
+  name: DefaultObject<T>(object, T)
+  nameWithType: __e_reflection.DefaultObject<T>(object, T)
+  fullName: Ans.Net10.Common.__e_reflection.DefaultObject<T>(object, T)
+  nameWithType.vb: __e_reflection.DefaultObject(Of T)(Object, T)
+  fullName.vb: Ans.Net10.Common.__e_reflection.DefaultObject(Of T)(Object, T)
+  name.vb: DefaultObject(Of T)(Object, T)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue(System.String)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+  parent: Ans.Net10.Common.__e_reflection
+  definition: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_
+  name: GetPropertyValue(object, string)
+  nameWithType: __e_reflection.GetPropertyValue(object, string)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue(object, string)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Object, String)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Object, String)
+  name.vb: GetPropertyValue(Object, String)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue(System.String,System.Type)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+  parent: Ans.Net10.Common.__e_reflection
+  definition: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_System_Type_
+  name: GetPropertyValue(object, string, Type)
+  nameWithType: __e_reflection.GetPropertyValue(object, string, Type)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue(object, string, System.Type)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Object, String, Type)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Object, String, System.Type)
+  name.vb: GetPropertyValue(Object, String, Type)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_System_Type_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_System_Type_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.String)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+  parent: Ans.Net10.Common.__e_reflection
+  definition: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_
+  name: GetPropertyValue<T>(object, string)
+  nameWithType: __e_reflection.GetPropertyValue<T>(object, string)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue<T>(object, string)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Of T)(Object, String)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Of T)(Object, String)
+  name.vb: GetPropertyValue(Of T)(Object, String)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.String,System.Type)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+  parent: Ans.Net10.Common.__e_reflection
+  definition: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_System_Type_
+  name: GetPropertyValue<T>(object, string, Type)
+  nameWithType: __e_reflection.GetPropertyValue<T>(object, string, Type)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue<T>(object, string, System.Type)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Of T)(Object, String, Type)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Of T)(Object, String, System.Type)
+  name.vb: GetPropertyValue(Of T)(Object, String, Type)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_System_Type_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_System_Type_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: System.Object.Ans.Net10.Common.__e_reflection.ToDynamic
+  commentId: M:Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+  parent: Ans.Net10.Common.__e_reflection
+  definition: Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_ToDynamic_System_Object_
+  name: ToDynamic(object)
+  nameWithType: __e_reflection.ToDynamic(object)
+  fullName: Ans.Net10.Common.__e_reflection.ToDynamic(object)
+  nameWithType.vb: __e_reflection.ToDynamic(Object)
+  fullName.vb: Ans.Net10.Common.__e_reflection.ToDynamic(Object)
+  name.vb: ToDynamic(Object)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+    name: ToDynamic
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_ToDynamic_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+    name: ToDynamic
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_ToDynamic_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+  commentId: M:Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+  isExternal: true
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object_
+  name: DefaultObject<T>(object)
+  nameWithType: __e_reflection.DefaultObject<T>(object)
+  fullName: Ans.Net10.Common.__e_reflection.DefaultObject<T>(object)
+  nameWithType.vb: __e_reflection.DefaultObject(Of T)(Object)
+  fullName.vb: Ans.Net10.Common.__e_reflection.DefaultObject(Of T)(Object)
+  name.vb: DefaultObject(Of T)(Object)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Ans.Net10.Common.__e_reflection
+  commentId: T:Ans.Net10.Common.__e_reflection
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.__e_reflection.html
+  name: __e_reflection
+  nameWithType: __e_reflection
+  fullName: Ans.Net10.Common.__e_reflection
+- uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+  commentId: M:Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+  isExternal: true
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object___0_
+  name: DefaultObject<T>(object, T)
+  nameWithType: __e_reflection.DefaultObject<T>(object, T)
+  fullName: Ans.Net10.Common.__e_reflection.DefaultObject<T>(object, T)
+  nameWithType.vb: __e_reflection.DefaultObject(Of T)(Object, T)
+  fullName.vb: Ans.Net10.Common.__e_reflection.DefaultObject(Of T)(Object, T)
+  name.vb: DefaultObject(Of T)(Object, T)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+  isExternal: true
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_
+  name: GetPropertyValue(object, string)
+  nameWithType: __e_reflection.GetPropertyValue(object, string)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue(object, string)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Object, String)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Object, String)
+  name.vb: GetPropertyValue(Object, String)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+  isExternal: true
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_System_Type_
+  name: GetPropertyValue(object, string, Type)
+  nameWithType: __e_reflection.GetPropertyValue(object, string, Type)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue(object, string, System.Type)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Object, String, Type)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Object, String, System.Type)
+  name.vb: GetPropertyValue(Object, String, Type)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_System_Type_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_System_Type_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+  isExternal: true
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_
+  name: GetPropertyValue<T>(object, string)
+  nameWithType: __e_reflection.GetPropertyValue<T>(object, string)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue<T>(object, string)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Of T)(Object, String)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Of T)(Object, String)
+  name.vb: GetPropertyValue(Of T)(Object, String)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+  isExternal: true
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_System_Type_
+  name: GetPropertyValue<T>(object, string, Type)
+  nameWithType: __e_reflection.GetPropertyValue<T>(object, string, Type)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue<T>(object, string, System.Type)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Of T)(Object, String, Type)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Of T)(Object, String, System.Type)
+  name.vb: GetPropertyValue(Of T)(Object, String, Type)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_System_Type_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_System_Type_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+  commentId: M:Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+  isExternal: true
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_ToDynamic_System_Object_
+  name: ToDynamic(object)
+  nameWithType: __e_reflection.ToDynamic(object)
+  fullName: Ans.Net10.Common.__e_reflection.ToDynamic(object)
+  nameWithType.vb: __e_reflection.ToDynamic(Object)
+  fullName.vb: Ans.Net10.Common.__e_reflection.ToDynamic(Object)
+  name.vb: ToDynamic(Object)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+    name: ToDynamic
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_ToDynamic_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+    name: ToDynamic
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_ToDynamic_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Ans.Net10.Common.ParamsBuilder.Parameters*
+  commentId: Overload:Ans.Net10.Common.ParamsBuilder.Parameters
+  href: Ans.Net10.Common.ParamsBuilder.html#Ans_Net10_Common_ParamsBuilder_Parameters
+  name: Parameters
+  nameWithType: ParamsBuilder.Parameters
+  fullName: Ans.Net10.Common.ParamsBuilder.Parameters
+- uid: Ans.Net10.Common.ParamsCollection
+  commentId: T:Ans.Net10.Common.ParamsCollection
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.ParamsCollection.html
+  name: ParamsCollection
+  nameWithType: ParamsCollection
+  fullName: Ans.Net10.Common.ParamsCollection
+- uid: Ans.Net10.Common.ParamsBuilder.Append*
+  commentId: Overload:Ans.Net10.Common.ParamsBuilder.Append
+  href: Ans.Net10.Common.ParamsBuilder.html#Ans_Net10_Common_ParamsBuilder_Append_System_String_System_String_
+  name: Append
+  nameWithType: ParamsBuilder.Append
+  fullName: Ans.Net10.Common.ParamsBuilder.Append
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.decimal
+  name: decimal
+  nameWithType: decimal
+  fullName: decimal
+  nameWithType.vb: Decimal
+  fullName.vb: Decimal
+  name.vb: Decimal
+- uid: System.Nullable{System.DateTime}
+  commentId: T:System.Nullable{System.DateTime}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime?
+  nameWithType: DateTime?
+  fullName: System.DateTime?
+  nameWithType.vb: Date?
+  fullName.vb: Date?
+  name.vb: Date?
+  spec.csharp:
+  - uid: System.DateTime
+    name: DateTime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: '?'
+  spec.vb:
+  - uid: System.DateTime
+    name: Date
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Nullable{System.DateOnly}
+  commentId: T:System.Nullable{System.DateOnly}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.dateonly
+  name: DateOnly?
+  nameWithType: DateOnly?
+  fullName: System.DateOnly?
+  spec.csharp:
+  - uid: System.DateOnly
+    name: DateOnly
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.dateonly
+  - name: '?'
+  spec.vb:
+  - uid: System.DateOnly
+    name: DateOnly
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.dateonly
+  - name: '?'
+- uid: System.Nullable{System.TimeOnly}
+  commentId: T:System.Nullable{System.TimeOnly}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.timeonly
+  name: TimeOnly?
+  nameWithType: TimeOnly?
+  fullName: System.TimeOnly?
+  spec.csharp:
+  - uid: System.TimeOnly
+    name: TimeOnly
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timeonly
+  - name: '?'
+  spec.vb:
+  - uid: System.TimeOnly
+    name: TimeOnly
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timeonly
+  - name: '?'
+- uid: Ans.Net10.Common.ParamsBuilder.GetString*
+  commentId: Overload:Ans.Net10.Common.ParamsBuilder.GetString
+  href: Ans.Net10.Common.ParamsBuilder.html#Ans_Net10_Common_ParamsBuilder_GetString_System_String_System_String_
+  name: GetString
+  nameWithType: ParamsBuilder.GetString
+  fullName: Ans.Net10.Common.ParamsBuilder.GetString
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: Ans.Net10.Common.ParamsBuilder.ToString*
+  commentId: Overload:Ans.Net10.Common.ParamsBuilder.ToString
+  href: Ans.Net10.Common.ParamsBuilder.html#Ans_Net10_Common_ParamsBuilder_ToString
+  name: ToString
+  nameWithType: ParamsBuilder.ToString
+  fullName: Ans.Net10.Common.ParamsBuilder.ToString

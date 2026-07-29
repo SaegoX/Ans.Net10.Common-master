@@ -1,0 +1,3432 @@
+### YamlMime:ManagedReference
+items:
+- uid: Ans.Net10.Common._Consts
+  commentId: T:Ans.Net10.Common._Consts
+  id: _Consts
+  parent: Ans.Net10.Common
+  children:
+  - Ans.Net10.Common._Consts.CONTENTINFOS
+  - Ans.Net10.Common._Consts.CONTENTINFO_BIN
+  - Ans.Net10.Common._Consts.DAY_END_SPAN
+  - Ans.Net10.Common._Consts.DAY_START_SPAN
+  - Ans.Net10.Common._Consts.DEFAULT_CACHE_OPTIONS
+  - Ans.Net10.Common._Consts.ENCODING_CP866
+  - Ans.Net10.Common._Consts.ENCODING_ISO88591
+  - Ans.Net10.Common._Consts.ENCODING_KOI8R
+  - Ans.Net10.Common._Consts.ENCODING_UTF8
+  - Ans.Net10.Common._Consts.ENCODING_WINDOWS1251
+  - Ans.Net10.Common._Consts.FORBIDDEN_FILE_NAMES
+  - Ans.Net10.Common._Consts.FORMAT_ANS_DATE
+  - Ans.Net10.Common._Consts.FORMAT_ANS_DATETIME
+  - Ans.Net10.Common._Consts.FORMAT_ANS_DATETIME_FILE
+  - Ans.Net10.Common._Consts.FuncSelf
+  - Ans.Net10.Common._Consts.FuncToLower
+  - Ans.Net10.Common._Consts.FuncToUpper
+  - Ans.Net10.Common._Consts.GET_RANDOM_SAMPLE_RU
+  - Ans.Net10.Common._Consts.GET_RANDOM_SAMPLE_SMALLER_RU
+  - Ans.Net10.Common._Consts.GET_RANDOM_SAMPLE_SMALL_RU
+  - Ans.Net10.Common._Consts.G_REGEX_EMAIL
+  - Ans.Net10.Common._Consts.G_REGEX_EMAIL_STRICT
+  - Ans.Net10.Common._Consts.G_REGEX_ENCODE
+  - Ans.Net10.Common._Consts.G_REGEX_FIO_RU
+  - Ans.Net10.Common._Consts.G_REGEX_IP4
+  - Ans.Net10.Common._Consts.G_REGEX_IPATH
+  - Ans.Net10.Common._Consts.G_REGEX_IPATH_STRICT
+  - Ans.Net10.Common._Consts.G_REGEX_LINKS
+  - Ans.Net10.Common._Consts.G_REGEX_MULTYSPACE
+  - Ans.Net10.Common._Consts.G_REGEX_NAME
+  - Ans.Net10.Common._Consts.G_REGEX_NAME_STRICT
+  - Ans.Net10.Common._Consts.G_REGEX_NODENAME
+  - Ans.Net10.Common._Consts.G_REGEX_NOT_NUMBER
+  - Ans.Net10.Common._Consts.G_REGEX_ONLY_NUMBER
+  - Ans.Net10.Common._Consts.G_REGEX_PAGENAME
+  - Ans.Net10.Common._Consts.G_REGEX_PASSWORD
+  - Ans.Net10.Common._Consts.G_REGEX_SHARP_TAGS
+  - Ans.Net10.Common._Consts.G_REGEX_SMALLNUMBER
+  - Ans.Net10.Common._Consts.G_REGEX_TAGS
+  - Ans.Net10.Common._Consts.G_REGEX_URL
+  - Ans.Net10.Common._Consts.G_REGEX_VARNAME
+  - Ans.Net10.Common._Consts.G_REGEX_VARNAME_STRICT
+  - Ans.Net10.Common._Consts.JSON_OPTIONS_PNCI
+  - Ans.Net10.Common._Consts.MASK_colon
+  - Ans.Net10.Common._Consts.MASK_equally
+  - Ans.Net10.Common._Consts.MASK_semicolon
+  - Ans.Net10.Common._Consts.MASK_sharp
+  - Ans.Net10.Common._Consts.MONTHS
+  - Ans.Net10.Common._Consts.MONTHS2
+  - Ans.Net10.Common._Consts.REGEX_EMAIL
+  - Ans.Net10.Common._Consts.REGEX_EMAIL_STRICT
+  - Ans.Net10.Common._Consts.REGEX_FIO_RU
+  - Ans.Net10.Common._Consts.REGEX_IP4
+  - Ans.Net10.Common._Consts.REGEX_IPATH
+  - Ans.Net10.Common._Consts.REGEX_IPATH_STRICT
+  - Ans.Net10.Common._Consts.REGEX_LINKS
+  - Ans.Net10.Common._Consts.REGEX_NAME
+  - Ans.Net10.Common._Consts.REGEX_NAME_STRICT
+  - Ans.Net10.Common._Consts.REGEX_NODENAME
+  - Ans.Net10.Common._Consts.REGEX_PAGENAME
+  - Ans.Net10.Common._Consts.REGEX_PASSWORD
+  - Ans.Net10.Common._Consts.REGEX_SHARP_TAGS
+  - Ans.Net10.Common._Consts.REGEX_TAGS
+  - Ans.Net10.Common._Consts.REGEX_URL
+  - Ans.Net10.Common._Consts.REGEX_VARNAME
+  - Ans.Net10.Common._Consts.REGEX_VARNAME_STRICT
+  - Ans.Net10.Common._Consts.REG_MONTHS
+  - Ans.Net10.Common._Consts.RTC3339FORMATS
+  - Ans.Net10.Common._Consts.SAMPLES_RU
+  - Ans.Net10.Common._Consts.SAMPLES_SMALLER_RU
+  - Ans.Net10.Common._Consts.SAMPLES_SMALL_RU
+  - Ans.Net10.Common._Consts.SEPS_ARRAY
+  - Ans.Net10.Common._Consts.SIZE_LG
+  - Ans.Net10.Common._Consts.SIZE_MD
+  - Ans.Net10.Common._Consts.SIZE_SM
+  - Ans.Net10.Common._Consts.SIZE_XL
+  - Ans.Net10.Common._Consts.SIZE_XS
+  - Ans.Net10.Common._Consts.TRANSPARENT_MASK
+  langs:
+  - csharp
+  - vb
+  name: _Consts
+  nameWithType: _Consts
+  fullName: Ans.Net10.Common._Consts
+  type: Class
+  source:
+    id: _Consts
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\obj\Release\net10.0\System.Text.RegularExpressions.Generator\System.Text.RegularExpressions.Generator.RegexGenerator\RegexGenerator.g.cs
+    startLine: 506
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static class _Consts
+    content.vb: Public Module _Consts
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Ans.Net10.Common._Consts.RTC3339FORMATS
+  commentId: F:Ans.Net10.Common._Consts.RTC3339FORMATS
+  id: RTC3339FORMATS
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: RTC3339FORMATS
+  nameWithType: _Consts.RTC3339FORMATS
+  fullName: Ans.Net10.Common._Consts.RTC3339FORMATS
+  type: Field
+  source:
+    id: RTC3339FORMATS
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts.cs
+    startLine: 20
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static readonly Dictionary<string, string> RTC3339FORMATS
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    content.vb: Public Shared ReadOnly RTC3339FORMATS As Dictionary(Of String, String)
+- uid: Ans.Net10.Common._Consts.MASK_semicolon
+  commentId: F:Ans.Net10.Common._Consts.MASK_semicolon
+  id: MASK_semicolon
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: MASK_semicolon
+  nameWithType: _Consts.MASK_semicolon
+  fullName: Ans.Net10.Common._Consts.MASK_semicolon
+  type: Field
+  source:
+    id: MASK_semicolon
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts.cs
+    startLine: 29
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public const string MASK_semicolon = "[x3B]"
+    return:
+      type: System.String
+    content.vb: Public Const MASK_semicolon As String = "[x3B]"
+- uid: Ans.Net10.Common._Consts.MASK_equally
+  commentId: F:Ans.Net10.Common._Consts.MASK_equally
+  id: MASK_equally
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: MASK_equally
+  nameWithType: _Consts.MASK_equally
+  fullName: Ans.Net10.Common._Consts.MASK_equally
+  type: Field
+  source:
+    id: MASK_equally
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts.cs
+    startLine: 30
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public const string MASK_equally = "[x3D]"
+    return:
+      type: System.String
+    content.vb: Public Const MASK_equally As String = "[x3D]"
+- uid: Ans.Net10.Common._Consts.MASK_sharp
+  commentId: F:Ans.Net10.Common._Consts.MASK_sharp
+  id: MASK_sharp
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: MASK_sharp
+  nameWithType: _Consts.MASK_sharp
+  fullName: Ans.Net10.Common._Consts.MASK_sharp
+  type: Field
+  source:
+    id: MASK_sharp
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts.cs
+    startLine: 31
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public const string MASK_sharp = "[x23]"
+    return:
+      type: System.String
+    content.vb: Public Const MASK_sharp As String = "[x23]"
+- uid: Ans.Net10.Common._Consts.MASK_colon
+  commentId: F:Ans.Net10.Common._Consts.MASK_colon
+  id: MASK_colon
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: MASK_colon
+  nameWithType: _Consts.MASK_colon
+  fullName: Ans.Net10.Common._Consts.MASK_colon
+  type: Field
+  source:
+    id: MASK_colon
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts.cs
+    startLine: 32
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public const string MASK_colon = "[x3A]"
+    return:
+      type: System.String
+    content.vb: Public Const MASK_colon As String = "[x3A]"
+- uid: Ans.Net10.Common._Consts.SEPS_ARRAY
+  commentId: F:Ans.Net10.Common._Consts.SEPS_ARRAY
+  id: SEPS_ARRAY
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: SEPS_ARRAY
+  nameWithType: _Consts.SEPS_ARRAY
+  fullName: Ans.Net10.Common._Consts.SEPS_ARRAY
+  type: Field
+  source:
+    id: SEPS_ARRAY
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts.cs
+    startLine: 35
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static readonly char[] SEPS_ARRAY
+    return:
+      type: System.Char[]
+    content.vb: Public Shared ReadOnly SEPS_ARRAY As Char()
+- uid: Ans.Net10.Common._Consts.ENCODING_UTF8
+  commentId: F:Ans.Net10.Common._Consts.ENCODING_UTF8
+  id: ENCODING_UTF8
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: ENCODING_UTF8
+  nameWithType: _Consts.ENCODING_UTF8
+  fullName: Ans.Net10.Common._Consts.ENCODING_UTF8
+  type: Field
+  source:
+    id: ENCODING_UTF8
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts.cs
+    startLine: 39
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static readonly Encoding ENCODING_UTF8
+    return:
+      type: System.Text.Encoding
+    content.vb: Public Shared ReadOnly ENCODING_UTF8 As Encoding
+- uid: Ans.Net10.Common._Consts.ENCODING_WINDOWS1251
+  commentId: F:Ans.Net10.Common._Consts.ENCODING_WINDOWS1251
+  id: ENCODING_WINDOWS1251
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: ENCODING_WINDOWS1251
+  nameWithType: _Consts.ENCODING_WINDOWS1251
+  fullName: Ans.Net10.Common._Consts.ENCODING_WINDOWS1251
+  type: Field
+  source:
+    id: ENCODING_WINDOWS1251
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts.cs
+    startLine: 42
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static readonly Encoding ENCODING_WINDOWS1251
+    return:
+      type: System.Text.Encoding
+    content.vb: Public Shared ReadOnly ENCODING_WINDOWS1251 As Encoding
+- uid: Ans.Net10.Common._Consts.ENCODING_KOI8R
+  commentId: F:Ans.Net10.Common._Consts.ENCODING_KOI8R
+  id: ENCODING_KOI8R
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: ENCODING_KOI8R
+  nameWithType: _Consts.ENCODING_KOI8R
+  fullName: Ans.Net10.Common._Consts.ENCODING_KOI8R
+  type: Field
+  source:
+    id: ENCODING_KOI8R
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts.cs
+    startLine: 45
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static readonly Encoding ENCODING_KOI8R
+    return:
+      type: System.Text.Encoding
+    content.vb: Public Shared ReadOnly ENCODING_KOI8R As Encoding
+- uid: Ans.Net10.Common._Consts.ENCODING_CP866
+  commentId: F:Ans.Net10.Common._Consts.ENCODING_CP866
+  id: ENCODING_CP866
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: ENCODING_CP866
+  nameWithType: _Consts.ENCODING_CP866
+  fullName: Ans.Net10.Common._Consts.ENCODING_CP866
+  type: Field
+  source:
+    id: ENCODING_CP866
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts.cs
+    startLine: 48
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static readonly Encoding ENCODING_CP866
+    return:
+      type: System.Text.Encoding
+    content.vb: Public Shared ReadOnly ENCODING_CP866 As Encoding
+- uid: Ans.Net10.Common._Consts.ENCODING_ISO88591
+  commentId: F:Ans.Net10.Common._Consts.ENCODING_ISO88591
+  id: ENCODING_ISO88591
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: ENCODING_ISO88591
+  nameWithType: _Consts.ENCODING_ISO88591
+  fullName: Ans.Net10.Common._Consts.ENCODING_ISO88591
+  type: Field
+  source:
+    id: ENCODING_ISO88591
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts.cs
+    startLine: 51
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static readonly Encoding ENCODING_ISO88591
+    return:
+      type: System.Text.Encoding
+    content.vb: Public Shared ReadOnly ENCODING_ISO88591 As Encoding
+- uid: Ans.Net10.Common._Consts.REG_MONTHS
+  commentId: F:Ans.Net10.Common._Consts.REG_MONTHS
+  id: REG_MONTHS
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: REG_MONTHS
+  nameWithType: _Consts.REG_MONTHS
+  fullName: Ans.Net10.Common._Consts.REG_MONTHS
+  type: Field
+  source:
+    id: REG_MONTHS
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts.cs
+    startLine: 55
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static readonly DictString REG_MONTHS
+    return:
+      type: Ans.Net10.Common.DictString
+    content.vb: Public Shared ReadOnly REG_MONTHS As DictString
+- uid: Ans.Net10.Common._Consts.MONTHS
+  commentId: F:Ans.Net10.Common._Consts.MONTHS
+  id: MONTHS
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: MONTHS
+  nameWithType: _Consts.MONTHS
+  fullName: Ans.Net10.Common._Consts.MONTHS
+  type: Field
+  source:
+    id: MONTHS
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts.cs
+    startLine: 58
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static readonly string[] MONTHS
+    return:
+      type: System.String[]
+    content.vb: Public Shared ReadOnly MONTHS As String()
+- uid: Ans.Net10.Common._Consts.MONTHS2
+  commentId: F:Ans.Net10.Common._Consts.MONTHS2
+  id: MONTHS2
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: MONTHS2
+  nameWithType: _Consts.MONTHS2
+  fullName: Ans.Net10.Common._Consts.MONTHS2
+  type: Field
+  source:
+    id: MONTHS2
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts.cs
+    startLine: 61
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static readonly string[] MONTHS2
+    return:
+      type: System.String[]
+    content.vb: Public Shared ReadOnly MONTHS2 As String()
+- uid: Ans.Net10.Common._Consts.DAY_START_SPAN
+  commentId: F:Ans.Net10.Common._Consts.DAY_START_SPAN
+  id: DAY_START_SPAN
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: DAY_START_SPAN
+  nameWithType: _Consts.DAY_START_SPAN
+  fullName: Ans.Net10.Common._Consts.DAY_START_SPAN
+  type: Field
+  source:
+    id: DAY_START_SPAN
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts.cs
+    startLine: 65
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static readonly TimeSpan DAY_START_SPAN
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly DAY_START_SPAN As TimeSpan
+- uid: Ans.Net10.Common._Consts.DAY_END_SPAN
+  commentId: F:Ans.Net10.Common._Consts.DAY_END_SPAN
+  id: DAY_END_SPAN
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: DAY_END_SPAN
+  nameWithType: _Consts.DAY_END_SPAN
+  fullName: Ans.Net10.Common._Consts.DAY_END_SPAN
+  type: Field
+  source:
+    id: DAY_END_SPAN
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts.cs
+    startLine: 68
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static readonly TimeSpan DAY_END_SPAN
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly DAY_END_SPAN As TimeSpan
+- uid: Ans.Net10.Common._Consts.FORMAT_ANS_DATETIME
+  commentId: F:Ans.Net10.Common._Consts.FORMAT_ANS_DATETIME
+  id: FORMAT_ANS_DATETIME
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: FORMAT_ANS_DATETIME
+  nameWithType: _Consts.FORMAT_ANS_DATETIME
+  fullName: Ans.Net10.Common._Consts.FORMAT_ANS_DATETIME
+  type: Field
+  source:
+    id: FORMAT_ANS_DATETIME
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts.cs
+    startLine: 72
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public const string FORMAT_ANS_DATETIME = "yyyy-0MM-dd HH:mmmm:ss"
+    return:
+      type: System.String
+    content.vb: Public Const FORMAT_ANS_DATETIME As String = "yyyy-0MM-dd HH:mmmm:ss"
+- uid: Ans.Net10.Common._Consts.FORMAT_ANS_DATE
+  commentId: F:Ans.Net10.Common._Consts.FORMAT_ANS_DATE
+  id: FORMAT_ANS_DATE
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: FORMAT_ANS_DATE
+  nameWithType: _Consts.FORMAT_ANS_DATE
+  fullName: Ans.Net10.Common._Consts.FORMAT_ANS_DATE
+  type: Field
+  source:
+    id: FORMAT_ANS_DATE
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts.cs
+    startLine: 75
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public const string FORMAT_ANS_DATE = "yyyy-0MM-dd"
+    return:
+      type: System.String
+    content.vb: Public Const FORMAT_ANS_DATE As String = "yyyy-0MM-dd"
+- uid: Ans.Net10.Common._Consts.FORMAT_ANS_DATETIME_FILE
+  commentId: F:Ans.Net10.Common._Consts.FORMAT_ANS_DATETIME_FILE
+  id: FORMAT_ANS_DATETIME_FILE
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: FORMAT_ANS_DATETIME_FILE
+  nameWithType: _Consts.FORMAT_ANS_DATETIME_FILE
+  fullName: Ans.Net10.Common._Consts.FORMAT_ANS_DATETIME_FILE
+  type: Field
+  source:
+    id: FORMAT_ANS_DATETIME_FILE
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts.cs
+    startLine: 78
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public const string FORMAT_ANS_DATETIME_FILE = "yyyy-0MM-dd_HH-mmmm-ss"
+    return:
+      type: System.String
+    content.vb: Public Const FORMAT_ANS_DATETIME_FILE As String = "yyyy-0MM-dd_HH-mmmm-ss"
+- uid: Ans.Net10.Common._Consts.DEFAULT_CACHE_OPTIONS
+  commentId: F:Ans.Net10.Common._Consts.DEFAULT_CACHE_OPTIONS
+  id: DEFAULT_CACHE_OPTIONS
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: DEFAULT_CACHE_OPTIONS
+  nameWithType: _Consts.DEFAULT_CACHE_OPTIONS
+  fullName: Ans.Net10.Common._Consts.DEFAULT_CACHE_OPTIONS
+  type: Field
+  source:
+    id: DEFAULT_CACHE_OPTIONS
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts.cs
+    startLine: 82
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static readonly MemoryCacheEntryOptions DEFAULT_CACHE_OPTIONS
+    return:
+      type: Microsoft.Extensions.Caching.Memory.MemoryCacheEntryOptions
+    content.vb: Public Shared ReadOnly DEFAULT_CACHE_OPTIONS As MemoryCacheEntryOptions
+- uid: Ans.Net10.Common._Consts.JSON_OPTIONS_PNCI
+  commentId: F:Ans.Net10.Common._Consts.JSON_OPTIONS_PNCI
+  id: JSON_OPTIONS_PNCI
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: JSON_OPTIONS_PNCI
+  nameWithType: _Consts.JSON_OPTIONS_PNCI
+  fullName: Ans.Net10.Common._Consts.JSON_OPTIONS_PNCI
+  type: Field
+  source:
+    id: JSON_OPTIONS_PNCI
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts.cs
+    startLine: 89
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static readonly JsonSerializerOptions JSON_OPTIONS_PNCI
+    return:
+      type: System.Text.Json.JsonSerializerOptions
+    content.vb: Public Shared ReadOnly JSON_OPTIONS_PNCI As JsonSerializerOptions
+- uid: Ans.Net10.Common._Consts.FuncSelf
+  commentId: F:Ans.Net10.Common._Consts.FuncSelf
+  id: FuncSelf
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: FuncSelf
+  nameWithType: _Consts.FuncSelf
+  fullName: Ans.Net10.Common._Consts.FuncSelf
+  type: Field
+  source:
+    id: FuncSelf
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~funcs.cs
+    startLine: 6
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static readonly Func<char, char> FuncSelf
+    return:
+      type: System.Func{System.Char,System.Char}
+    content.vb: Public Shared ReadOnly FuncSelf As Func(Of Char, Char)
+- uid: Ans.Net10.Common._Consts.FuncToLower
+  commentId: F:Ans.Net10.Common._Consts.FuncToLower
+  id: FuncToLower
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: FuncToLower
+  nameWithType: _Consts.FuncToLower
+  fullName: Ans.Net10.Common._Consts.FuncToLower
+  type: Field
+  source:
+    id: FuncToLower
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~funcs.cs
+    startLine: 9
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static readonly Func<char, char> FuncToLower
+    return:
+      type: System.Func{System.Char,System.Char}
+    content.vb: Public Shared ReadOnly FuncToLower As Func(Of Char, Char)
+- uid: Ans.Net10.Common._Consts.FuncToUpper
+  commentId: F:Ans.Net10.Common._Consts.FuncToUpper
+  id: FuncToUpper
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: FuncToUpper
+  nameWithType: _Consts.FuncToUpper
+  fullName: Ans.Net10.Common._Consts.FuncToUpper
+  type: Field
+  source:
+    id: FuncToUpper
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~funcs.cs
+    startLine: 12
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static readonly Func<char, char> FuncToUpper
+    return:
+      type: System.Func{System.Char,System.Char}
+    content.vb: Public Shared ReadOnly FuncToUpper As Func(Of Char, Char)
+- uid: Ans.Net10.Common._Consts.SIZE_XS
+  commentId: F:Ans.Net10.Common._Consts.SIZE_XS
+  id: SIZE_XS
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: SIZE_XS
+  nameWithType: _Consts.SIZE_XS
+  fullName: Ans.Net10.Common._Consts.SIZE_XS
+  type: Field
+  source:
+    id: SIZE_XS
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~images.cs
+    startLine: 6
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public const uint SIZE_XS = 256
+    return:
+      type: System.UInt32
+    content.vb: Public Const SIZE_XS As UInteger = 256
+- uid: Ans.Net10.Common._Consts.SIZE_SM
+  commentId: F:Ans.Net10.Common._Consts.SIZE_SM
+  id: SIZE_SM
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: SIZE_SM
+  nameWithType: _Consts.SIZE_SM
+  fullName: Ans.Net10.Common._Consts.SIZE_SM
+  type: Field
+  source:
+    id: SIZE_SM
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~images.cs
+    startLine: 7
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public const uint SIZE_SM = 576
+    return:
+      type: System.UInt32
+    content.vb: Public Const SIZE_SM As UInteger = 576
+- uid: Ans.Net10.Common._Consts.SIZE_MD
+  commentId: F:Ans.Net10.Common._Consts.SIZE_MD
+  id: SIZE_MD
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: SIZE_MD
+  nameWithType: _Consts.SIZE_MD
+  fullName: Ans.Net10.Common._Consts.SIZE_MD
+  type: Field
+  source:
+    id: SIZE_MD
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~images.cs
+    startLine: 8
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public const uint SIZE_MD = 768
+    return:
+      type: System.UInt32
+    content.vb: Public Const SIZE_MD As UInteger = 768
+- uid: Ans.Net10.Common._Consts.SIZE_LG
+  commentId: F:Ans.Net10.Common._Consts.SIZE_LG
+  id: SIZE_LG
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: SIZE_LG
+  nameWithType: _Consts.SIZE_LG
+  fullName: Ans.Net10.Common._Consts.SIZE_LG
+  type: Field
+  source:
+    id: SIZE_LG
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~images.cs
+    startLine: 9
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public const uint SIZE_LG = 992
+    return:
+      type: System.UInt32
+    content.vb: Public Const SIZE_LG As UInteger = 992
+- uid: Ans.Net10.Common._Consts.SIZE_XL
+  commentId: F:Ans.Net10.Common._Consts.SIZE_XL
+  id: SIZE_XL
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: SIZE_XL
+  nameWithType: _Consts.SIZE_XL
+  fullName: Ans.Net10.Common._Consts.SIZE_XL
+  type: Field
+  source:
+    id: SIZE_XL
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~images.cs
+    startLine: 10
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public const uint SIZE_XL = 1200
+    return:
+      type: System.UInt32
+    content.vb: Public Const SIZE_XL As UInteger = 1200
+- uid: Ans.Net10.Common._Consts.TRANSPARENT_MASK
+  commentId: F:Ans.Net10.Common._Consts.TRANSPARENT_MASK
+  id: TRANSPARENT_MASK
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: TRANSPARENT_MASK
+  nameWithType: _Consts.TRANSPARENT_MASK
+  fullName: Ans.Net10.Common._Consts.TRANSPARENT_MASK
+  type: Field
+  source:
+    id: TRANSPARENT_MASK
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~images.cs
+    startLine: 13
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static readonly byte[] TRANSPARENT_MASK
+    return:
+      type: System.Byte[]
+    content.vb: Public Shared ReadOnly TRANSPARENT_MASK As Byte()
+- uid: Ans.Net10.Common._Consts.FORBIDDEN_FILE_NAMES
+  commentId: F:Ans.Net10.Common._Consts.FORBIDDEN_FILE_NAMES
+  id: FORBIDDEN_FILE_NAMES
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: FORBIDDEN_FILE_NAMES
+  nameWithType: _Consts.FORBIDDEN_FILE_NAMES
+  fullName: Ans.Net10.Common._Consts.FORBIDDEN_FILE_NAMES
+  type: Field
+  source:
+    id: FORBIDDEN_FILE_NAMES
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~io.cs
+    startLine: 6
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static readonly string[] FORBIDDEN_FILE_NAMES
+    return:
+      type: System.String[]
+    content.vb: Public Shared ReadOnly FORBIDDEN_FILE_NAMES As String()
+- uid: Ans.Net10.Common._Consts.CONTENTINFO_BIN
+  commentId: F:Ans.Net10.Common._Consts.CONTENTINFO_BIN
+  id: CONTENTINFO_BIN
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: CONTENTINFO_BIN
+  nameWithType: _Consts.CONTENTINFO_BIN
+  fullName: Ans.Net10.Common._Consts.CONTENTINFO_BIN
+  type: Field
+  source:
+    id: CONTENTINFO_BIN
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~io.cs
+    startLine: 14
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static readonly ContentInfo CONTENTINFO_BIN
+    return:
+      type: Ans.Net10.Common.ContentInfo
+    content.vb: Public Shared ReadOnly CONTENTINFO_BIN As ContentInfo
+- uid: Ans.Net10.Common._Consts.CONTENTINFOS
+  commentId: F:Ans.Net10.Common._Consts.CONTENTINFOS
+  id: CONTENTINFOS
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: CONTENTINFOS
+  nameWithType: _Consts.CONTENTINFOS
+  fullName: Ans.Net10.Common._Consts.CONTENTINFOS
+  type: Field
+  source:
+    id: CONTENTINFOS
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~io.cs
+    startLine: 18
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static readonly ContentInfo[] CONTENTINFOS
+    return:
+      type: Ans.Net10.Common.ContentInfo[]
+    content.vb: Public Shared ReadOnly CONTENTINFOS As ContentInfo()
+- uid: Ans.Net10.Common._Consts.REGEX_NAME
+  commentId: F:Ans.Net10.Common._Consts.REGEX_NAME
+  id: REGEX_NAME
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: REGEX_NAME
+  nameWithType: _Consts.REGEX_NAME
+  fullName: Ans.Net10.Common._Consts.REGEX_NAME
+  type: Field
+  source:
+    id: REGEX_NAME
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 8
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public const string REGEX_NAME = "^([a-z_][0-9a-z._-]+)$"
+    return:
+      type: System.String
+    content.vb: Public Const REGEX_NAME As String = "^([a-z_][0-9a-z._-]+)$"
+- uid: Ans.Net10.Common._Consts.REGEX_NAME_STRICT
+  commentId: F:Ans.Net10.Common._Consts.REGEX_NAME_STRICT
+  id: REGEX_NAME_STRICT
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: REGEX_NAME_STRICT
+  nameWithType: _Consts.REGEX_NAME_STRICT
+  fullName: Ans.Net10.Common._Consts.REGEX_NAME_STRICT
+  type: Field
+  source:
+    id: REGEX_NAME_STRICT
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 11
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public const string REGEX_NAME_STRICT = "^([a-z_][0-9a-z_-]+)$"
+    return:
+      type: System.String
+    content.vb: Public Const REGEX_NAME_STRICT As String = "^([a-z_][0-9a-z_-]+)$"
+- uid: Ans.Net10.Common._Consts.REGEX_VARNAME
+  commentId: F:Ans.Net10.Common._Consts.REGEX_VARNAME
+  id: REGEX_VARNAME
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: REGEX_VARNAME
+  nameWithType: _Consts.REGEX_VARNAME
+  fullName: Ans.Net10.Common._Consts.REGEX_VARNAME
+  type: Field
+  source:
+    id: REGEX_VARNAME
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 14
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public const string REGEX_VARNAME = "^([a-zA-Z_][0-9a-zA-Z_]+)$"
+    return:
+      type: System.String
+    content.vb: Public Const REGEX_VARNAME As String = "^([a-zA-Z_][0-9a-zA-Z_]+)$"
+- uid: Ans.Net10.Common._Consts.REGEX_VARNAME_STRICT
+  commentId: F:Ans.Net10.Common._Consts.REGEX_VARNAME_STRICT
+  id: REGEX_VARNAME_STRICT
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: REGEX_VARNAME_STRICT
+  nameWithType: _Consts.REGEX_VARNAME_STRICT
+  fullName: Ans.Net10.Common._Consts.REGEX_VARNAME_STRICT
+  type: Field
+  source:
+    id: REGEX_VARNAME_STRICT
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 17
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public const string REGEX_VARNAME_STRICT = "^([a-z_][0-9a-z_]+)$"
+    return:
+      type: System.String
+    content.vb: Public Const REGEX_VARNAME_STRICT As String = "^([a-z_][0-9a-z_]+)$"
+- uid: Ans.Net10.Common._Consts.REGEX_IPATH
+  commentId: F:Ans.Net10.Common._Consts.REGEX_IPATH
+  id: REGEX_IPATH
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: REGEX_IPATH
+  nameWithType: _Consts.REGEX_IPATH
+  fullName: Ans.Net10.Common._Consts.REGEX_IPATH
+  type: Field
+  source:
+    id: REGEX_IPATH
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 20
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public const string REGEX_IPATH = "^(([a-zA-Z_][0-9a-zA-Z_-]+)/){0,}([a-zA-Z_][0-9a-zA-Z_-]+)$"
+    return:
+      type: System.String
+    content.vb: Public Const REGEX_IPATH As String = "^(([a-zA-Z_][0-9a-zA-Z_-]+)/){0,}([a-zA-Z_][0-9a-zA-Z_-]+)$"
+- uid: Ans.Net10.Common._Consts.REGEX_IPATH_STRICT
+  commentId: F:Ans.Net10.Common._Consts.REGEX_IPATH_STRICT
+  id: REGEX_IPATH_STRICT
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: REGEX_IPATH_STRICT
+  nameWithType: _Consts.REGEX_IPATH_STRICT
+  fullName: Ans.Net10.Common._Consts.REGEX_IPATH_STRICT
+  type: Field
+  source:
+    id: REGEX_IPATH_STRICT
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 23
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public const string REGEX_IPATH_STRICT = "^(([a-z_][0-9a-z_-]+)/){0,}([a-z_][0-9a-z_-]+)$"
+    return:
+      type: System.String
+    content.vb: Public Const REGEX_IPATH_STRICT As String = "^(([a-z_][0-9a-z_-]+)/){0,}([a-z_][0-9a-z_-]+)$"
+- uid: Ans.Net10.Common._Consts.REGEX_EMAIL
+  commentId: F:Ans.Net10.Common._Consts.REGEX_EMAIL
+  id: REGEX_EMAIL
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: REGEX_EMAIL
+  nameWithType: _Consts.REGEX_EMAIL
+  fullName: Ans.Net10.Common._Consts.REGEX_EMAIL
+  type: Field
+  source:
+    id: REGEX_EMAIL
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 26
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public const string REGEX_EMAIL = "^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$"
+    return:
+      type: System.String
+    content.vb: Public Const REGEX_EMAIL As String = "^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
+- uid: Ans.Net10.Common._Consts.REGEX_EMAIL_STRICT
+  commentId: F:Ans.Net10.Common._Consts.REGEX_EMAIL_STRICT
+  id: REGEX_EMAIL_STRICT
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: REGEX_EMAIL_STRICT
+  nameWithType: _Consts.REGEX_EMAIL_STRICT
+  fullName: Ans.Net10.Common._Consts.REGEX_EMAIL_STRICT
+  type: Field
+  source:
+    id: REGEX_EMAIL_STRICT
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 29
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public const string REGEX_EMAIL_STRICT = "^(?(\")(\"[^\"]+\"@)|(([0-9a-z]((\\.(?!\\.))|[-!#\\$%&'\\*\\+/=\\?\\^`\\{\\}\\|~\\w])*)(?<=[0-9a-z])@))(?(\\[)(\\[(\\d{1,3}\\.){3}\\d{1,3}\\])|(([0-9a-z][-\\w]*[0-9a-z]*\\.)+[a-z0-9]{2,17}))$"
+    return:
+      type: System.String
+    content.vb: Public Const REGEX_EMAIL_STRICT As String = "^(?("")(""[^""]+""@)|(([0-9a-z]((\.(?!\.))|[-!#\$%&'\*\+/=\?\^`\{\}\|~\w])*)(?<=[0-9a-z])@))(?(\[)(\[(\d{1,3}\.){3}\d{1,3}\])|(([0-9a-z][-\w]*[0-9a-z]*\.)+[a-z0-9]{2,17}))$"
+- uid: Ans.Net10.Common._Consts.REGEX_NODENAME
+  commentId: F:Ans.Net10.Common._Consts.REGEX_NODENAME
+  id: REGEX_NODENAME
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: REGEX_NODENAME
+  nameWithType: _Consts.REGEX_NODENAME
+  fullName: Ans.Net10.Common._Consts.REGEX_NODENAME
+  type: Field
+  source:
+    id: REGEX_NODENAME
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 32
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public const string REGEX_NODENAME = "^([0-9a-z_-]+)$"
+    return:
+      type: System.String
+    content.vb: Public Const REGEX_NODENAME As String = "^([0-9a-z_-]+)$"
+- uid: Ans.Net10.Common._Consts.REGEX_PAGENAME
+  commentId: F:Ans.Net10.Common._Consts.REGEX_PAGENAME
+  id: REGEX_PAGENAME
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: REGEX_PAGENAME
+  nameWithType: _Consts.REGEX_PAGENAME
+  fullName: Ans.Net10.Common._Consts.REGEX_PAGENAME
+  type: Field
+  source:
+    id: REGEX_PAGENAME
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 35
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public const string REGEX_PAGENAME = "^([0-9a-z_-]+)$"
+    return:
+      type: System.String
+    content.vb: Public Const REGEX_PAGENAME As String = "^([0-9a-z_-]+)$"
+- uid: Ans.Net10.Common._Consts.REGEX_URL
+  commentId: F:Ans.Net10.Common._Consts.REGEX_URL
+  id: REGEX_URL
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: REGEX_URL
+  nameWithType: _Consts.REGEX_URL
+  fullName: Ans.Net10.Common._Consts.REGEX_URL
+  type: Field
+  source:
+    id: REGEX_URL
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 38
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public const string REGEX_URL = "(https?://)[-_./:\\?=&%#a-zA-Z0-9]+"
+    return:
+      type: System.String
+    content.vb: Public Const REGEX_URL As String = "(https?://)[-_./:\?=&%#a-zA-Z0-9]+"
+- uid: Ans.Net10.Common._Consts.REGEX_IP4
+  commentId: F:Ans.Net10.Common._Consts.REGEX_IP4
+  id: REGEX_IP4
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: REGEX_IP4
+  nameWithType: _Consts.REGEX_IP4
+  fullName: Ans.Net10.Common._Consts.REGEX_IP4
+  type: Field
+  source:
+    id: REGEX_IP4
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 41
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public const string REGEX_IP4 = "\\b(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\b"
+    return:
+      type: System.String
+    content.vb: Public Const REGEX_IP4 As String = "\b(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\b"
+- uid: Ans.Net10.Common._Consts.REGEX_PASSWORD
+  commentId: F:Ans.Net10.Common._Consts.REGEX_PASSWORD
+  id: REGEX_PASSWORD
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: REGEX_PASSWORD
+  nameWithType: _Consts.REGEX_PASSWORD
+  fullName: Ans.Net10.Common._Consts.REGEX_PASSWORD
+  type: Field
+  source:
+    id: REGEX_PASSWORD
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 44
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public const string REGEX_PASSWORD = "^([0-9a-zA-Z `\\'\":;,\\.<>+=\\~_\\?\\!\\@#\\$%\\^\\&\\*\\(\\)\\[\\]\\{\\}/\\\\\\|-]+)$"
+    return:
+      type: System.String
+    content.vb: Public Const REGEX_PASSWORD As String = "^([0-9a-zA-Z `\'"":;,\.<>+=\~_\?\!\@#\$%\^\&\*\(\)\[\]\{\}/\\\|-]+)$"
+- uid: Ans.Net10.Common._Consts.REGEX_FIO_RU
+  commentId: F:Ans.Net10.Common._Consts.REGEX_FIO_RU
+  id: REGEX_FIO_RU
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: REGEX_FIO_RU
+  nameWithType: _Consts.REGEX_FIO_RU
+  fullName: Ans.Net10.Common._Consts.REGEX_FIO_RU
+  type: Field
+  source:
+    id: REGEX_FIO_RU
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 47
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public const string REGEX_FIO_RU = "^[A-Za-zА-ЯЁа-яё-]{1,23}( [A-Za-zА-ЯЁа-яё-]{1,23})+$"
+    return:
+      type: System.String
+    content.vb: Public Const REGEX_FIO_RU As String = "^[A-Za-zА-ЯЁа-яё-]{1,23}( [A-Za-zА-ЯЁа-яё-]{1,23})+$"
+- uid: Ans.Net10.Common._Consts.REGEX_TAGS
+  commentId: F:Ans.Net10.Common._Consts.REGEX_TAGS
+  id: REGEX_TAGS
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: REGEX_TAGS
+  nameWithType: _Consts.REGEX_TAGS
+  fullName: Ans.Net10.Common._Consts.REGEX_TAGS
+  type: Field
+  source:
+    id: REGEX_TAGS
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 50
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public const string REGEX_TAGS = "(?<=</?)([^ >/]+)"
+    return:
+      type: System.String
+    content.vb: Public Const REGEX_TAGS As String = "(?<=</?)([^ >/]+)"
+- uid: Ans.Net10.Common._Consts.REGEX_SHARP_TAGS
+  commentId: F:Ans.Net10.Common._Consts.REGEX_SHARP_TAGS
+  id: REGEX_SHARP_TAGS
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: REGEX_SHARP_TAGS
+  nameWithType: _Consts.REGEX_SHARP_TAGS
+  fullName: Ans.Net10.Common._Consts.REGEX_SHARP_TAGS
+  type: Field
+  source:
+    id: REGEX_SHARP_TAGS
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 53
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public const string REGEX_SHARP_TAGS = "#[-_a-zA-Zа-яА-Я0-9]+"
+    return:
+      type: System.String
+    content.vb: Public Const REGEX_SHARP_TAGS As String = "#[-_a-zA-Zа-яА-Я0-9]+"
+- uid: Ans.Net10.Common._Consts.REGEX_LINKS
+  commentId: F:Ans.Net10.Common._Consts.REGEX_LINKS
+  id: REGEX_LINKS
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: REGEX_LINKS
+  nameWithType: _Consts.REGEX_LINKS
+  fullName: Ans.Net10.Common._Consts.REGEX_LINKS
+  type: Field
+  source:
+    id: REGEX_LINKS
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 56
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public const string REGEX_LINKS = "\\\\^(https?://)[-_./:\\\\?=&%#a-zA-Z0-9]+"
+    return:
+      type: System.String
+    content.vb: Public Const REGEX_LINKS As String = "\\^(https?://)[-_./:\\?=&%#a-zA-Z0-9]+"
+- uid: Ans.Net10.Common._Consts.G_REGEX_NAME
+  commentId: M:Ans.Net10.Common._Consts.G_REGEX_NAME
+  id: G_REGEX_NAME
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: G_REGEX_NAME()
+  nameWithType: _Consts.G_REGEX_NAME()
+  fullName: Ans.Net10.Common._Consts.G_REGEX_NAME()
+  type: Method
+  source:
+    id: G_REGEX_NAME
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 60
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  remarks: >-
+    Pattern:<br />
+
+    <pre><code class="lang-csharp">^([a-z_][0-9a-z._-]+)$</code></pre><br />
+        Explanation:<br />
+        <pre><code class="lang-csharp">○ Match if at the beginning of the string.
+    ○ 1st capture group.
+        ○ Match a character in the set [_a-z].
+        ○ Match a character in the set [\-.0-9_a-z] atomically at least once.
+    ○ Match if at the end of the string or if before an ending newline.</code></pre>
+  example: []
+  syntax:
+    content: >-
+      [GeneratedRegex("^([a-z_][0-9a-z._-]+)$")]
+
+      public static Regex G_REGEX_NAME()
+    return:
+      type: System.Text.RegularExpressions.Regex
+    content.vb: >-
+      <GeneratedRegex("^([a-z_][0-9a-z._-]+)$")>
+
+      Public Shared Function G_REGEX_NAME() As Regex
+  overload: Ans.Net10.Common._Consts.G_REGEX_NAME*
+  attributes:
+  - type: System.Text.RegularExpressions.GeneratedRegexAttribute
+    ctor: System.Text.RegularExpressions.GeneratedRegexAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ^([a-z_][0-9a-z._-]+)$
+- uid: Ans.Net10.Common._Consts.G_REGEX_NAME_STRICT
+  commentId: M:Ans.Net10.Common._Consts.G_REGEX_NAME_STRICT
+  id: G_REGEX_NAME_STRICT
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: G_REGEX_NAME_STRICT()
+  nameWithType: _Consts.G_REGEX_NAME_STRICT()
+  fullName: Ans.Net10.Common._Consts.G_REGEX_NAME_STRICT()
+  type: Method
+  source:
+    id: G_REGEX_NAME_STRICT
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 63
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  remarks: >-
+    Pattern:<br />
+
+    <pre><code class="lang-csharp">^([a-z_][0-9a-z_-]+)$</code></pre><br />
+        Explanation:<br />
+        <pre><code class="lang-csharp">○ Match if at the beginning of the string.
+    ○ 1st capture group.
+        ○ Match a character in the set [_a-z].
+        ○ Match a character in the set [\-0-9_a-z] atomically at least once.
+    ○ Match if at the end of the string or if before an ending newline.</code></pre>
+  example: []
+  syntax:
+    content: >-
+      [GeneratedRegex("^([a-z_][0-9a-z_-]+)$")]
+
+      public static Regex G_REGEX_NAME_STRICT()
+    return:
+      type: System.Text.RegularExpressions.Regex
+    content.vb: >-
+      <GeneratedRegex("^([a-z_][0-9a-z_-]+)$")>
+
+      Public Shared Function G_REGEX_NAME_STRICT() As Regex
+  overload: Ans.Net10.Common._Consts.G_REGEX_NAME_STRICT*
+  attributes:
+  - type: System.Text.RegularExpressions.GeneratedRegexAttribute
+    ctor: System.Text.RegularExpressions.GeneratedRegexAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ^([a-z_][0-9a-z_-]+)$
+- uid: Ans.Net10.Common._Consts.G_REGEX_VARNAME
+  commentId: M:Ans.Net10.Common._Consts.G_REGEX_VARNAME
+  id: G_REGEX_VARNAME
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: G_REGEX_VARNAME()
+  nameWithType: _Consts.G_REGEX_VARNAME()
+  fullName: Ans.Net10.Common._Consts.G_REGEX_VARNAME()
+  type: Method
+  source:
+    id: G_REGEX_VARNAME
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 66
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  remarks: >-
+    Pattern:<br />
+
+    <pre><code class="lang-csharp">^([a-zA-Z_][0-9a-zA-Z_]+)$</code></pre><br />
+        Explanation:<br />
+        <pre><code class="lang-csharp">○ Match if at the beginning of the string.
+    ○ 1st capture group.
+        ○ Match a character in the set [A-Z_a-z].
+        ○ Match a character in the set [0-9A-Z_a-z] atomically at least once.
+    ○ Match if at the end of the string or if before an ending newline.</code></pre>
+  example: []
+  syntax:
+    content: >-
+      [GeneratedRegex("^([a-zA-Z_][0-9a-zA-Z_]+)$")]
+
+      public static Regex G_REGEX_VARNAME()
+    return:
+      type: System.Text.RegularExpressions.Regex
+    content.vb: >-
+      <GeneratedRegex("^([a-zA-Z_][0-9a-zA-Z_]+)$")>
+
+      Public Shared Function G_REGEX_VARNAME() As Regex
+  overload: Ans.Net10.Common._Consts.G_REGEX_VARNAME*
+  attributes:
+  - type: System.Text.RegularExpressions.GeneratedRegexAttribute
+    ctor: System.Text.RegularExpressions.GeneratedRegexAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ^([a-zA-Z_][0-9a-zA-Z_]+)$
+- uid: Ans.Net10.Common._Consts.G_REGEX_VARNAME_STRICT
+  commentId: M:Ans.Net10.Common._Consts.G_REGEX_VARNAME_STRICT
+  id: G_REGEX_VARNAME_STRICT
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: G_REGEX_VARNAME_STRICT()
+  nameWithType: _Consts.G_REGEX_VARNAME_STRICT()
+  fullName: Ans.Net10.Common._Consts.G_REGEX_VARNAME_STRICT()
+  type: Method
+  source:
+    id: G_REGEX_VARNAME_STRICT
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 69
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  remarks: >-
+    Pattern:<br />
+
+    <pre><code class="lang-csharp">^([a-z_][0-9a-z_]+)$</code></pre><br />
+        Explanation:<br />
+        <pre><code class="lang-csharp">○ Match if at the beginning of the string.
+    ○ 1st capture group.
+        ○ Match a character in the set [_a-z].
+        ○ Match a character in the set [0-9_a-z] atomically at least once.
+    ○ Match if at the end of the string or if before an ending newline.</code></pre>
+  example: []
+  syntax:
+    content: >-
+      [GeneratedRegex("^([a-z_][0-9a-z_]+)$")]
+
+      public static Regex G_REGEX_VARNAME_STRICT()
+    return:
+      type: System.Text.RegularExpressions.Regex
+    content.vb: >-
+      <GeneratedRegex("^([a-z_][0-9a-z_]+)$")>
+
+      Public Shared Function G_REGEX_VARNAME_STRICT() As Regex
+  overload: Ans.Net10.Common._Consts.G_REGEX_VARNAME_STRICT*
+  attributes:
+  - type: System.Text.RegularExpressions.GeneratedRegexAttribute
+    ctor: System.Text.RegularExpressions.GeneratedRegexAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ^([a-z_][0-9a-z_]+)$
+- uid: Ans.Net10.Common._Consts.G_REGEX_IPATH
+  commentId: M:Ans.Net10.Common._Consts.G_REGEX_IPATH
+  id: G_REGEX_IPATH
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: G_REGEX_IPATH()
+  nameWithType: _Consts.G_REGEX_IPATH()
+  fullName: Ans.Net10.Common._Consts.G_REGEX_IPATH()
+  type: Method
+  source:
+    id: G_REGEX_IPATH
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 72
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  remarks: >-
+    Pattern:<br />
+
+    <pre><code class="lang-csharp">^(([a-zA-Z_][0-9a-zA-Z_-]+)/){0,}([a-zA-Z_][0-9a-zA-Z_-]+)$</code></pre><br />
+        Explanation:<br />
+        <pre><code class="lang-csharp">○ Match if at the beginning of the string.
+    ○ Loop greedily any number of times.
+        ○ 1st capture group.
+            ○ 2nd capture group.
+                ○ Match a character in the set [A-Z_a-z].
+                ○ Match a character in the set [\-0-9A-Z_a-z] atomically at least once.
+            ○ Match '/'.
+    ○ 3rd capture group.
+        ○ Match a character in the set [A-Z_a-z].
+        ○ Match a character in the set [\-0-9A-Z_a-z] atomically at least once.
+    ○ Match if at the end of the string or if before an ending newline.</code></pre>
+  example: []
+  syntax:
+    content: >-
+      [GeneratedRegex("^(([a-zA-Z_][0-9a-zA-Z_-]+)/){0,}([a-zA-Z_][0-9a-zA-Z_-]+)$")]
+
+      public static Regex G_REGEX_IPATH()
+    return:
+      type: System.Text.RegularExpressions.Regex
+    content.vb: >-
+      <GeneratedRegex("^(([a-zA-Z_][0-9a-zA-Z_-]+)/){0,}([a-zA-Z_][0-9a-zA-Z_-]+)$")>
+
+      Public Shared Function G_REGEX_IPATH() As Regex
+  overload: Ans.Net10.Common._Consts.G_REGEX_IPATH*
+  attributes:
+  - type: System.Text.RegularExpressions.GeneratedRegexAttribute
+    ctor: System.Text.RegularExpressions.GeneratedRegexAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ^(([a-zA-Z_][0-9a-zA-Z_-]+)/){0,}([a-zA-Z_][0-9a-zA-Z_-]+)$
+- uid: Ans.Net10.Common._Consts.G_REGEX_IPATH_STRICT
+  commentId: M:Ans.Net10.Common._Consts.G_REGEX_IPATH_STRICT
+  id: G_REGEX_IPATH_STRICT
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: G_REGEX_IPATH_STRICT()
+  nameWithType: _Consts.G_REGEX_IPATH_STRICT()
+  fullName: Ans.Net10.Common._Consts.G_REGEX_IPATH_STRICT()
+  type: Method
+  source:
+    id: G_REGEX_IPATH_STRICT
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 75
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  remarks: >-
+    Pattern:<br />
+
+    <pre><code class="lang-csharp">^(([a-z_][0-9a-z_-]+)/){0,}([a-z_][0-9a-z_-]+)$</code></pre><br />
+        Explanation:<br />
+        <pre><code class="lang-csharp">○ Match if at the beginning of the string.
+    ○ Loop greedily any number of times.
+        ○ 1st capture group.
+            ○ 2nd capture group.
+                ○ Match a character in the set [_a-z].
+                ○ Match a character in the set [\-0-9_a-z] atomically at least once.
+            ○ Match '/'.
+    ○ 3rd capture group.
+        ○ Match a character in the set [_a-z].
+        ○ Match a character in the set [\-0-9_a-z] atomically at least once.
+    ○ Match if at the end of the string or if before an ending newline.</code></pre>
+  example: []
+  syntax:
+    content: >-
+      [GeneratedRegex("^(([a-z_][0-9a-z_-]+)/){0,}([a-z_][0-9a-z_-]+)$")]
+
+      public static Regex G_REGEX_IPATH_STRICT()
+    return:
+      type: System.Text.RegularExpressions.Regex
+    content.vb: >-
+      <GeneratedRegex("^(([a-z_][0-9a-z_-]+)/){0,}([a-z_][0-9a-z_-]+)$")>
+
+      Public Shared Function G_REGEX_IPATH_STRICT() As Regex
+  overload: Ans.Net10.Common._Consts.G_REGEX_IPATH_STRICT*
+  attributes:
+  - type: System.Text.RegularExpressions.GeneratedRegexAttribute
+    ctor: System.Text.RegularExpressions.GeneratedRegexAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ^(([a-z_][0-9a-z_-]+)/){0,}([a-z_][0-9a-z_-]+)$
+- uid: Ans.Net10.Common._Consts.G_REGEX_EMAIL
+  commentId: M:Ans.Net10.Common._Consts.G_REGEX_EMAIL
+  id: G_REGEX_EMAIL
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: G_REGEX_EMAIL()
+  nameWithType: _Consts.G_REGEX_EMAIL()
+  fullName: Ans.Net10.Common._Consts.G_REGEX_EMAIL()
+  type: Method
+  source:
+    id: G_REGEX_EMAIL
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 78
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  remarks: >-
+    Pattern:<br />
+
+    <pre><code class="lang-csharp">^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$</code></pre><br />
+        Explanation:<br />
+        <pre><code class="lang-csharp">○ Match if at the beginning of the string.
+    ○ Match a character in the set [\-.\w] atomically at least once.
+
+    ○ Match '@'.
+
+    ○ Loop greedily at least once.
+        ○ 1st capture group.
+            ○ Match a character in the set [\-\w] atomically at least once.
+            ○ Match '.'.
+    ○ Match a character in the set [\-\w] atomically at least 2 and at most 4 times.
+
+    ○ Match if at the end of the string or if before an ending newline.</code></pre>
+  example: []
+  syntax:
+    content: >-
+      [GeneratedRegex("^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$")]
+
+      public static Regex G_REGEX_EMAIL()
+    return:
+      type: System.Text.RegularExpressions.Regex
+    content.vb: >-
+      <GeneratedRegex("^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$")>
+
+      Public Shared Function G_REGEX_EMAIL() As Regex
+  overload: Ans.Net10.Common._Consts.G_REGEX_EMAIL*
+  attributes:
+  - type: System.Text.RegularExpressions.GeneratedRegexAttribute
+    ctor: System.Text.RegularExpressions.GeneratedRegexAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$
+- uid: Ans.Net10.Common._Consts.G_REGEX_EMAIL_STRICT
+  commentId: M:Ans.Net10.Common._Consts.G_REGEX_EMAIL_STRICT
+  id: G_REGEX_EMAIL_STRICT
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: G_REGEX_EMAIL_STRICT()
+  nameWithType: _Consts.G_REGEX_EMAIL_STRICT()
+  fullName: Ans.Net10.Common._Consts.G_REGEX_EMAIL_STRICT()
+  type: Method
+  source:
+    id: G_REGEX_EMAIL_STRICT
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 81
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  remarks: >-
+    Pattern:<br />
+
+    <pre><code class="lang-csharp">^(?(")("[^"]+"@)|(([0-9a-z]((\\.(?!\\.))|[-!#\\$%&amp;'\\*\\+/=\\?\\^`\\{\\}\\|~\\w])*)(?&lt;=[0-9a-z])@))(?(\\[)(\\[(\\d{1,3}\\.){3}\\d{1,3}\\])|(([0-9a-z][-\\w]*[0-9a-z]*\\.)+[a-z0-9]{2,17}))$</code></pre><br />
+        Explanation:<br />
+        <pre><code class="lang-csharp">○ Match if at the beginning of the string.
+    ○ Conditionally match one of two expressions depending on whether an initial expression matches.
+        ○ Condition: Match '"'.
+        ○ Matched: 1st capture group.
+            ○ Match '"'.
+            ○ Match a character other than '"' atomically at least once.
+            ○ Match the string "\"@".
+        ○ Not Matched: 2nd capture group.
+            ○ 3rd capture group.
+                ○ Match a character in the set [0-9a-z].
+                ○ Loop greedily any number of times.
+                    ○ 4th capture group.
+                        ○ Match with 2 alternative expressions.
+                            ○ 5th capture group.
+                                ○ Match '.'.
+                                ○ Zero-width negative lookahead.
+                                    ○ Match '.'.
+                            ○ Match a character in the set [!#-'*+\-/=?^`{-~\w].
+            ○ Zero-width positive lookbehind.
+                ○ Match a character in the set [0-9a-z] right-to-left.
+            ○ Match '@'.
+    ○ Conditionally match one of two expressions depending on whether an initial expression matches.
+        ○ Condition: Match '['.
+        ○ Matched: 6th capture group.
+            ○ Match '['.
+            ○ Loop exactly 3 times.
+                ○ 7th capture group.
+                    ○ Match a Unicode digit atomically at least 1 and at most 3 times.
+                    ○ Match '.'.
+            ○ Match a Unicode digit atomically at least 1 and at most 3 times.
+            ○ Match ']'.
+        ○ Not Matched: 8th capture group.
+            ○ Loop greedily at least once.
+                ○ 9th capture group.
+                    ○ Match a character in the set [0-9a-z].
+                    ○ Match a character in the set [\-\w] greedily any number of times.
+                    ○ Match a character in the set [0-9a-z] atomically any number of times.
+                    ○ Match '.'.
+            ○ Match a character in the set [0-9a-z] atomically at least 2 and at most 17 times.
+    ○ Match if at the end of the string or if before an ending newline.</code></pre>
+  example: []
+  syntax:
+    content: >-
+      [GeneratedRegex("^(?(\")(\"[^\"]+\"@)|(([0-9a-z]((\\.(?!\\.))|[-!#\\$%&'\\*\\+/=\\?\\^`\\{\\}\\|~\\w])*)(?<=[0-9a-z])@))(?(\\[)(\\[(\\d{1,3}\\.){3}\\d{1,3}\\])|(([0-9a-z][-\\w]*[0-9a-z]*\\.)+[a-z0-9]{2,17}))$")]
+
+      public static Regex G_REGEX_EMAIL_STRICT()
+    return:
+      type: System.Text.RegularExpressions.Regex
+    content.vb: >-
+      <GeneratedRegex("^(?("")(""[^""]+""@)|(([0-9a-z]((\.(?!\.))|[-!#\$%&'\*\+/=\?\^`\{\}\|~\w])*)(?<=[0-9a-z])@))(?(\[)(\[(\d{1,3}\.){3}\d{1,3}\])|(([0-9a-z][-\w]*[0-9a-z]*\.)+[a-z0-9]{2,17}))$")>
+
+      Public Shared Function G_REGEX_EMAIL_STRICT() As Regex
+  overload: Ans.Net10.Common._Consts.G_REGEX_EMAIL_STRICT*
+  attributes:
+  - type: System.Text.RegularExpressions.GeneratedRegexAttribute
+    ctor: System.Text.RegularExpressions.GeneratedRegexAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ^(?(")("[^"]+"@)|(([0-9a-z]((\.(?!\.))|[-!#\$%&'\*\+/=\?\^`\{\}\|~\w])*)(?<=[0-9a-z])@))(?(\[)(\[(\d{1,3}\.){3}\d{1,3}\])|(([0-9a-z][-\w]*[0-9a-z]*\.)+[a-z0-9]{2,17}))$
+- uid: Ans.Net10.Common._Consts.G_REGEX_NODENAME
+  commentId: M:Ans.Net10.Common._Consts.G_REGEX_NODENAME
+  id: G_REGEX_NODENAME
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: G_REGEX_NODENAME()
+  nameWithType: _Consts.G_REGEX_NODENAME()
+  fullName: Ans.Net10.Common._Consts.G_REGEX_NODENAME()
+  type: Method
+  source:
+    id: G_REGEX_NODENAME
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 84
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  remarks: >-
+    Pattern:<br />
+
+    <pre><code class="lang-csharp">^([0-9a-z_-]+)$</code></pre><br />
+        Explanation:<br />
+        <pre><code class="lang-csharp">○ Match if at the beginning of the string.
+    ○ 1st capture group.
+        ○ Match a character in the set [\-0-9_a-z] atomically at least once.
+    ○ Match if at the end of the string or if before an ending newline.</code></pre>
+  example: []
+  syntax:
+    content: >-
+      [GeneratedRegex("^([0-9a-z_-]+)$")]
+
+      public static Regex G_REGEX_NODENAME()
+    return:
+      type: System.Text.RegularExpressions.Regex
+    content.vb: >-
+      <GeneratedRegex("^([0-9a-z_-]+)$")>
+
+      Public Shared Function G_REGEX_NODENAME() As Regex
+  overload: Ans.Net10.Common._Consts.G_REGEX_NODENAME*
+  attributes:
+  - type: System.Text.RegularExpressions.GeneratedRegexAttribute
+    ctor: System.Text.RegularExpressions.GeneratedRegexAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ^([0-9a-z_-]+)$
+- uid: Ans.Net10.Common._Consts.G_REGEX_PAGENAME
+  commentId: M:Ans.Net10.Common._Consts.G_REGEX_PAGENAME
+  id: G_REGEX_PAGENAME
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: G_REGEX_PAGENAME()
+  nameWithType: _Consts.G_REGEX_PAGENAME()
+  fullName: Ans.Net10.Common._Consts.G_REGEX_PAGENAME()
+  type: Method
+  source:
+    id: G_REGEX_PAGENAME
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 87
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  remarks: >-
+    Pattern:<br />
+
+    <pre><code class="lang-csharp">^([0-9a-z_-]+)$</code></pre><br />
+        Explanation:<br />
+        <pre><code class="lang-csharp">○ Match if at the beginning of the string.
+    ○ 1st capture group.
+        ○ Match a character in the set [\-0-9_a-z] atomically at least once.
+    ○ Match if at the end of the string or if before an ending newline.</code></pre>
+  example: []
+  syntax:
+    content: >-
+      [GeneratedRegex("^([0-9a-z_-]+)$")]
+
+      public static Regex G_REGEX_PAGENAME()
+    return:
+      type: System.Text.RegularExpressions.Regex
+    content.vb: >-
+      <GeneratedRegex("^([0-9a-z_-]+)$")>
+
+      Public Shared Function G_REGEX_PAGENAME() As Regex
+  overload: Ans.Net10.Common._Consts.G_REGEX_PAGENAME*
+  attributes:
+  - type: System.Text.RegularExpressions.GeneratedRegexAttribute
+    ctor: System.Text.RegularExpressions.GeneratedRegexAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ^([0-9a-z_-]+)$
+- uid: Ans.Net10.Common._Consts.G_REGEX_URL
+  commentId: M:Ans.Net10.Common._Consts.G_REGEX_URL
+  id: G_REGEX_URL
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: G_REGEX_URL()
+  nameWithType: _Consts.G_REGEX_URL()
+  fullName: Ans.Net10.Common._Consts.G_REGEX_URL()
+  type: Method
+  source:
+    id: G_REGEX_URL
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 90
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  remarks: >-
+    Pattern:<br />
+
+    <pre><code class="lang-csharp">(https?://)[-_./:\\?=&amp;%#a-zA-Z0-9]+</code></pre><br />
+        Explanation:<br />
+        <pre><code class="lang-csharp">○ 1st capture group.
+        ○ Match the string "http".
+        ○ Match 's' atomically, optionally.
+        ○ Match the string "://".
+    ○ Match a character in the set [#%&amp;\--:=?A-Z_a-z] atomically at least once.</code></pre>
+  example: []
+  syntax:
+    content: >-
+      [GeneratedRegex("(https?://)[-_./:\\?=&%#a-zA-Z0-9]+")]
+
+      public static Regex G_REGEX_URL()
+    return:
+      type: System.Text.RegularExpressions.Regex
+    content.vb: >-
+      <GeneratedRegex("(https?://)[-_./:\?=&%#a-zA-Z0-9]+")>
+
+      Public Shared Function G_REGEX_URL() As Regex
+  overload: Ans.Net10.Common._Consts.G_REGEX_URL*
+  attributes:
+  - type: System.Text.RegularExpressions.GeneratedRegexAttribute
+    ctor: System.Text.RegularExpressions.GeneratedRegexAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: (https?://)[-_./:\?=&%#a-zA-Z0-9]+
+- uid: Ans.Net10.Common._Consts.G_REGEX_IP4
+  commentId: M:Ans.Net10.Common._Consts.G_REGEX_IP4
+  id: G_REGEX_IP4
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: G_REGEX_IP4()
+  nameWithType: _Consts.G_REGEX_IP4()
+  fullName: Ans.Net10.Common._Consts.G_REGEX_IP4()
+  type: Method
+  source:
+    id: G_REGEX_IP4
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 93
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  remarks: >-
+    Pattern:<br />
+
+    <pre><code class="lang-csharp">\\b(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\b</code></pre><br />
+        Explanation:<br />
+        <pre><code class="lang-csharp">○ Match if at a word boundary.
+    ○ Loop exactly 3 times.
+        ○ Match with 2 alternative expressions.
+            ○ Match a sequence of expressions.
+                ○ Match '2'.
+                ○ Match with 2 alternative expressions.
+                    ○ Match a sequence of expressions.
+                        ○ Match '5'.
+                        ○ Match a character in the set [0-5].
+                    ○ Match a sequence of expressions.
+                        ○ Match a character in the set [0-4].
+                        ○ Match a character in the set [0-9].
+            ○ Match a sequence of expressions.
+                ○ Match a character in the set [01] greedily, optionally.
+                ○ Match a character in the set [0-9] atomically at least 1 and at most 2 times.
+        ○ Match '.'.
+    ○ Match with 2 alternative expressions.
+        ○ Match a sequence of expressions.
+            ○ Match '2'.
+            ○ Match with 2 alternative expressions.
+                ○ Match a sequence of expressions.
+                    ○ Match '5'.
+                    ○ Match a character in the set [0-5].
+                ○ Match a sequence of expressions.
+                    ○ Match a character in the set [0-4].
+                    ○ Match a character in the set [0-9].
+        ○ Match a sequence of expressions.
+            ○ Match a character in the set [01] greedily, optionally.
+            ○ Match a character in the set [0-9] atomically at least 1 and at most 2 times.
+    ○ Match if at a word boundary.</code></pre>
+  example: []
+  syntax:
+    content: >-
+      [GeneratedRegex("\\b(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\b")]
+
+      public static Regex G_REGEX_IP4()
+    return:
+      type: System.Text.RegularExpressions.Regex
+    content.vb: >-
+      <GeneratedRegex("\b(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\b")>
+
+      Public Shared Function G_REGEX_IP4() As Regex
+  overload: Ans.Net10.Common._Consts.G_REGEX_IP4*
+  attributes:
+  - type: System.Text.RegularExpressions.GeneratedRegexAttribute
+    ctor: System.Text.RegularExpressions.GeneratedRegexAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: \b(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\b
+- uid: Ans.Net10.Common._Consts.G_REGEX_PASSWORD
+  commentId: M:Ans.Net10.Common._Consts.G_REGEX_PASSWORD
+  id: G_REGEX_PASSWORD
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: G_REGEX_PASSWORD()
+  nameWithType: _Consts.G_REGEX_PASSWORD()
+  fullName: Ans.Net10.Common._Consts.G_REGEX_PASSWORD()
+  type: Method
+  source:
+    id: G_REGEX_PASSWORD
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 96
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  remarks: >-
+    Pattern:<br />
+
+    <pre><code class="lang-csharp">^([0-9a-zA-Z `\\'":;,\\.&lt;&gt;+=\\~_\\?\\!\\@#\\$%\\^\\&amp;\\*\\(\\)\\[\\]\\{\\}/\\\\\\|-]+)$</code></pre><br />
+        Explanation:<br />
+        <pre><code class="lang-csharp">○ Match if at the beginning of the string.
+    ○ 1st capture group.
+        ○ Match a character in the set [ -~] atomically at least once.
+    ○ Match if at the end of the string or if before an ending newline.</code></pre>
+  example: []
+  syntax:
+    content: >-
+      [GeneratedRegex("^([0-9a-zA-Z `\\'\":;,\\.<>+=\\~_\\?\\!\\@#\\$%\\^\\&\\*\\(\\)\\[\\]\\{\\}/\\\\\\|-]+)$")]
+
+      public static Regex G_REGEX_PASSWORD()
+    return:
+      type: System.Text.RegularExpressions.Regex
+    content.vb: >-
+      <GeneratedRegex("^([0-9a-zA-Z `\'"":;,\.<>+=\~_\?\!\@#\$%\^\&\*\(\)\[\]\{\}/\\\|-]+)$")>
+
+      Public Shared Function G_REGEX_PASSWORD() As Regex
+  overload: Ans.Net10.Common._Consts.G_REGEX_PASSWORD*
+  attributes:
+  - type: System.Text.RegularExpressions.GeneratedRegexAttribute
+    ctor: System.Text.RegularExpressions.GeneratedRegexAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ^([0-9a-zA-Z `\'":;,\.<>+=\~_\?\!\@#\$%\^\&\*\(\)\[\]\{\}/\\\|-]+)$
+- uid: Ans.Net10.Common._Consts.G_REGEX_FIO_RU
+  commentId: M:Ans.Net10.Common._Consts.G_REGEX_FIO_RU
+  id: G_REGEX_FIO_RU
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: G_REGEX_FIO_RU()
+  nameWithType: _Consts.G_REGEX_FIO_RU()
+  fullName: Ans.Net10.Common._Consts.G_REGEX_FIO_RU()
+  type: Method
+  source:
+    id: G_REGEX_FIO_RU
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 99
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  remarks: >-
+    Pattern:<br />
+
+    <pre><code class="lang-csharp">^[A-Za-zА-ЯЁа-яё-]{1,23}( [A-Za-zА-ЯЁа-яё-]{1,23})+$</code></pre><br />
+        Explanation:<br />
+        <pre><code class="lang-csharp">○ Match if at the beginning of the string.
+    ○ Match a character in the set [\-A-Za-z\u0401\u0410-\u044F\u0451] atomically at least 1 and at most 23 times.
+
+    ○ Loop greedily at least once.
+        ○ 1st capture group.
+            ○ Match ' '.
+            ○ Match a character in the set [\-A-Za-z\u0401\u0410-\u044F\u0451] atomically at least 1 and at most 23 times.
+    ○ Match if at the end of the string or if before an ending newline.</code></pre>
+  example: []
+  syntax:
+    content: >-
+      [GeneratedRegex("^[A-Za-zА-ЯЁа-яё-]{1,23}( [A-Za-zА-ЯЁа-яё-]{1,23})+$")]
+
+      public static Regex G_REGEX_FIO_RU()
+    return:
+      type: System.Text.RegularExpressions.Regex
+    content.vb: >-
+      <GeneratedRegex("^[A-Za-zА-ЯЁа-яё-]{1,23}( [A-Za-zА-ЯЁа-яё-]{1,23})+$")>
+
+      Public Shared Function G_REGEX_FIO_RU() As Regex
+  overload: Ans.Net10.Common._Consts.G_REGEX_FIO_RU*
+  attributes:
+  - type: System.Text.RegularExpressions.GeneratedRegexAttribute
+    ctor: System.Text.RegularExpressions.GeneratedRegexAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ^[A-Za-zА-ЯЁа-яё-]{1,23}( [A-Za-zА-ЯЁа-яё-]{1,23})+$
+- uid: Ans.Net10.Common._Consts.G_REGEX_TAGS
+  commentId: M:Ans.Net10.Common._Consts.G_REGEX_TAGS
+  id: G_REGEX_TAGS
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: G_REGEX_TAGS()
+  nameWithType: _Consts.G_REGEX_TAGS()
+  fullName: Ans.Net10.Common._Consts.G_REGEX_TAGS()
+  type: Method
+  source:
+    id: G_REGEX_TAGS
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 102
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  remarks: >-
+    Pattern:<br />
+
+    <pre><code class="lang-csharp">(?&lt;=&lt;/?)([^ &gt;/]+)</code></pre><br />
+        Explanation:<br />
+        <pre><code class="lang-csharp">○ Zero-width positive lookbehind.
+        ○ Match '/' greedily, optionally right-to-left.
+        ○ Match '<' right-to-left.
+    ○ 1st capture group.
+        ○ Match a character in the set [^ /&gt;] atomically at least once.</code></pre>
+  example: []
+  syntax:
+    content: >-
+      [GeneratedRegex("(?<=</?)([^ >/]+)")]
+
+      public static Regex G_REGEX_TAGS()
+    return:
+      type: System.Text.RegularExpressions.Regex
+    content.vb: >-
+      <GeneratedRegex("(?<=</?)([^ >/]+)")>
+
+      Public Shared Function G_REGEX_TAGS() As Regex
+  overload: Ans.Net10.Common._Consts.G_REGEX_TAGS*
+  attributes:
+  - type: System.Text.RegularExpressions.GeneratedRegexAttribute
+    ctor: System.Text.RegularExpressions.GeneratedRegexAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: (?<=</?)([^ >/]+)
+- uid: Ans.Net10.Common._Consts.G_REGEX_SHARP_TAGS
+  commentId: M:Ans.Net10.Common._Consts.G_REGEX_SHARP_TAGS
+  id: G_REGEX_SHARP_TAGS
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: G_REGEX_SHARP_TAGS()
+  nameWithType: _Consts.G_REGEX_SHARP_TAGS()
+  fullName: Ans.Net10.Common._Consts.G_REGEX_SHARP_TAGS()
+  type: Method
+  source:
+    id: G_REGEX_SHARP_TAGS
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 105
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  remarks: >-
+    Pattern:<br />
+
+    <pre><code class="lang-csharp">#[-_a-zA-Zа-яА-Я0-9]+</code></pre><br />
+        Explanation:<br />
+        <pre><code class="lang-csharp">○ Match '#'.
+    ○ Match a character in the set [\-0-9A-Z_a-z\u0410-\u044F] atomically at least once.</code></pre>
+  example: []
+  syntax:
+    content: >-
+      [GeneratedRegex("#[-_a-zA-Zа-яА-Я0-9]+")]
+
+      public static Regex G_REGEX_SHARP_TAGS()
+    return:
+      type: System.Text.RegularExpressions.Regex
+    content.vb: >-
+      <GeneratedRegex("#[-_a-zA-Zа-яА-Я0-9]+")>
+
+      Public Shared Function G_REGEX_SHARP_TAGS() As Regex
+  overload: Ans.Net10.Common._Consts.G_REGEX_SHARP_TAGS*
+  attributes:
+  - type: System.Text.RegularExpressions.GeneratedRegexAttribute
+    ctor: System.Text.RegularExpressions.GeneratedRegexAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: '#[-_a-zA-Zа-яА-Я0-9]+'
+- uid: Ans.Net10.Common._Consts.G_REGEX_LINKS
+  commentId: M:Ans.Net10.Common._Consts.G_REGEX_LINKS
+  id: G_REGEX_LINKS
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: G_REGEX_LINKS()
+  nameWithType: _Consts.G_REGEX_LINKS()
+  fullName: Ans.Net10.Common._Consts.G_REGEX_LINKS()
+  type: Method
+  source:
+    id: G_REGEX_LINKS
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 108
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  remarks: >-
+    Pattern:<br />
+
+    <pre><code class="lang-csharp">\\\\^(https?://)[-_./:\\\\?=&amp;%#a-zA-Z0-9]+</code></pre><br />
+        Explanation:<br />
+        <pre><code class="lang-csharp">○ Match '\\'.
+    ○ Match if at the beginning of the string.
+
+    ○ 1st capture group.
+        ○ Match the string "http".
+        ○ Match 's' atomically, optionally.
+        ○ Match the string "://".
+    ○ Match a character in the set [#%&amp;\--:=?A-Z\\_a-z] atomically at least once.</code></pre>
+  example: []
+  syntax:
+    content: >-
+      [GeneratedRegex("\\\\^(https?://)[-_./:\\\\?=&%#a-zA-Z0-9]+")]
+
+      public static Regex G_REGEX_LINKS()
+    return:
+      type: System.Text.RegularExpressions.Regex
+    content.vb: >-
+      <GeneratedRegex("\\^(https?://)[-_./:\\?=&%#a-zA-Z0-9]+")>
+
+      Public Shared Function G_REGEX_LINKS() As Regex
+  overload: Ans.Net10.Common._Consts.G_REGEX_LINKS*
+  attributes:
+  - type: System.Text.RegularExpressions.GeneratedRegexAttribute
+    ctor: System.Text.RegularExpressions.GeneratedRegexAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: \\^(https?://)[-_./:\\?=&%#a-zA-Z0-9]+
+- uid: Ans.Net10.Common._Consts.G_REGEX_ONLY_NUMBER
+  commentId: M:Ans.Net10.Common._Consts.G_REGEX_ONLY_NUMBER
+  id: G_REGEX_ONLY_NUMBER
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: G_REGEX_ONLY_NUMBER()
+  nameWithType: _Consts.G_REGEX_ONLY_NUMBER()
+  fullName: Ans.Net10.Common._Consts.G_REGEX_ONLY_NUMBER()
+  type: Method
+  source:
+    id: G_REGEX_ONLY_NUMBER
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 112
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  remarks: >-
+    Pattern:<br />
+
+    <pre><code class="lang-csharp">\\d</code></pre><br />
+        Explanation:<br />
+        <pre><code class="lang-csharp">○ Match a Unicode digit.</code></pre>
+  example: []
+  syntax:
+    content: >-
+      [GeneratedRegex("\\d")]
+
+      public static Regex G_REGEX_ONLY_NUMBER()
+    return:
+      type: System.Text.RegularExpressions.Regex
+    content.vb: >-
+      <GeneratedRegex("\d")>
+
+      Public Shared Function G_REGEX_ONLY_NUMBER() As Regex
+  overload: Ans.Net10.Common._Consts.G_REGEX_ONLY_NUMBER*
+  attributes:
+  - type: System.Text.RegularExpressions.GeneratedRegexAttribute
+    ctor: System.Text.RegularExpressions.GeneratedRegexAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: \d
+- uid: Ans.Net10.Common._Consts.G_REGEX_NOT_NUMBER
+  commentId: M:Ans.Net10.Common._Consts.G_REGEX_NOT_NUMBER
+  id: G_REGEX_NOT_NUMBER
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: G_REGEX_NOT_NUMBER()
+  nameWithType: _Consts.G_REGEX_NOT_NUMBER()
+  fullName: Ans.Net10.Common._Consts.G_REGEX_NOT_NUMBER()
+  type: Method
+  source:
+    id: G_REGEX_NOT_NUMBER
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 115
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  remarks: >-
+    Pattern:<br />
+
+    <pre><code class="lang-csharp">\\D</code></pre><br />
+        Explanation:<br />
+        <pre><code class="lang-csharp">○ Match any character other than a Unicode digit.</code></pre>
+  example: []
+  syntax:
+    content: >-
+      [GeneratedRegex("\\D")]
+
+      public static Regex G_REGEX_NOT_NUMBER()
+    return:
+      type: System.Text.RegularExpressions.Regex
+    content.vb: >-
+      <GeneratedRegex("\D")>
+
+      Public Shared Function G_REGEX_NOT_NUMBER() As Regex
+  overload: Ans.Net10.Common._Consts.G_REGEX_NOT_NUMBER*
+  attributes:
+  - type: System.Text.RegularExpressions.GeneratedRegexAttribute
+    ctor: System.Text.RegularExpressions.GeneratedRegexAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: \D
+- uid: Ans.Net10.Common._Consts.G_REGEX_MULTYSPACE
+  commentId: M:Ans.Net10.Common._Consts.G_REGEX_MULTYSPACE
+  id: G_REGEX_MULTYSPACE
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: G_REGEX_MULTYSPACE()
+  nameWithType: _Consts.G_REGEX_MULTYSPACE()
+  fullName: Ans.Net10.Common._Consts.G_REGEX_MULTYSPACE()
+  type: Method
+  source:
+    id: G_REGEX_MULTYSPACE
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 118
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  remarks: >-
+    Pattern:<br />
+
+    <pre><code class="lang-csharp">[\\s]{2,}</code></pre><br />
+        Explanation:<br />
+        <pre><code class="lang-csharp">○ Match a whitespace character atomically at least twice.</code></pre>
+  example: []
+  syntax:
+    content: >-
+      [GeneratedRegex("[\\s]{2,}", RegexOptions.None)]
+
+      public static Regex G_REGEX_MULTYSPACE()
+    return:
+      type: System.Text.RegularExpressions.Regex
+    content.vb: >-
+      <GeneratedRegex("[\s]{2,}", RegexOptions.None)>
+
+      Public Shared Function G_REGEX_MULTYSPACE() As Regex
+  overload: Ans.Net10.Common._Consts.G_REGEX_MULTYSPACE*
+  attributes:
+  - type: System.Text.RegularExpressions.GeneratedRegexAttribute
+    ctor: System.Text.RegularExpressions.GeneratedRegexAttribute.#ctor(System.String,System.Text.RegularExpressions.RegexOptions)
+    arguments:
+    - type: System.String
+      value: '[\s]{2,}'
+    - type: System.Text.RegularExpressions.RegexOptions
+      value: 0
+- uid: Ans.Net10.Common._Consts.G_REGEX_SMALLNUMBER
+  commentId: M:Ans.Net10.Common._Consts.G_REGEX_SMALLNUMBER
+  id: G_REGEX_SMALLNUMBER
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: G_REGEX_SMALLNUMBER()
+  nameWithType: _Consts.G_REGEX_SMALLNUMBER()
+  fullName: Ans.Net10.Common._Consts.G_REGEX_SMALLNUMBER()
+  type: Method
+  source:
+    id: G_REGEX_SMALLNUMBER
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 121
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  remarks: >-
+    Pattern:<br />
+
+    <pre><code class="lang-csharp">([0..9.,_-]{1,3})</code></pre><br />
+        Explanation:<br />
+        <pre><code class="lang-csharp">○ 1st capture group.
+        ○ Match a character in the set [,-.09_] atomically at least 1 and at most 3 times.</code></pre>
+  example: []
+  syntax:
+    content: >-
+      [GeneratedRegex("([0..9.,_-]{1,3})", RegexOptions.None)]
+
+      public static Regex G_REGEX_SMALLNUMBER()
+    return:
+      type: System.Text.RegularExpressions.Regex
+    content.vb: >-
+      <GeneratedRegex("([0..9.,_-]{1,3})", RegexOptions.None)>
+
+      Public Shared Function G_REGEX_SMALLNUMBER() As Regex
+  overload: Ans.Net10.Common._Consts.G_REGEX_SMALLNUMBER*
+  attributes:
+  - type: System.Text.RegularExpressions.GeneratedRegexAttribute
+    ctor: System.Text.RegularExpressions.GeneratedRegexAttribute.#ctor(System.String,System.Text.RegularExpressions.RegexOptions)
+    arguments:
+    - type: System.String
+      value: ([0..9.,_-]{1,3})
+    - type: System.Text.RegularExpressions.RegexOptions
+      value: 0
+- uid: Ans.Net10.Common._Consts.G_REGEX_ENCODE
+  commentId: M:Ans.Net10.Common._Consts.G_REGEX_ENCODE
+  id: G_REGEX_ENCODE
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: G_REGEX_ENCODE()
+  nameWithType: _Consts.G_REGEX_ENCODE()
+  fullName: Ans.Net10.Common._Consts.G_REGEX_ENCODE()
+  type: Method
+  source:
+    id: G_REGEX_ENCODE
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~regex.cs
+    startLine: 124
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  remarks: >-
+    Pattern:<br />
+
+    <pre><code class="lang-csharp">[]^\\\\-]</code></pre><br />
+        Explanation:<br />
+        <pre><code class="lang-csharp">○ Match a character in the set [\-\\-^].</code></pre>
+  example: []
+  syntax:
+    content: >-
+      [GeneratedRegex("[]^\\\\-]")]
+
+      public static Regex G_REGEX_ENCODE()
+    return:
+      type: System.Text.RegularExpressions.Regex
+    content.vb: >-
+      <GeneratedRegex("[]^\\-]")>
+
+      Public Shared Function G_REGEX_ENCODE() As Regex
+  overload: Ans.Net10.Common._Consts.G_REGEX_ENCODE*
+  attributes:
+  - type: System.Text.RegularExpressions.GeneratedRegexAttribute
+    ctor: System.Text.RegularExpressions.GeneratedRegexAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: '[]^\\-]'
+- uid: Ans.Net10.Common._Consts.GET_RANDOM_SAMPLE_RU
+  commentId: M:Ans.Net10.Common._Consts.GET_RANDOM_SAMPLE_RU
+  id: GET_RANDOM_SAMPLE_RU
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: GET_RANDOM_SAMPLE_RU()
+  nameWithType: _Consts.GET_RANDOM_SAMPLE_RU()
+  fullName: Ans.Net10.Common._Consts.GET_RANDOM_SAMPLE_RU()
+  type: Method
+  source:
+    id: GET_RANDOM_SAMPLE_RU
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~samples.cs
+    startLine: 9
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static string GET_RANDOM_SAMPLE_RU()
+    return:
+      type: System.String
+    content.vb: Public Shared Function GET_RANDOM_SAMPLE_RU() As String
+  overload: Ans.Net10.Common._Consts.GET_RANDOM_SAMPLE_RU*
+- uid: Ans.Net10.Common._Consts.GET_RANDOM_SAMPLE_SMALL_RU
+  commentId: M:Ans.Net10.Common._Consts.GET_RANDOM_SAMPLE_SMALL_RU
+  id: GET_RANDOM_SAMPLE_SMALL_RU
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: GET_RANDOM_SAMPLE_SMALL_RU()
+  nameWithType: _Consts.GET_RANDOM_SAMPLE_SMALL_RU()
+  fullName: Ans.Net10.Common._Consts.GET_RANDOM_SAMPLE_SMALL_RU()
+  type: Method
+  source:
+    id: GET_RANDOM_SAMPLE_SMALL_RU
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~samples.cs
+    startLine: 12
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static string GET_RANDOM_SAMPLE_SMALL_RU()
+    return:
+      type: System.String
+    content.vb: Public Shared Function GET_RANDOM_SAMPLE_SMALL_RU() As String
+  overload: Ans.Net10.Common._Consts.GET_RANDOM_SAMPLE_SMALL_RU*
+- uid: Ans.Net10.Common._Consts.GET_RANDOM_SAMPLE_SMALLER_RU
+  commentId: M:Ans.Net10.Common._Consts.GET_RANDOM_SAMPLE_SMALLER_RU
+  id: GET_RANDOM_SAMPLE_SMALLER_RU
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: GET_RANDOM_SAMPLE_SMALLER_RU()
+  nameWithType: _Consts.GET_RANDOM_SAMPLE_SMALLER_RU()
+  fullName: Ans.Net10.Common._Consts.GET_RANDOM_SAMPLE_SMALLER_RU()
+  type: Method
+  source:
+    id: GET_RANDOM_SAMPLE_SMALLER_RU
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~samples.cs
+    startLine: 15
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static string GET_RANDOM_SAMPLE_SMALLER_RU()
+    return:
+      type: System.String
+    content.vb: Public Shared Function GET_RANDOM_SAMPLE_SMALLER_RU() As String
+  overload: Ans.Net10.Common._Consts.GET_RANDOM_SAMPLE_SMALLER_RU*
+- uid: Ans.Net10.Common._Consts.SAMPLES_RU
+  commentId: F:Ans.Net10.Common._Consts.SAMPLES_RU
+  id: SAMPLES_RU
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: SAMPLES_RU
+  nameWithType: _Consts.SAMPLES_RU
+  fullName: Ans.Net10.Common._Consts.SAMPLES_RU
+  type: Field
+  source:
+    id: SAMPLES_RU
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~samples.cs
+    startLine: 19
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static readonly string[] SAMPLES_RU
+    return:
+      type: System.String[]
+    content.vb: Public Shared ReadOnly SAMPLES_RU As String()
+- uid: Ans.Net10.Common._Consts.SAMPLES_SMALL_RU
+  commentId: F:Ans.Net10.Common._Consts.SAMPLES_SMALL_RU
+  id: SAMPLES_SMALL_RU
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: SAMPLES_SMALL_RU
+  nameWithType: _Consts.SAMPLES_SMALL_RU
+  fullName: Ans.Net10.Common._Consts.SAMPLES_SMALL_RU
+  type: Field
+  source:
+    id: SAMPLES_SMALL_RU
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~samples.cs
+    startLine: 65
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static readonly string[] SAMPLES_SMALL_RU
+    return:
+      type: System.String[]
+    content.vb: Public Shared ReadOnly SAMPLES_SMALL_RU As String()
+- uid: Ans.Net10.Common._Consts.SAMPLES_SMALLER_RU
+  commentId: F:Ans.Net10.Common._Consts.SAMPLES_SMALLER_RU
+  id: SAMPLES_SMALLER_RU
+  parent: Ans.Net10.Common._Consts
+  langs:
+  - csharp
+  - vb
+  name: SAMPLES_SMALLER_RU
+  nameWithType: _Consts.SAMPLES_SMALLER_RU
+  fullName: Ans.Net10.Common._Consts.SAMPLES_SMALLER_RU
+  type: Field
+  source:
+    id: SAMPLES_SMALLER_RU
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\~consts\_Consts~samples.cs
+    startLine: 110
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common
+  syntax:
+    content: public static readonly string[] SAMPLES_SMALLER_RU
+    return:
+      type: System.String[]
+    content.vb: Public Shared ReadOnly SAMPLES_SMALLER_RU As String()
+references:
+- uid: Ans.Net10.Common
+  commentId: N:Ans.Net10.Common
+  href: Ans.html
+  name: Ans.Net10.Common
+  nameWithType: Ans.Net10.Common
+  fullName: Ans.Net10.Common
+  spec.csharp:
+  - uid: Ans
+    name: Ans
+    href: Ans.html
+  - name: .
+  - uid: Ans.Net10
+    name: Net10
+    href: Ans.Net10.html
+  - name: .
+  - uid: Ans.Net10.Common
+    name: Common
+    href: Ans.Net10.Common.html
+  spec.vb:
+  - uid: Ans
+    name: Ans
+    href: Ans.html
+  - name: .
+  - uid: Ans.Net10
+    name: Net10
+    href: Ans.Net10.html
+  - name: .
+  - uid: Ans.Net10.Common
+    name: Common
+    href: Ans.Net10.Common.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, string>
+  nameWithType: Dictionary<string, string>
+  fullName: System.Collections.Generic.Dictionary<string, string>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Char[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.char
+  name: char[]
+  nameWithType: char[]
+  fullName: char[]
+  nameWithType.vb: Char()
+  fullName.vb: Char()
+  name.vb: Char()
+  spec.csharp:
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: (
+  - name: )
+- uid: System.Text.Encoding
+  commentId: T:System.Text.Encoding
+  parent: System.Text
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding
+  name: Encoding
+  nameWithType: Encoding
+  fullName: System.Text.Encoding
+- uid: System.Text
+  commentId: N:System.Text
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Text
+  nameWithType: System.Text
+  fullName: System.Text
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+- uid: Ans.Net10.Common.DictString
+  commentId: T:Ans.Net10.Common.DictString
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.DictString.html
+  name: DictString
+  nameWithType: DictString
+  fullName: Ans.Net10.Common.DictString
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.timespan
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: Microsoft.Extensions.Caching.Memory.MemoryCacheEntryOptions
+  commentId: T:Microsoft.Extensions.Caching.Memory.MemoryCacheEntryOptions
+  parent: Microsoft.Extensions.Caching.Memory
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.caching.memory.memorycacheentryoptions
+  name: MemoryCacheEntryOptions
+  nameWithType: MemoryCacheEntryOptions
+  fullName: Microsoft.Extensions.Caching.Memory.MemoryCacheEntryOptions
+- uid: Microsoft.Extensions.Caching.Memory
+  commentId: N:Microsoft.Extensions.Caching.Memory
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Caching.Memory
+  nameWithType: Microsoft.Extensions.Caching.Memory
+  fullName: Microsoft.Extensions.Caching.Memory
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Caching
+    name: Caching
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.caching
+  - name: .
+  - uid: Microsoft.Extensions.Caching.Memory
+    name: Memory
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.caching.memory
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Caching
+    name: Caching
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.caching
+  - name: .
+  - uid: Microsoft.Extensions.Caching.Memory
+    name: Memory
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.caching.memory
+- uid: System.Text.Json.JsonSerializerOptions
+  commentId: T:System.Text.Json.JsonSerializerOptions
+  parent: System.Text.Json
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.json.jsonserializeroptions
+  name: JsonSerializerOptions
+  nameWithType: JsonSerializerOptions
+  fullName: System.Text.Json.JsonSerializerOptions
+- uid: System.Text.Json
+  commentId: N:System.Text.Json
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Text.Json
+  nameWithType: System.Text.Json
+  fullName: System.Text.Json
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+  - name: .
+  - uid: System.Text.Json
+    name: Json
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.json
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+  - name: .
+  - uid: System.Text.Json
+    name: Json
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.json
+- uid: System.Func{System.Char,System.Char}
+  commentId: T:System.Func{System.Char,System.Char}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<char, char>
+  nameWithType: Func<char, char>
+  fullName: System.Func<char, char>
+  nameWithType.vb: Func(Of Char, Char)
+  fullName.vb: System.Func(Of Char, Char)
+  name.vb: Func(Of Char, Char)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: ','
+  - name: " "
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: ','
+  - name: " "
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: Ans.Net10.Common.ContentInfo
+  commentId: T:Ans.Net10.Common.ContentInfo
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.ContentInfo.html
+  name: ContentInfo
+  nameWithType: ContentInfo
+  fullName: Ans.Net10.Common.ContentInfo
+- uid: Ans.Net10.Common.ContentInfo[]
+  isExternal: true
+  href: Ans.Net10.Common.ContentInfo.html
+  name: ContentInfo[]
+  nameWithType: ContentInfo[]
+  fullName: Ans.Net10.Common.ContentInfo[]
+  nameWithType.vb: ContentInfo()
+  fullName.vb: Ans.Net10.Common.ContentInfo()
+  name.vb: ContentInfo()
+  spec.csharp:
+  - uid: Ans.Net10.Common.ContentInfo
+    name: ContentInfo
+    href: Ans.Net10.Common.ContentInfo.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Ans.Net10.Common.ContentInfo
+    name: ContentInfo
+    href: Ans.Net10.Common.ContentInfo.html
+  - name: (
+  - name: )
+- uid: Ans.Net10.Common._Consts.G_REGEX_NAME*
+  commentId: Overload:Ans.Net10.Common._Consts.G_REGEX_NAME
+  href: Ans.Net10.Common._Consts.html#Ans_Net10_Common__Consts_G_REGEX_NAME
+  name: G_REGEX_NAME
+  nameWithType: _Consts.G_REGEX_NAME
+  fullName: Ans.Net10.Common._Consts.G_REGEX_NAME
+- uid: System.Text.RegularExpressions.Regex
+  commentId: T:System.Text.RegularExpressions.Regex
+  parent: System.Text.RegularExpressions
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.regularexpressions.regex
+  name: Regex
+  nameWithType: Regex
+  fullName: System.Text.RegularExpressions.Regex
+- uid: System.Text.RegularExpressions
+  commentId: N:System.Text.RegularExpressions
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Text.RegularExpressions
+  nameWithType: System.Text.RegularExpressions
+  fullName: System.Text.RegularExpressions
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+  - name: .
+  - uid: System.Text.RegularExpressions
+    name: RegularExpressions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.regularexpressions
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+  - name: .
+  - uid: System.Text.RegularExpressions
+    name: RegularExpressions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.regularexpressions
+- uid: Ans.Net10.Common._Consts.G_REGEX_NAME_STRICT*
+  commentId: Overload:Ans.Net10.Common._Consts.G_REGEX_NAME_STRICT
+  href: Ans.Net10.Common._Consts.html#Ans_Net10_Common__Consts_G_REGEX_NAME_STRICT
+  name: G_REGEX_NAME_STRICT
+  nameWithType: _Consts.G_REGEX_NAME_STRICT
+  fullName: Ans.Net10.Common._Consts.G_REGEX_NAME_STRICT
+- uid: Ans.Net10.Common._Consts.G_REGEX_VARNAME*
+  commentId: Overload:Ans.Net10.Common._Consts.G_REGEX_VARNAME
+  href: Ans.Net10.Common._Consts.html#Ans_Net10_Common__Consts_G_REGEX_VARNAME
+  name: G_REGEX_VARNAME
+  nameWithType: _Consts.G_REGEX_VARNAME
+  fullName: Ans.Net10.Common._Consts.G_REGEX_VARNAME
+- uid: Ans.Net10.Common._Consts.G_REGEX_VARNAME_STRICT*
+  commentId: Overload:Ans.Net10.Common._Consts.G_REGEX_VARNAME_STRICT
+  href: Ans.Net10.Common._Consts.html#Ans_Net10_Common__Consts_G_REGEX_VARNAME_STRICT
+  name: G_REGEX_VARNAME_STRICT
+  nameWithType: _Consts.G_REGEX_VARNAME_STRICT
+  fullName: Ans.Net10.Common._Consts.G_REGEX_VARNAME_STRICT
+- uid: Ans.Net10.Common._Consts.G_REGEX_IPATH*
+  commentId: Overload:Ans.Net10.Common._Consts.G_REGEX_IPATH
+  href: Ans.Net10.Common._Consts.html#Ans_Net10_Common__Consts_G_REGEX_IPATH
+  name: G_REGEX_IPATH
+  nameWithType: _Consts.G_REGEX_IPATH
+  fullName: Ans.Net10.Common._Consts.G_REGEX_IPATH
+- uid: Ans.Net10.Common._Consts.G_REGEX_IPATH_STRICT*
+  commentId: Overload:Ans.Net10.Common._Consts.G_REGEX_IPATH_STRICT
+  href: Ans.Net10.Common._Consts.html#Ans_Net10_Common__Consts_G_REGEX_IPATH_STRICT
+  name: G_REGEX_IPATH_STRICT
+  nameWithType: _Consts.G_REGEX_IPATH_STRICT
+  fullName: Ans.Net10.Common._Consts.G_REGEX_IPATH_STRICT
+- uid: Ans.Net10.Common._Consts.G_REGEX_EMAIL*
+  commentId: Overload:Ans.Net10.Common._Consts.G_REGEX_EMAIL
+  href: Ans.Net10.Common._Consts.html#Ans_Net10_Common__Consts_G_REGEX_EMAIL
+  name: G_REGEX_EMAIL
+  nameWithType: _Consts.G_REGEX_EMAIL
+  fullName: Ans.Net10.Common._Consts.G_REGEX_EMAIL
+- uid: Ans.Net10.Common._Consts.G_REGEX_EMAIL_STRICT*
+  commentId: Overload:Ans.Net10.Common._Consts.G_REGEX_EMAIL_STRICT
+  href: Ans.Net10.Common._Consts.html#Ans_Net10_Common__Consts_G_REGEX_EMAIL_STRICT
+  name: G_REGEX_EMAIL_STRICT
+  nameWithType: _Consts.G_REGEX_EMAIL_STRICT
+  fullName: Ans.Net10.Common._Consts.G_REGEX_EMAIL_STRICT
+- uid: Ans.Net10.Common._Consts.G_REGEX_NODENAME*
+  commentId: Overload:Ans.Net10.Common._Consts.G_REGEX_NODENAME
+  href: Ans.Net10.Common._Consts.html#Ans_Net10_Common__Consts_G_REGEX_NODENAME
+  name: G_REGEX_NODENAME
+  nameWithType: _Consts.G_REGEX_NODENAME
+  fullName: Ans.Net10.Common._Consts.G_REGEX_NODENAME
+- uid: Ans.Net10.Common._Consts.G_REGEX_PAGENAME*
+  commentId: Overload:Ans.Net10.Common._Consts.G_REGEX_PAGENAME
+  href: Ans.Net10.Common._Consts.html#Ans_Net10_Common__Consts_G_REGEX_PAGENAME
+  name: G_REGEX_PAGENAME
+  nameWithType: _Consts.G_REGEX_PAGENAME
+  fullName: Ans.Net10.Common._Consts.G_REGEX_PAGENAME
+- uid: Ans.Net10.Common._Consts.G_REGEX_URL*
+  commentId: Overload:Ans.Net10.Common._Consts.G_REGEX_URL
+  href: Ans.Net10.Common._Consts.html#Ans_Net10_Common__Consts_G_REGEX_URL
+  name: G_REGEX_URL
+  nameWithType: _Consts.G_REGEX_URL
+  fullName: Ans.Net10.Common._Consts.G_REGEX_URL
+- uid: Ans.Net10.Common._Consts.G_REGEX_IP4*
+  commentId: Overload:Ans.Net10.Common._Consts.G_REGEX_IP4
+  href: Ans.Net10.Common._Consts.html#Ans_Net10_Common__Consts_G_REGEX_IP4
+  name: G_REGEX_IP4
+  nameWithType: _Consts.G_REGEX_IP4
+  fullName: Ans.Net10.Common._Consts.G_REGEX_IP4
+- uid: Ans.Net10.Common._Consts.G_REGEX_PASSWORD*
+  commentId: Overload:Ans.Net10.Common._Consts.G_REGEX_PASSWORD
+  href: Ans.Net10.Common._Consts.html#Ans_Net10_Common__Consts_G_REGEX_PASSWORD
+  name: G_REGEX_PASSWORD
+  nameWithType: _Consts.G_REGEX_PASSWORD
+  fullName: Ans.Net10.Common._Consts.G_REGEX_PASSWORD
+- uid: Ans.Net10.Common._Consts.G_REGEX_FIO_RU*
+  commentId: Overload:Ans.Net10.Common._Consts.G_REGEX_FIO_RU
+  href: Ans.Net10.Common._Consts.html#Ans_Net10_Common__Consts_G_REGEX_FIO_RU
+  name: G_REGEX_FIO_RU
+  nameWithType: _Consts.G_REGEX_FIO_RU
+  fullName: Ans.Net10.Common._Consts.G_REGEX_FIO_RU
+- uid: Ans.Net10.Common._Consts.G_REGEX_TAGS*
+  commentId: Overload:Ans.Net10.Common._Consts.G_REGEX_TAGS
+  href: Ans.Net10.Common._Consts.html#Ans_Net10_Common__Consts_G_REGEX_TAGS
+  name: G_REGEX_TAGS
+  nameWithType: _Consts.G_REGEX_TAGS
+  fullName: Ans.Net10.Common._Consts.G_REGEX_TAGS
+- uid: Ans.Net10.Common._Consts.G_REGEX_SHARP_TAGS*
+  commentId: Overload:Ans.Net10.Common._Consts.G_REGEX_SHARP_TAGS
+  href: Ans.Net10.Common._Consts.html#Ans_Net10_Common__Consts_G_REGEX_SHARP_TAGS
+  name: G_REGEX_SHARP_TAGS
+  nameWithType: _Consts.G_REGEX_SHARP_TAGS
+  fullName: Ans.Net10.Common._Consts.G_REGEX_SHARP_TAGS
+- uid: Ans.Net10.Common._Consts.G_REGEX_LINKS*
+  commentId: Overload:Ans.Net10.Common._Consts.G_REGEX_LINKS
+  href: Ans.Net10.Common._Consts.html#Ans_Net10_Common__Consts_G_REGEX_LINKS
+  name: G_REGEX_LINKS
+  nameWithType: _Consts.G_REGEX_LINKS
+  fullName: Ans.Net10.Common._Consts.G_REGEX_LINKS
+- uid: Ans.Net10.Common._Consts.G_REGEX_ONLY_NUMBER*
+  commentId: Overload:Ans.Net10.Common._Consts.G_REGEX_ONLY_NUMBER
+  href: Ans.Net10.Common._Consts.html#Ans_Net10_Common__Consts_G_REGEX_ONLY_NUMBER
+  name: G_REGEX_ONLY_NUMBER
+  nameWithType: _Consts.G_REGEX_ONLY_NUMBER
+  fullName: Ans.Net10.Common._Consts.G_REGEX_ONLY_NUMBER
+- uid: Ans.Net10.Common._Consts.G_REGEX_NOT_NUMBER*
+  commentId: Overload:Ans.Net10.Common._Consts.G_REGEX_NOT_NUMBER
+  href: Ans.Net10.Common._Consts.html#Ans_Net10_Common__Consts_G_REGEX_NOT_NUMBER
+  name: G_REGEX_NOT_NUMBER
+  nameWithType: _Consts.G_REGEX_NOT_NUMBER
+  fullName: Ans.Net10.Common._Consts.G_REGEX_NOT_NUMBER
+- uid: Ans.Net10.Common._Consts.G_REGEX_MULTYSPACE*
+  commentId: Overload:Ans.Net10.Common._Consts.G_REGEX_MULTYSPACE
+  href: Ans.Net10.Common._Consts.html#Ans_Net10_Common__Consts_G_REGEX_MULTYSPACE
+  name: G_REGEX_MULTYSPACE
+  nameWithType: _Consts.G_REGEX_MULTYSPACE
+  fullName: Ans.Net10.Common._Consts.G_REGEX_MULTYSPACE
+- uid: Ans.Net10.Common._Consts.G_REGEX_SMALLNUMBER*
+  commentId: Overload:Ans.Net10.Common._Consts.G_REGEX_SMALLNUMBER
+  href: Ans.Net10.Common._Consts.html#Ans_Net10_Common__Consts_G_REGEX_SMALLNUMBER
+  name: G_REGEX_SMALLNUMBER
+  nameWithType: _Consts.G_REGEX_SMALLNUMBER
+  fullName: Ans.Net10.Common._Consts.G_REGEX_SMALLNUMBER
+- uid: Ans.Net10.Common._Consts.G_REGEX_ENCODE*
+  commentId: Overload:Ans.Net10.Common._Consts.G_REGEX_ENCODE
+  href: Ans.Net10.Common._Consts.html#Ans_Net10_Common__Consts_G_REGEX_ENCODE
+  name: G_REGEX_ENCODE
+  nameWithType: _Consts.G_REGEX_ENCODE
+  fullName: Ans.Net10.Common._Consts.G_REGEX_ENCODE
+- uid: Ans.Net10.Common._Consts.GET_RANDOM_SAMPLE_RU*
+  commentId: Overload:Ans.Net10.Common._Consts.GET_RANDOM_SAMPLE_RU
+  href: Ans.Net10.Common._Consts.html#Ans_Net10_Common__Consts_GET_RANDOM_SAMPLE_RU
+  name: GET_RANDOM_SAMPLE_RU
+  nameWithType: _Consts.GET_RANDOM_SAMPLE_RU
+  fullName: Ans.Net10.Common._Consts.GET_RANDOM_SAMPLE_RU
+- uid: Ans.Net10.Common._Consts.GET_RANDOM_SAMPLE_SMALL_RU*
+  commentId: Overload:Ans.Net10.Common._Consts.GET_RANDOM_SAMPLE_SMALL_RU
+  href: Ans.Net10.Common._Consts.html#Ans_Net10_Common__Consts_GET_RANDOM_SAMPLE_SMALL_RU
+  name: GET_RANDOM_SAMPLE_SMALL_RU
+  nameWithType: _Consts.GET_RANDOM_SAMPLE_SMALL_RU
+  fullName: Ans.Net10.Common._Consts.GET_RANDOM_SAMPLE_SMALL_RU
+- uid: Ans.Net10.Common._Consts.GET_RANDOM_SAMPLE_SMALLER_RU*
+  commentId: Overload:Ans.Net10.Common._Consts.GET_RANDOM_SAMPLE_SMALLER_RU
+  href: Ans.Net10.Common._Consts.html#Ans_Net10_Common__Consts_GET_RANDOM_SAMPLE_SMALLER_RU
+  name: GET_RANDOM_SAMPLE_SMALLER_RU
+  nameWithType: _Consts.GET_RANDOM_SAMPLE_SMALLER_RU
+  fullName: Ans.Net10.Common._Consts.GET_RANDOM_SAMPLE_SMALLER_RU

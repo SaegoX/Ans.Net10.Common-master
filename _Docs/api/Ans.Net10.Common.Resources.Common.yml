@@ -1,0 +1,2074 @@
+### YamlMime:ManagedReference
+items:
+- uid: Ans.Net10.Common.Resources.Common
+  commentId: T:Ans.Net10.Common.Resources.Common
+  id: Common
+  parent: Ans.Net10.Common.Resources
+  children:
+  - Ans.Net10.Common.Resources.Common.Array_DaysOfWeek
+  - Ans.Net10.Common.Resources.Common.Array_DaysOfWeek2
+  - Ans.Net10.Common.Resources.Common.Array_DaysOfWeek3
+  - Ans.Net10.Common.Resources.Common.Array_Months
+  - Ans.Net10.Common.Resources.Common.Array_Months2
+  - Ans.Net10.Common.Resources.Common.Culture
+  - Ans.Net10.Common.Resources.Common.Format_DateTime_DayAndMonth
+  - Ans.Net10.Common.Resources.Common.Format_DateTime_Full
+  - Ans.Net10.Common.Resources.Common.Format_DateTime_Today
+  - Ans.Net10.Common.Resources.Common.Format_DateTime_Tomorrow
+  - Ans.Net10.Common.Resources.Common.Format_DateTime_Yesterday
+  - Ans.Net10.Common.Resources.Common.Format_Date_Day
+  - Ans.Net10.Common.Resources.Common.Format_Date_DayAndMonth
+  - Ans.Net10.Common.Resources.Common.Format_Date_Full
+  - Ans.Net10.Common.Resources.Common.Format_Date_Today
+  - Ans.Net10.Common.Resources.Common.Format_Date_Tomorrow
+  - Ans.Net10.Common.Resources.Common.Format_Date_Yesterday
+  - Ans.Net10.Common.Resources.Common.Format_LengthKB
+  - Ans.Net10.Common.Resources.Common.Registry_Months
+  - Ans.Net10.Common.Resources.Common.Registry_Months2
+  - Ans.Net10.Common.Resources.Common.ResourceManager
+  - Ans.Net10.Common.Resources.Common.Template_DataCreate
+  - Ans.Net10.Common.Resources.Common.Template_DataUpdate
+  - Ans.Net10.Common.Resources.Common.Template_ParentPtr
+  - Ans.Net10.Common.Resources.Common.Text_AllItems
+  - Ans.Net10.Common.Resources.Common.Text_EmptyItem
+  - Ans.Net10.Common.Resources.Common.Text_Never
+  - Ans.Net10.Common.Resources.Common.Text_PressAnyKeyToExit
+  - Ans.Net10.Common.Resources.Common.Text_PressEscToExit
+  langs:
+  - csharp
+  - vb
+  name: Common
+  nameWithType: Common
+  fullName: Ans.Net10.Common.Resources.Common
+  type: Class
+  source:
+    id: Common
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\Resources\Common.Designer.cs
+    startLine: 21
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common.Resources
+  summary: A strongly-typed resource class, for looking up localized strings, etc.
+  example: []
+  syntax:
+    content: public class Common
+    content.vb: Public Class Common
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Ans.Net10.Common.__e_reflection.DefaultObject``1
+  - System.Object.Ans.Net10.Common.__e_reflection.DefaultObject``1({T})
+  - System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue(System.String)
+  - System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue(System.String,System.Type)
+  - System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.String)
+  - System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.String,System.Type)
+  - System.Object.Ans.Net10.Common.__e_reflection.ToDynamic
+- uid: Ans.Net10.Common.Resources.Common.ResourceManager
+  commentId: P:Ans.Net10.Common.Resources.Common.ResourceManager
+  id: ResourceManager
+  parent: Ans.Net10.Common.Resources.Common
+  langs:
+  - csharp
+  - vb
+  name: ResourceManager
+  nameWithType: Common.ResourceManager
+  fullName: Ans.Net10.Common.Resources.Common.ResourceManager
+  type: Property
+  source:
+    id: ResourceManager
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\Resources\Common.Designer.cs
+    startLine: 37
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common.Resources
+  summary: Returns the cached ResourceManager instance used by this class.
+  example: []
+  syntax:
+    content: public static ResourceManager ResourceManager { get; }
+    parameters: []
+    return:
+      type: System.Resources.ResourceManager
+    content.vb: Public Shared ReadOnly Property ResourceManager As ResourceManager
+  overload: Ans.Net10.Common.Resources.Common.ResourceManager*
+- uid: Ans.Net10.Common.Resources.Common.Culture
+  commentId: P:Ans.Net10.Common.Resources.Common.Culture
+  id: Culture
+  parent: Ans.Net10.Common.Resources.Common
+  langs:
+  - csharp
+  - vb
+  name: Culture
+  nameWithType: Common.Culture
+  fullName: Ans.Net10.Common.Resources.Common.Culture
+  type: Property
+  source:
+    id: Culture
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\Resources\Common.Designer.cs
+    startLine: 52
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common.Resources
+  summary: >-
+    Overrides the current thread's CurrentUICulture property for all
+
+    resource lookups using this strongly typed resource class.
+  example: []
+  syntax:
+    content: public static CultureInfo Culture { get; set; }
+    parameters: []
+    return:
+      type: System.Globalization.CultureInfo
+    content.vb: Public Shared Property Culture As CultureInfo
+  overload: Ans.Net10.Common.Resources.Common.Culture*
+- uid: Ans.Net10.Common.Resources.Common.Array_DaysOfWeek
+  commentId: P:Ans.Net10.Common.Resources.Common.Array_DaysOfWeek
+  id: Array_DaysOfWeek
+  parent: Ans.Net10.Common.Resources.Common
+  langs:
+  - csharp
+  - vb
+  name: Array_DaysOfWeek
+  nameWithType: Common.Array_DaysOfWeek
+  fullName: Ans.Net10.Common.Resources.Common.Array_DaysOfWeek
+  type: Property
+  source:
+    id: Array_DaysOfWeek
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\Resources\Common.Designer.cs
+    startLine: 65
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common.Resources
+  summary: Looks up a localized string similar to ;Понедельник;Вторник;Среда;Четверг;Пятница;Суббота;Воскресенье.
+  example: []
+  syntax:
+    content: public static string Array_DaysOfWeek { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Array_DaysOfWeek As String
+  overload: Ans.Net10.Common.Resources.Common.Array_DaysOfWeek*
+- uid: Ans.Net10.Common.Resources.Common.Array_DaysOfWeek2
+  commentId: P:Ans.Net10.Common.Resources.Common.Array_DaysOfWeek2
+  id: Array_DaysOfWeek2
+  parent: Ans.Net10.Common.Resources.Common
+  langs:
+  - csharp
+  - vb
+  name: Array_DaysOfWeek2
+  nameWithType: Common.Array_DaysOfWeek2
+  fullName: Ans.Net10.Common.Resources.Common.Array_DaysOfWeek2
+  type: Property
+  source:
+    id: Array_DaysOfWeek2
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\Resources\Common.Designer.cs
+    startLine: 74
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common.Resources
+  summary: Looks up a localized string similar to ;Пн;Вт;Ср;Чт;Пт;Сб;Вс.
+  example: []
+  syntax:
+    content: public static string Array_DaysOfWeek2 { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Array_DaysOfWeek2 As String
+  overload: Ans.Net10.Common.Resources.Common.Array_DaysOfWeek2*
+- uid: Ans.Net10.Common.Resources.Common.Array_DaysOfWeek3
+  commentId: P:Ans.Net10.Common.Resources.Common.Array_DaysOfWeek3
+  id: Array_DaysOfWeek3
+  parent: Ans.Net10.Common.Resources.Common
+  langs:
+  - csharp
+  - vb
+  name: Array_DaysOfWeek3
+  nameWithType: Common.Array_DaysOfWeek3
+  fullName: Ans.Net10.Common.Resources.Common.Array_DaysOfWeek3
+  type: Property
+  source:
+    id: Array_DaysOfWeek3
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\Resources\Common.Designer.cs
+    startLine: 83
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common.Resources
+  summary: Looks up a localized string similar to ;Пон;Вто;Сре;Чет;Пят;Суб;Вос.
+  example: []
+  syntax:
+    content: public static string Array_DaysOfWeek3 { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Array_DaysOfWeek3 As String
+  overload: Ans.Net10.Common.Resources.Common.Array_DaysOfWeek3*
+- uid: Ans.Net10.Common.Resources.Common.Array_Months
+  commentId: P:Ans.Net10.Common.Resources.Common.Array_Months
+  id: Array_Months
+  parent: Ans.Net10.Common.Resources.Common
+  langs:
+  - csharp
+  - vb
+  name: Array_Months
+  nameWithType: Common.Array_Months
+  fullName: Ans.Net10.Common.Resources.Common.Array_Months
+  type: Property
+  source:
+    id: Array_Months
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\Resources\Common.Designer.cs
+    startLine: 92
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common.Resources
+  summary: Looks up a localized string similar to ;января;февраля;марта;апреля;мая;июня;июля;августа;сентября;октября;ноября;декабря.
+  example: []
+  syntax:
+    content: public static string Array_Months { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Array_Months As String
+  overload: Ans.Net10.Common.Resources.Common.Array_Months*
+- uid: Ans.Net10.Common.Resources.Common.Array_Months2
+  commentId: P:Ans.Net10.Common.Resources.Common.Array_Months2
+  id: Array_Months2
+  parent: Ans.Net10.Common.Resources.Common
+  langs:
+  - csharp
+  - vb
+  name: Array_Months2
+  nameWithType: Common.Array_Months2
+  fullName: Ans.Net10.Common.Resources.Common.Array_Months2
+  type: Property
+  source:
+    id: Array_Months2
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\Resources\Common.Designer.cs
+    startLine: 101
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common.Resources
+  summary: Looks up a localized string similar to ;янв;фев;мар;апр;мая;июн;июл;авг;сен;окт;ноя;дек.
+  example: []
+  syntax:
+    content: public static string Array_Months2 { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Array_Months2 As String
+  overload: Ans.Net10.Common.Resources.Common.Array_Months2*
+- uid: Ans.Net10.Common.Resources.Common.Format_Date_Day
+  commentId: P:Ans.Net10.Common.Resources.Common.Format_Date_Day
+  id: Format_Date_Day
+  parent: Ans.Net10.Common.Resources.Common
+  langs:
+  - csharp
+  - vb
+  name: Format_Date_Day
+  nameWithType: Common.Format_Date_Day
+  fullName: Ans.Net10.Common.Resources.Common.Format_Date_Day
+  type: Property
+  source:
+    id: Format_Date_Day
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\Resources\Common.Designer.cs
+    startLine: 110
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common.Resources
+  summary: Looks up a localized string similar to %d.
+  example: []
+  syntax:
+    content: public static string Format_Date_Day { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Format_Date_Day As String
+  overload: Ans.Net10.Common.Resources.Common.Format_Date_Day*
+- uid: Ans.Net10.Common.Resources.Common.Format_Date_DayAndMonth
+  commentId: P:Ans.Net10.Common.Resources.Common.Format_Date_DayAndMonth
+  id: Format_Date_DayAndMonth
+  parent: Ans.Net10.Common.Resources.Common
+  langs:
+  - csharp
+  - vb
+  name: Format_Date_DayAndMonth
+  nameWithType: Common.Format_Date_DayAndMonth
+  fullName: Ans.Net10.Common.Resources.Common.Format_Date_DayAndMonth
+  type: Property
+  source:
+    id: Format_Date_DayAndMonth
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\Resources\Common.Designer.cs
+    startLine: 119
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common.Resources
+  summary: Looks up a localized string similar to d MMMM.
+  example: []
+  syntax:
+    content: public static string Format_Date_DayAndMonth { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Format_Date_DayAndMonth As String
+  overload: Ans.Net10.Common.Resources.Common.Format_Date_DayAndMonth*
+- uid: Ans.Net10.Common.Resources.Common.Format_Date_Full
+  commentId: P:Ans.Net10.Common.Resources.Common.Format_Date_Full
+  id: Format_Date_Full
+  parent: Ans.Net10.Common.Resources.Common
+  langs:
+  - csharp
+  - vb
+  name: Format_Date_Full
+  nameWithType: Common.Format_Date_Full
+  fullName: Ans.Net10.Common.Resources.Common.Format_Date_Full
+  type: Property
+  source:
+    id: Format_Date_Full
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\Resources\Common.Designer.cs
+    startLine: 128
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common.Resources
+  summary: Looks up a localized string similar to d MMMM yyyy.
+  example: []
+  syntax:
+    content: public static string Format_Date_Full { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Format_Date_Full As String
+  overload: Ans.Net10.Common.Resources.Common.Format_Date_Full*
+- uid: Ans.Net10.Common.Resources.Common.Format_Date_Today
+  commentId: P:Ans.Net10.Common.Resources.Common.Format_Date_Today
+  id: Format_Date_Today
+  parent: Ans.Net10.Common.Resources.Common
+  langs:
+  - csharp
+  - vb
+  name: Format_Date_Today
+  nameWithType: Common.Format_Date_Today
+  fullName: Ans.Net10.Common.Resources.Common.Format_Date_Today
+  type: Property
+  source:
+    id: Format_Date_Today
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\Resources\Common.Designer.cs
+    startLine: 137
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common.Resources
+  summary: Looks up a localized string similar to 'сегодня'.
+  example: []
+  syntax:
+    content: public static string Format_Date_Today { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Format_Date_Today As String
+  overload: Ans.Net10.Common.Resources.Common.Format_Date_Today*
+- uid: Ans.Net10.Common.Resources.Common.Format_Date_Tomorrow
+  commentId: P:Ans.Net10.Common.Resources.Common.Format_Date_Tomorrow
+  id: Format_Date_Tomorrow
+  parent: Ans.Net10.Common.Resources.Common
+  langs:
+  - csharp
+  - vb
+  name: Format_Date_Tomorrow
+  nameWithType: Common.Format_Date_Tomorrow
+  fullName: Ans.Net10.Common.Resources.Common.Format_Date_Tomorrow
+  type: Property
+  source:
+    id: Format_Date_Tomorrow
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\Resources\Common.Designer.cs
+    startLine: 146
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common.Resources
+  summary: Looks up a localized string similar to 'завтра'.
+  example: []
+  syntax:
+    content: public static string Format_Date_Tomorrow { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Format_Date_Tomorrow As String
+  overload: Ans.Net10.Common.Resources.Common.Format_Date_Tomorrow*
+- uid: Ans.Net10.Common.Resources.Common.Format_Date_Yesterday
+  commentId: P:Ans.Net10.Common.Resources.Common.Format_Date_Yesterday
+  id: Format_Date_Yesterday
+  parent: Ans.Net10.Common.Resources.Common
+  langs:
+  - csharp
+  - vb
+  name: Format_Date_Yesterday
+  nameWithType: Common.Format_Date_Yesterday
+  fullName: Ans.Net10.Common.Resources.Common.Format_Date_Yesterday
+  type: Property
+  source:
+    id: Format_Date_Yesterday
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\Resources\Common.Designer.cs
+    startLine: 155
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common.Resources
+  summary: Looks up a localized string similar to 'вчера'.
+  example: []
+  syntax:
+    content: public static string Format_Date_Yesterday { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Format_Date_Yesterday As String
+  overload: Ans.Net10.Common.Resources.Common.Format_Date_Yesterday*
+- uid: Ans.Net10.Common.Resources.Common.Format_DateTime_DayAndMonth
+  commentId: P:Ans.Net10.Common.Resources.Common.Format_DateTime_DayAndMonth
+  id: Format_DateTime_DayAndMonth
+  parent: Ans.Net10.Common.Resources.Common
+  langs:
+  - csharp
+  - vb
+  name: Format_DateTime_DayAndMonth
+  nameWithType: Common.Format_DateTime_DayAndMonth
+  fullName: Ans.Net10.Common.Resources.Common.Format_DateTime_DayAndMonth
+  type: Property
+  source:
+    id: Format_DateTime_DayAndMonth
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\Resources\Common.Designer.cs
+    startLine: 164
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common.Resources
+  summary: Looks up a localized string similar to d MMMM' в 'H:mmmm.
+  example: []
+  syntax:
+    content: public static string Format_DateTime_DayAndMonth { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Format_DateTime_DayAndMonth As String
+  overload: Ans.Net10.Common.Resources.Common.Format_DateTime_DayAndMonth*
+- uid: Ans.Net10.Common.Resources.Common.Format_DateTime_Full
+  commentId: P:Ans.Net10.Common.Resources.Common.Format_DateTime_Full
+  id: Format_DateTime_Full
+  parent: Ans.Net10.Common.Resources.Common
+  langs:
+  - csharp
+  - vb
+  name: Format_DateTime_Full
+  nameWithType: Common.Format_DateTime_Full
+  fullName: Ans.Net10.Common.Resources.Common.Format_DateTime_Full
+  type: Property
+  source:
+    id: Format_DateTime_Full
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\Resources\Common.Designer.cs
+    startLine: 173
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common.Resources
+  summary: Looks up a localized string similar to d MMMM yyyy' в 'H:mmmm.
+  example: []
+  syntax:
+    content: public static string Format_DateTime_Full { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Format_DateTime_Full As String
+  overload: Ans.Net10.Common.Resources.Common.Format_DateTime_Full*
+- uid: Ans.Net10.Common.Resources.Common.Format_DateTime_Today
+  commentId: P:Ans.Net10.Common.Resources.Common.Format_DateTime_Today
+  id: Format_DateTime_Today
+  parent: Ans.Net10.Common.Resources.Common
+  langs:
+  - csharp
+  - vb
+  name: Format_DateTime_Today
+  nameWithType: Common.Format_DateTime_Today
+  fullName: Ans.Net10.Common.Resources.Common.Format_DateTime_Today
+  type: Property
+  source:
+    id: Format_DateTime_Today
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\Resources\Common.Designer.cs
+    startLine: 182
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common.Resources
+  summary: Looks up a localized string similar to 'сегодня в 'H:mmmm.
+  example: []
+  syntax:
+    content: public static string Format_DateTime_Today { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Format_DateTime_Today As String
+  overload: Ans.Net10.Common.Resources.Common.Format_DateTime_Today*
+- uid: Ans.Net10.Common.Resources.Common.Format_DateTime_Tomorrow
+  commentId: P:Ans.Net10.Common.Resources.Common.Format_DateTime_Tomorrow
+  id: Format_DateTime_Tomorrow
+  parent: Ans.Net10.Common.Resources.Common
+  langs:
+  - csharp
+  - vb
+  name: Format_DateTime_Tomorrow
+  nameWithType: Common.Format_DateTime_Tomorrow
+  fullName: Ans.Net10.Common.Resources.Common.Format_DateTime_Tomorrow
+  type: Property
+  source:
+    id: Format_DateTime_Tomorrow
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\Resources\Common.Designer.cs
+    startLine: 191
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common.Resources
+  summary: Looks up a localized string similar to 'завтра в 'H:mmmm.
+  example: []
+  syntax:
+    content: public static string Format_DateTime_Tomorrow { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Format_DateTime_Tomorrow As String
+  overload: Ans.Net10.Common.Resources.Common.Format_DateTime_Tomorrow*
+- uid: Ans.Net10.Common.Resources.Common.Format_DateTime_Yesterday
+  commentId: P:Ans.Net10.Common.Resources.Common.Format_DateTime_Yesterday
+  id: Format_DateTime_Yesterday
+  parent: Ans.Net10.Common.Resources.Common
+  langs:
+  - csharp
+  - vb
+  name: Format_DateTime_Yesterday
+  nameWithType: Common.Format_DateTime_Yesterday
+  fullName: Ans.Net10.Common.Resources.Common.Format_DateTime_Yesterday
+  type: Property
+  source:
+    id: Format_DateTime_Yesterday
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\Resources\Common.Designer.cs
+    startLine: 200
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common.Resources
+  summary: Looks up a localized string similar to 'вчера в 'H:mmmm.
+  example: []
+  syntax:
+    content: public static string Format_DateTime_Yesterday { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Format_DateTime_Yesterday As String
+  overload: Ans.Net10.Common.Resources.Common.Format_DateTime_Yesterday*
+- uid: Ans.Net10.Common.Resources.Common.Format_LengthKB
+  commentId: P:Ans.Net10.Common.Resources.Common.Format_LengthKB
+  id: Format_LengthKB
+  parent: Ans.Net10.Common.Resources.Common
+  langs:
+  - csharp
+  - vb
+  name: Format_LengthKB
+  nameWithType: Common.Format_LengthKB
+  fullName: Ans.Net10.Common.Resources.Common.Format_LengthKB
+  type: Property
+  source:
+    id: Format_LengthKB
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\Resources\Common.Designer.cs
+    startLine: 209
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common.Resources
+  summary: "Looks up a localized string similar to ### ### ### ###' КБ'."
+  example: []
+  syntax:
+    content: public static string Format_LengthKB { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Format_LengthKB As String
+  overload: Ans.Net10.Common.Resources.Common.Format_LengthKB*
+- uid: Ans.Net10.Common.Resources.Common.Registry_Months
+  commentId: P:Ans.Net10.Common.Resources.Common.Registry_Months
+  id: Registry_Months
+  parent: Ans.Net10.Common.Resources.Common
+  langs:
+  - csharp
+  - vb
+  name: Registry_Months
+  nameWithType: Common.Registry_Months
+  fullName: Ans.Net10.Common.Resources.Common.Registry_Months
+  type: Property
+  source:
+    id: Registry_Months
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\Resources\Common.Designer.cs
+    startLine: 218
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common.Resources
+  summary: Looks up a localized string similar to 1=январь;2=февраль;3=март;4=апрель;5=май;6=июнь;7=июль;8=август;9=сентябрь;10=октябрь;11=ноябрь;12=декабрь;0=нет.
+  example: []
+  syntax:
+    content: public static string Registry_Months { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Registry_Months As String
+  overload: Ans.Net10.Common.Resources.Common.Registry_Months*
+- uid: Ans.Net10.Common.Resources.Common.Registry_Months2
+  commentId: P:Ans.Net10.Common.Resources.Common.Registry_Months2
+  id: Registry_Months2
+  parent: Ans.Net10.Common.Resources.Common
+  langs:
+  - csharp
+  - vb
+  name: Registry_Months2
+  nameWithType: Common.Registry_Months2
+  fullName: Ans.Net10.Common.Resources.Common.Registry_Months2
+  type: Property
+  source:
+    id: Registry_Months2
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\Resources\Common.Designer.cs
+    startLine: 227
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common.Resources
+  summary: Looks up a localized string similar to 1=янв;2=фев;3=мар;4=апр;5=май;6=июн;7=июл;8=авг;9=сен;10=окт;11=ноя;12=дек;0=нет.
+  example: []
+  syntax:
+    content: public static string Registry_Months2 { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Registry_Months2 As String
+  overload: Ans.Net10.Common.Resources.Common.Registry_Months2*
+- uid: Ans.Net10.Common.Resources.Common.Template_DataCreate
+  commentId: P:Ans.Net10.Common.Resources.Common.Template_DataCreate
+  id: Template_DataCreate
+  parent: Ans.Net10.Common.Resources.Common
+  langs:
+  - csharp
+  - vb
+  name: Template_DataCreate
+  nameWithType: Common.Template_DataCreate
+  fullName: Ans.Net10.Common.Resources.Common.Template_DataCreate
+  type: Property
+  source:
+    id: Template_DataCreate
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\Resources\Common.Designer.cs
+    startLine: 236
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common.Resources
+  summary: 'Looks up a localized string similar to Создано: {0}.'
+  example: []
+  syntax:
+    content: public static string Template_DataCreate { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Template_DataCreate As String
+  overload: Ans.Net10.Common.Resources.Common.Template_DataCreate*
+- uid: Ans.Net10.Common.Resources.Common.Template_DataUpdate
+  commentId: P:Ans.Net10.Common.Resources.Common.Template_DataUpdate
+  id: Template_DataUpdate
+  parent: Ans.Net10.Common.Resources.Common
+  langs:
+  - csharp
+  - vb
+  name: Template_DataUpdate
+  nameWithType: Common.Template_DataUpdate
+  fullName: Ans.Net10.Common.Resources.Common.Template_DataUpdate
+  type: Property
+  source:
+    id: Template_DataUpdate
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\Resources\Common.Designer.cs
+    startLine: 245
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common.Resources
+  summary: 'Looks up a localized string similar to Обновлено: {0}.'
+  example: []
+  syntax:
+    content: public static string Template_DataUpdate { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Template_DataUpdate As String
+  overload: Ans.Net10.Common.Resources.Common.Template_DataUpdate*
+- uid: Ans.Net10.Common.Resources.Common.Template_ParentPtr
+  commentId: P:Ans.Net10.Common.Resources.Common.Template_ParentPtr
+  id: Template_ParentPtr
+  parent: Ans.Net10.Common.Resources.Common
+  langs:
+  - csharp
+  - vb
+  name: Template_ParentPtr
+  nameWithType: Common.Template_ParentPtr
+  fullName: Ans.Net10.Common.Resources.Common.Template_ParentPtr
+  type: Property
+  source:
+    id: Template_ParentPtr
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\Resources\Common.Designer.cs
+    startLine: 254
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common.Resources
+  summary: Looks up a localized string similar to Вышестоящий {0} (в структуре).
+  example: []
+  syntax:
+    content: public static string Template_ParentPtr { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Template_ParentPtr As String
+  overload: Ans.Net10.Common.Resources.Common.Template_ParentPtr*
+- uid: Ans.Net10.Common.Resources.Common.Text_AllItems
+  commentId: P:Ans.Net10.Common.Resources.Common.Text_AllItems
+  id: Text_AllItems
+  parent: Ans.Net10.Common.Resources.Common
+  langs:
+  - csharp
+  - vb
+  name: Text_AllItems
+  nameWithType: Common.Text_AllItems
+  fullName: Ans.Net10.Common.Resources.Common.Text_AllItems
+  type: Property
+  source:
+    id: Text_AllItems
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\Resources\Common.Designer.cs
+    startLine: 263
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common.Resources
+  summary: Looks up a localized string similar to –все–.
+  example: []
+  syntax:
+    content: public static string Text_AllItems { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Text_AllItems As String
+  overload: Ans.Net10.Common.Resources.Common.Text_AllItems*
+- uid: Ans.Net10.Common.Resources.Common.Text_EmptyItem
+  commentId: P:Ans.Net10.Common.Resources.Common.Text_EmptyItem
+  id: Text_EmptyItem
+  parent: Ans.Net10.Common.Resources.Common
+  langs:
+  - csharp
+  - vb
+  name: Text_EmptyItem
+  nameWithType: Common.Text_EmptyItem
+  fullName: Ans.Net10.Common.Resources.Common.Text_EmptyItem
+  type: Property
+  source:
+    id: Text_EmptyItem
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\Resources\Common.Designer.cs
+    startLine: 272
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common.Resources
+  summary: Looks up a localized string similar to –нет–.
+  example: []
+  syntax:
+    content: public static string Text_EmptyItem { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Text_EmptyItem As String
+  overload: Ans.Net10.Common.Resources.Common.Text_EmptyItem*
+- uid: Ans.Net10.Common.Resources.Common.Text_Never
+  commentId: P:Ans.Net10.Common.Resources.Common.Text_Never
+  id: Text_Never
+  parent: Ans.Net10.Common.Resources.Common
+  langs:
+  - csharp
+  - vb
+  name: Text_Never
+  nameWithType: Common.Text_Never
+  fullName: Ans.Net10.Common.Resources.Common.Text_Never
+  type: Property
+  source:
+    id: Text_Never
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\Resources\Common.Designer.cs
+    startLine: 281
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common.Resources
+  summary: Looks up a localized string similar to никогда.
+  example: []
+  syntax:
+    content: public static string Text_Never { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Text_Never As String
+  overload: Ans.Net10.Common.Resources.Common.Text_Never*
+- uid: Ans.Net10.Common.Resources.Common.Text_PressAnyKeyToExit
+  commentId: P:Ans.Net10.Common.Resources.Common.Text_PressAnyKeyToExit
+  id: Text_PressAnyKeyToExit
+  parent: Ans.Net10.Common.Resources.Common
+  langs:
+  - csharp
+  - vb
+  name: Text_PressAnyKeyToExit
+  nameWithType: Common.Text_PressAnyKeyToExit
+  fullName: Ans.Net10.Common.Resources.Common.Text_PressAnyKeyToExit
+  type: Property
+  source:
+    id: Text_PressAnyKeyToExit
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\Resources\Common.Designer.cs
+    startLine: 290
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common.Resources
+  summary: Looks up a localized string similar to Нажмите любую клавишу для выхода.
+  example: []
+  syntax:
+    content: public static string Text_PressAnyKeyToExit { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Text_PressAnyKeyToExit As String
+  overload: Ans.Net10.Common.Resources.Common.Text_PressAnyKeyToExit*
+- uid: Ans.Net10.Common.Resources.Common.Text_PressEscToExit
+  commentId: P:Ans.Net10.Common.Resources.Common.Text_PressEscToExit
+  id: Text_PressEscToExit
+  parent: Ans.Net10.Common.Resources.Common
+  langs:
+  - csharp
+  - vb
+  name: Text_PressEscToExit
+  nameWithType: Common.Text_PressEscToExit
+  fullName: Ans.Net10.Common.Resources.Common.Text_PressEscToExit
+  type: Property
+  source:
+    id: Text_PressEscToExit
+    path: C:\REPOS\NET10\DocFx\Ans.Net10.Common-master\Resources\Common.Designer.cs
+    startLine: 299
+  assemblies:
+  - Ans.Net10.Common
+  namespace: Ans.Net10.Common.Resources
+  summary: Looks up a localized string similar to Нажмите ESC для выхода.
+  example: []
+  syntax:
+    content: public static string Text_PressEscToExit { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Text_PressEscToExit As String
+  overload: Ans.Net10.Common.Resources.Common.Text_PressEscToExit*
+references:
+- uid: Ans.Net10.Common.Resources
+  commentId: N:Ans.Net10.Common.Resources
+  href: Ans.html
+  name: Ans.Net10.Common.Resources
+  nameWithType: Ans.Net10.Common.Resources
+  fullName: Ans.Net10.Common.Resources
+  spec.csharp:
+  - uid: Ans
+    name: Ans
+    href: Ans.html
+  - name: .
+  - uid: Ans.Net10
+    name: Net10
+    href: Ans.Net10.html
+  - name: .
+  - uid: Ans.Net10.Common
+    name: Common
+    href: Ans.Net10.Common.html
+  - name: .
+  - uid: Ans.Net10.Common.Resources
+    name: Resources
+    href: Ans.Net10.Common.Resources.html
+  spec.vb:
+  - uid: Ans
+    name: Ans
+    href: Ans.html
+  - name: .
+  - uid: Ans.Net10
+    name: Net10
+    href: Ans.Net10.html
+  - name: .
+  - uid: Ans.Net10.Common
+    name: Common
+    href: Ans.Net10.Common.html
+  - name: .
+  - uid: Ans.Net10.Common.Resources
+    name: Resources
+    href: Ans.Net10.Common.Resources.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Ans.Net10.Common.__e_reflection.DefaultObject``1
+  commentId: M:Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+  parent: Ans.Net10.Common.__e_reflection
+  definition: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object_
+  name: DefaultObject<T>(object)
+  nameWithType: __e_reflection.DefaultObject<T>(object)
+  fullName: Ans.Net10.Common.__e_reflection.DefaultObject<T>(object)
+  nameWithType.vb: __e_reflection.DefaultObject(Of T)(Object)
+  fullName.vb: Ans.Net10.Common.__e_reflection.DefaultObject(Of T)(Object)
+  name.vb: DefaultObject(Of T)(Object)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Ans.Net10.Common.__e_reflection.DefaultObject``1({T})
+  commentId: M:Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+  parent: Ans.Net10.Common.__e_reflection
+  definition: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object___0_
+  name: DefaultObject<T>(object, T)
+  nameWithType: __e_reflection.DefaultObject<T>(object, T)
+  fullName: Ans.Net10.Common.__e_reflection.DefaultObject<T>(object, T)
+  nameWithType.vb: __e_reflection.DefaultObject(Of T)(Object, T)
+  fullName.vb: Ans.Net10.Common.__e_reflection.DefaultObject(Of T)(Object, T)
+  name.vb: DefaultObject(Of T)(Object, T)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue(System.String)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+  parent: Ans.Net10.Common.__e_reflection
+  definition: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_
+  name: GetPropertyValue(object, string)
+  nameWithType: __e_reflection.GetPropertyValue(object, string)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue(object, string)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Object, String)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Object, String)
+  name.vb: GetPropertyValue(Object, String)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue(System.String,System.Type)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+  parent: Ans.Net10.Common.__e_reflection
+  definition: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_System_Type_
+  name: GetPropertyValue(object, string, Type)
+  nameWithType: __e_reflection.GetPropertyValue(object, string, Type)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue(object, string, System.Type)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Object, String, Type)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Object, String, System.Type)
+  name.vb: GetPropertyValue(Object, String, Type)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_System_Type_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_System_Type_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.String)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+  parent: Ans.Net10.Common.__e_reflection
+  definition: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_
+  name: GetPropertyValue<T>(object, string)
+  nameWithType: __e_reflection.GetPropertyValue<T>(object, string)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue<T>(object, string)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Of T)(Object, String)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Of T)(Object, String)
+  name.vb: GetPropertyValue(Of T)(Object, String)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.String,System.Type)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+  parent: Ans.Net10.Common.__e_reflection
+  definition: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_System_Type_
+  name: GetPropertyValue<T>(object, string, Type)
+  nameWithType: __e_reflection.GetPropertyValue<T>(object, string, Type)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue<T>(object, string, System.Type)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Of T)(Object, String, Type)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Of T)(Object, String, System.Type)
+  name.vb: GetPropertyValue(Of T)(Object, String, Type)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_System_Type_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_System_Type_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: System.Object.Ans.Net10.Common.__e_reflection.ToDynamic
+  commentId: M:Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+  parent: Ans.Net10.Common.__e_reflection
+  definition: Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_ToDynamic_System_Object_
+  name: ToDynamic(object)
+  nameWithType: __e_reflection.ToDynamic(object)
+  fullName: Ans.Net10.Common.__e_reflection.ToDynamic(object)
+  nameWithType.vb: __e_reflection.ToDynamic(Object)
+  fullName.vb: Ans.Net10.Common.__e_reflection.ToDynamic(Object)
+  name.vb: ToDynamic(Object)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+    name: ToDynamic
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_ToDynamic_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+    name: ToDynamic
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_ToDynamic_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+  commentId: M:Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+  isExternal: true
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object_
+  name: DefaultObject<T>(object)
+  nameWithType: __e_reflection.DefaultObject<T>(object)
+  fullName: Ans.Net10.Common.__e_reflection.DefaultObject<T>(object)
+  nameWithType.vb: __e_reflection.DefaultObject(Of T)(Object)
+  fullName.vb: Ans.Net10.Common.__e_reflection.DefaultObject(Of T)(Object)
+  name.vb: DefaultObject(Of T)(Object)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Ans.Net10.Common.__e_reflection
+  commentId: T:Ans.Net10.Common.__e_reflection
+  parent: Ans.Net10.Common
+  href: Ans.Net10.Common.__e_reflection.html
+  name: __e_reflection
+  nameWithType: __e_reflection
+  fullName: Ans.Net10.Common.__e_reflection
+- uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+  commentId: M:Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+  isExternal: true
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object___0_
+  name: DefaultObject<T>(object, T)
+  nameWithType: __e_reflection.DefaultObject<T>(object, T)
+  fullName: Ans.Net10.Common.__e_reflection.DefaultObject<T>(object, T)
+  nameWithType.vb: __e_reflection.DefaultObject(Of T)(Object, T)
+  fullName.vb: Ans.Net10.Common.__e_reflection.DefaultObject(Of T)(Object, T)
+  name.vb: DefaultObject(Of T)(Object, T)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.DefaultObject``1(System.Object,``0)
+    name: DefaultObject
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_DefaultObject__1_System_Object___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+  isExternal: true
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_
+  name: GetPropertyValue(object, string)
+  nameWithType: __e_reflection.GetPropertyValue(object, string)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue(object, string)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Object, String)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Object, String)
+  name.vb: GetPropertyValue(Object, String)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+  isExternal: true
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_System_Type_
+  name: GetPropertyValue(object, string, Type)
+  nameWithType: __e_reflection.GetPropertyValue(object, string, Type)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue(object, string, System.Type)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Object, String, Type)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Object, String, System.Type)
+  name.vb: GetPropertyValue(Object, String, Type)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_System_Type_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue_System_Object_System_String_System_Type_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+  isExternal: true
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_
+  name: GetPropertyValue<T>(object, string)
+  nameWithType: __e_reflection.GetPropertyValue<T>(object, string)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue<T>(object, string)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Of T)(Object, String)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Of T)(Object, String)
+  name.vb: GetPropertyValue(Of T)(Object, String)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+  commentId: M:Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+  isExternal: true
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_System_Type_
+  name: GetPropertyValue<T>(object, string, Type)
+  nameWithType: __e_reflection.GetPropertyValue<T>(object, string, Type)
+  fullName: Ans.Net10.Common.__e_reflection.GetPropertyValue<T>(object, string, System.Type)
+  nameWithType.vb: __e_reflection.GetPropertyValue(Of T)(Object, String, Type)
+  fullName.vb: Ans.Net10.Common.__e_reflection.GetPropertyValue(Of T)(Object, String, System.Type)
+  name.vb: GetPropertyValue(Of T)(Object, String, Type)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_System_Type_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.GetPropertyValue``1(System.Object,System.String,System.Type)
+    name: GetPropertyValue
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_GetPropertyValue__1_System_Object_System_String_System_Type_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+  commentId: M:Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+  isExternal: true
+  href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_ToDynamic_System_Object_
+  name: ToDynamic(object)
+  nameWithType: __e_reflection.ToDynamic(object)
+  fullName: Ans.Net10.Common.__e_reflection.ToDynamic(object)
+  nameWithType.vb: __e_reflection.ToDynamic(Object)
+  fullName.vb: Ans.Net10.Common.__e_reflection.ToDynamic(Object)
+  name.vb: ToDynamic(Object)
+  spec.csharp:
+  - uid: Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+    name: ToDynamic
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_ToDynamic_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Ans.Net10.Common.__e_reflection.ToDynamic(System.Object)
+    name: ToDynamic
+    href: Ans.Net10.Common.__e_reflection.html#Ans_Net10_Common___e_reflection_ToDynamic_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Ans.Net10.Common
+  commentId: N:Ans.Net10.Common
+  href: Ans.html
+  name: Ans.Net10.Common
+  nameWithType: Ans.Net10.Common
+  fullName: Ans.Net10.Common
+  spec.csharp:
+  - uid: Ans
+    name: Ans
+    href: Ans.html
+  - name: .
+  - uid: Ans.Net10
+    name: Net10
+    href: Ans.Net10.html
+  - name: .
+  - uid: Ans.Net10.Common
+    name: Common
+    href: Ans.Net10.Common.html
+  spec.vb:
+  - uid: Ans
+    name: Ans
+    href: Ans.html
+  - name: .
+  - uid: Ans.Net10
+    name: Net10
+    href: Ans.Net10.html
+  - name: .
+  - uid: Ans.Net10.Common
+    name: Common
+    href: Ans.Net10.Common.html
+- uid: Ans.Net10.Common.Resources.Common.ResourceManager*
+  commentId: Overload:Ans.Net10.Common.Resources.Common.ResourceManager
+  href: Ans.Net10.Common.Resources.Common.html#Ans_Net10_Common_Resources_Common_ResourceManager
+  name: ResourceManager
+  nameWithType: Common.ResourceManager
+  fullName: Ans.Net10.Common.Resources.Common.ResourceManager
+- uid: System.Resources.ResourceManager
+  commentId: T:System.Resources.ResourceManager
+  parent: System.Resources
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.resources.resourcemanager
+  name: ResourceManager
+  nameWithType: ResourceManager
+  fullName: System.Resources.ResourceManager
+- uid: System.Resources
+  commentId: N:System.Resources
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Resources
+  nameWithType: System.Resources
+  fullName: System.Resources
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Resources
+    name: Resources
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.resources
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Resources
+    name: Resources
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.resources
+- uid: Ans.Net10.Common.Resources.Common.Culture*
+  commentId: Overload:Ans.Net10.Common.Resources.Common.Culture
+  href: Ans.Net10.Common.Resources.Common.html#Ans_Net10_Common_Resources_Common_Culture
+  name: Culture
+  nameWithType: Common.Culture
+  fullName: Ans.Net10.Common.Resources.Common.Culture
+- uid: System.Globalization.CultureInfo
+  commentId: T:System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+- uid: Ans.Net10.Common.Resources.Common.Array_DaysOfWeek*
+  commentId: Overload:Ans.Net10.Common.Resources.Common.Array_DaysOfWeek
+  href: Ans.Net10.Common.Resources.Common.html#Ans_Net10_Common_Resources_Common_Array_DaysOfWeek
+  name: Array_DaysOfWeek
+  nameWithType: Common.Array_DaysOfWeek
+  fullName: Ans.Net10.Common.Resources.Common.Array_DaysOfWeek
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Ans.Net10.Common.Resources.Common.Array_DaysOfWeek2*
+  commentId: Overload:Ans.Net10.Common.Resources.Common.Array_DaysOfWeek2
+  href: Ans.Net10.Common.Resources.Common.html#Ans_Net10_Common_Resources_Common_Array_DaysOfWeek2
+  name: Array_DaysOfWeek2
+  nameWithType: Common.Array_DaysOfWeek2
+  fullName: Ans.Net10.Common.Resources.Common.Array_DaysOfWeek2
+- uid: Ans.Net10.Common.Resources.Common.Array_DaysOfWeek3*
+  commentId: Overload:Ans.Net10.Common.Resources.Common.Array_DaysOfWeek3
+  href: Ans.Net10.Common.Resources.Common.html#Ans_Net10_Common_Resources_Common_Array_DaysOfWeek3
+  name: Array_DaysOfWeek3
+  nameWithType: Common.Array_DaysOfWeek3
+  fullName: Ans.Net10.Common.Resources.Common.Array_DaysOfWeek3
+- uid: Ans.Net10.Common.Resources.Common.Array_Months*
+  commentId: Overload:Ans.Net10.Common.Resources.Common.Array_Months
+  href: Ans.Net10.Common.Resources.Common.html#Ans_Net10_Common_Resources_Common_Array_Months
+  name: Array_Months
+  nameWithType: Common.Array_Months
+  fullName: Ans.Net10.Common.Resources.Common.Array_Months
+- uid: Ans.Net10.Common.Resources.Common.Array_Months2*
+  commentId: Overload:Ans.Net10.Common.Resources.Common.Array_Months2
+  href: Ans.Net10.Common.Resources.Common.html#Ans_Net10_Common_Resources_Common_Array_Months2
+  name: Array_Months2
+  nameWithType: Common.Array_Months2
+  fullName: Ans.Net10.Common.Resources.Common.Array_Months2
+- uid: Ans.Net10.Common.Resources.Common.Format_Date_Day*
+  commentId: Overload:Ans.Net10.Common.Resources.Common.Format_Date_Day
+  href: Ans.Net10.Common.Resources.Common.html#Ans_Net10_Common_Resources_Common_Format_Date_Day
+  name: Format_Date_Day
+  nameWithType: Common.Format_Date_Day
+  fullName: Ans.Net10.Common.Resources.Common.Format_Date_Day
+- uid: Ans.Net10.Common.Resources.Common.Format_Date_DayAndMonth*
+  commentId: Overload:Ans.Net10.Common.Resources.Common.Format_Date_DayAndMonth
+  href: Ans.Net10.Common.Resources.Common.html#Ans_Net10_Common_Resources_Common_Format_Date_DayAndMonth
+  name: Format_Date_DayAndMonth
+  nameWithType: Common.Format_Date_DayAndMonth
+  fullName: Ans.Net10.Common.Resources.Common.Format_Date_DayAndMonth
+- uid: Ans.Net10.Common.Resources.Common.Format_Date_Full*
+  commentId: Overload:Ans.Net10.Common.Resources.Common.Format_Date_Full
+  href: Ans.Net10.Common.Resources.Common.html#Ans_Net10_Common_Resources_Common_Format_Date_Full
+  name: Format_Date_Full
+  nameWithType: Common.Format_Date_Full
+  fullName: Ans.Net10.Common.Resources.Common.Format_Date_Full
+- uid: Ans.Net10.Common.Resources.Common.Format_Date_Today*
+  commentId: Overload:Ans.Net10.Common.Resources.Common.Format_Date_Today
+  href: Ans.Net10.Common.Resources.Common.html#Ans_Net10_Common_Resources_Common_Format_Date_Today
+  name: Format_Date_Today
+  nameWithType: Common.Format_Date_Today
+  fullName: Ans.Net10.Common.Resources.Common.Format_Date_Today
+- uid: Ans.Net10.Common.Resources.Common.Format_Date_Tomorrow*
+  commentId: Overload:Ans.Net10.Common.Resources.Common.Format_Date_Tomorrow
+  href: Ans.Net10.Common.Resources.Common.html#Ans_Net10_Common_Resources_Common_Format_Date_Tomorrow
+  name: Format_Date_Tomorrow
+  nameWithType: Common.Format_Date_Tomorrow
+  fullName: Ans.Net10.Common.Resources.Common.Format_Date_Tomorrow
+- uid: Ans.Net10.Common.Resources.Common.Format_Date_Yesterday*
+  commentId: Overload:Ans.Net10.Common.Resources.Common.Format_Date_Yesterday
+  href: Ans.Net10.Common.Resources.Common.html#Ans_Net10_Common_Resources_Common_Format_Date_Yesterday
+  name: Format_Date_Yesterday
+  nameWithType: Common.Format_Date_Yesterday
+  fullName: Ans.Net10.Common.Resources.Common.Format_Date_Yesterday
+- uid: Ans.Net10.Common.Resources.Common.Format_DateTime_DayAndMonth*
+  commentId: Overload:Ans.Net10.Common.Resources.Common.Format_DateTime_DayAndMonth
+  href: Ans.Net10.Common.Resources.Common.html#Ans_Net10_Common_Resources_Common_Format_DateTime_DayAndMonth
+  name: Format_DateTime_DayAndMonth
+  nameWithType: Common.Format_DateTime_DayAndMonth
+  fullName: Ans.Net10.Common.Resources.Common.Format_DateTime_DayAndMonth
+- uid: Ans.Net10.Common.Resources.Common.Format_DateTime_Full*
+  commentId: Overload:Ans.Net10.Common.Resources.Common.Format_DateTime_Full
+  href: Ans.Net10.Common.Resources.Common.html#Ans_Net10_Common_Resources_Common_Format_DateTime_Full
+  name: Format_DateTime_Full
+  nameWithType: Common.Format_DateTime_Full
+  fullName: Ans.Net10.Common.Resources.Common.Format_DateTime_Full
+- uid: Ans.Net10.Common.Resources.Common.Format_DateTime_Today*
+  commentId: Overload:Ans.Net10.Common.Resources.Common.Format_DateTime_Today
+  href: Ans.Net10.Common.Resources.Common.html#Ans_Net10_Common_Resources_Common_Format_DateTime_Today
+  name: Format_DateTime_Today
+  nameWithType: Common.Format_DateTime_Today
+  fullName: Ans.Net10.Common.Resources.Common.Format_DateTime_Today
+- uid: Ans.Net10.Common.Resources.Common.Format_DateTime_Tomorrow*
+  commentId: Overload:Ans.Net10.Common.Resources.Common.Format_DateTime_Tomorrow
+  href: Ans.Net10.Common.Resources.Common.html#Ans_Net10_Common_Resources_Common_Format_DateTime_Tomorrow
+  name: Format_DateTime_Tomorrow
+  nameWithType: Common.Format_DateTime_Tomorrow
+  fullName: Ans.Net10.Common.Resources.Common.Format_DateTime_Tomorrow
+- uid: Ans.Net10.Common.Resources.Common.Format_DateTime_Yesterday*
+  commentId: Overload:Ans.Net10.Common.Resources.Common.Format_DateTime_Yesterday
+  href: Ans.Net10.Common.Resources.Common.html#Ans_Net10_Common_Resources_Common_Format_DateTime_Yesterday
+  name: Format_DateTime_Yesterday
+  nameWithType: Common.Format_DateTime_Yesterday
+  fullName: Ans.Net10.Common.Resources.Common.Format_DateTime_Yesterday
+- uid: Ans.Net10.Common.Resources.Common.Format_LengthKB*
+  commentId: Overload:Ans.Net10.Common.Resources.Common.Format_LengthKB
+  href: Ans.Net10.Common.Resources.Common.html#Ans_Net10_Common_Resources_Common_Format_LengthKB
+  name: Format_LengthKB
+  nameWithType: Common.Format_LengthKB
+  fullName: Ans.Net10.Common.Resources.Common.Format_LengthKB
+- uid: Ans.Net10.Common.Resources.Common.Registry_Months*
+  commentId: Overload:Ans.Net10.Common.Resources.Common.Registry_Months
+  href: Ans.Net10.Common.Resources.Common.html#Ans_Net10_Common_Resources_Common_Registry_Months
+  name: Registry_Months
+  nameWithType: Common.Registry_Months
+  fullName: Ans.Net10.Common.Resources.Common.Registry_Months
+- uid: Ans.Net10.Common.Resources.Common.Registry_Months2*
+  commentId: Overload:Ans.Net10.Common.Resources.Common.Registry_Months2
+  href: Ans.Net10.Common.Resources.Common.html#Ans_Net10_Common_Resources_Common_Registry_Months2
+  name: Registry_Months2
+  nameWithType: Common.Registry_Months2
+  fullName: Ans.Net10.Common.Resources.Common.Registry_Months2
+- uid: Ans.Net10.Common.Resources.Common.Template_DataCreate*
+  commentId: Overload:Ans.Net10.Common.Resources.Common.Template_DataCreate
+  href: Ans.Net10.Common.Resources.Common.html#Ans_Net10_Common_Resources_Common_Template_DataCreate
+  name: Template_DataCreate
+  nameWithType: Common.Template_DataCreate
+  fullName: Ans.Net10.Common.Resources.Common.Template_DataCreate
+- uid: Ans.Net10.Common.Resources.Common.Template_DataUpdate*
+  commentId: Overload:Ans.Net10.Common.Resources.Common.Template_DataUpdate
+  href: Ans.Net10.Common.Resources.Common.html#Ans_Net10_Common_Resources_Common_Template_DataUpdate
+  name: Template_DataUpdate
+  nameWithType: Common.Template_DataUpdate
+  fullName: Ans.Net10.Common.Resources.Common.Template_DataUpdate
+- uid: Ans.Net10.Common.Resources.Common.Template_ParentPtr*
+  commentId: Overload:Ans.Net10.Common.Resources.Common.Template_ParentPtr
+  href: Ans.Net10.Common.Resources.Common.html#Ans_Net10_Common_Resources_Common_Template_ParentPtr
+  name: Template_ParentPtr
+  nameWithType: Common.Template_ParentPtr
+  fullName: Ans.Net10.Common.Resources.Common.Template_ParentPtr
+- uid: Ans.Net10.Common.Resources.Common.Text_AllItems*
+  commentId: Overload:Ans.Net10.Common.Resources.Common.Text_AllItems
+  href: Ans.Net10.Common.Resources.Common.html#Ans_Net10_Common_Resources_Common_Text_AllItems
+  name: Text_AllItems
+  nameWithType: Common.Text_AllItems
+  fullName: Ans.Net10.Common.Resources.Common.Text_AllItems
+- uid: Ans.Net10.Common.Resources.Common.Text_EmptyItem*
+  commentId: Overload:Ans.Net10.Common.Resources.Common.Text_EmptyItem
+  href: Ans.Net10.Common.Resources.Common.html#Ans_Net10_Common_Resources_Common_Text_EmptyItem
+  name: Text_EmptyItem
+  nameWithType: Common.Text_EmptyItem
+  fullName: Ans.Net10.Common.Resources.Common.Text_EmptyItem
+- uid: Ans.Net10.Common.Resources.Common.Text_Never*
+  commentId: Overload:Ans.Net10.Common.Resources.Common.Text_Never
+  href: Ans.Net10.Common.Resources.Common.html#Ans_Net10_Common_Resources_Common_Text_Never
+  name: Text_Never
+  nameWithType: Common.Text_Never
+  fullName: Ans.Net10.Common.Resources.Common.Text_Never
+- uid: Ans.Net10.Common.Resources.Common.Text_PressAnyKeyToExit*
+  commentId: Overload:Ans.Net10.Common.Resources.Common.Text_PressAnyKeyToExit
+  href: Ans.Net10.Common.Resources.Common.html#Ans_Net10_Common_Resources_Common_Text_PressAnyKeyToExit
+  name: Text_PressAnyKeyToExit
+  nameWithType: Common.Text_PressAnyKeyToExit
+  fullName: Ans.Net10.Common.Resources.Common.Text_PressAnyKeyToExit
+- uid: Ans.Net10.Common.Resources.Common.Text_PressEscToExit*
+  commentId: Overload:Ans.Net10.Common.Resources.Common.Text_PressEscToExit
+  href: Ans.Net10.Common.Resources.Common.html#Ans_Net10_Common_Resources_Common_Text_PressEscToExit
+  name: Text_PressEscToExit
+  nameWithType: Common.Text_PressEscToExit
+  fullName: Ans.Net10.Common.Resources.Common.Text_PressEscToExit

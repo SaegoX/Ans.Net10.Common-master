@@ -1,0 +1,51 @@
+### YamlMime:ManagedReference
+items:
+- uid: Ans.Net10.Common.Attributes
+  commentId: N:Ans.Net10.Common.Attributes
+  id: Ans.Net10.Common.Attributes
+  children:
+  - Ans.Net10.Common.Attributes.AnsFieldAttribute
+  - Ans.Net10.Common.Attributes.AnsLengthMaxAttribute
+  - Ans.Net10.Common.Attributes.AnsLengthMinAttribute
+  - Ans.Net10.Common.Attributes.AnsRegexAttribute
+  - Ans.Net10.Common.Attributes.AnsRequiredAttribute
+  langs:
+  - csharp
+  - vb
+  name: Ans.Net10.Common.Attributes
+  nameWithType: Ans.Net10.Common.Attributes
+  fullName: Ans.Net10.Common.Attributes
+  type: Namespace
+  assemblies:
+  - Ans.Net10.Common
+references:
+- uid: Ans.Net10.Common.Attributes.AnsFieldAttribute
+  commentId: T:Ans.Net10.Common.Attributes.AnsFieldAttribute
+  href: Ans.Net10.Common.Attributes.AnsFieldAttribute.html
+  name: AnsFieldAttribute
+  nameWithType: AnsFieldAttribute
+  fullName: Ans.Net10.Common.Attributes.AnsFieldAttribute
+- uid: Ans.Net10.Common.Attributes.AnsRequiredAttribute
+  commentId: T:Ans.Net10.Common.Attributes.AnsRequiredAttribute
+  href: Ans.Net10.Common.Attributes.AnsRequiredAttribute.html
+  name: AnsRequiredAttribute
+  nameWithType: AnsRequiredAttribute
+  fullName: Ans.Net10.Common.Attributes.AnsRequiredAttribute
+- uid: Ans.Net10.Common.Attributes.AnsLengthMaxAttribute
+  commentId: T:Ans.Net10.Common.Attributes.AnsLengthMaxAttribute
+  href: Ans.Net10.Common.Attributes.AnsLengthMaxAttribute.html
+  name: AnsLengthMaxAttribute
+  nameWithType: AnsLengthMaxAttribute
+  fullName: Ans.Net10.Common.Attributes.AnsLengthMaxAttribute
+- uid: Ans.Net10.Common.Attributes.AnsLengthMinAttribute
+  commentId: T:Ans.Net10.Common.Attributes.AnsLengthMinAttribute
+  href: Ans.Net10.Common.Attributes.AnsLengthMinAttribute.html
+  name: AnsLengthMinAttribute
+  nameWithType: AnsLengthMinAttribute
+  fullName: Ans.Net10.Common.Attributes.AnsLengthMinAttribute
+- uid: Ans.Net10.Common.Attributes.AnsRegexAttribute
+  commentId: T:Ans.Net10.Common.Attributes.AnsRegexAttribute
+  href: Ans.Net10.Common.Attributes.AnsRegexAttribute.html
+  name: AnsRegexAttribute
+  nameWithType: AnsRegexAttribute
+  fullName: Ans.Net10.Common.Attributes.AnsRegexAttribute
