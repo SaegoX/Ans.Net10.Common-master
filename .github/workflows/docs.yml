@@ -9,7 +9,7 @@ permissions:
   pages: write
   id-token: write
 
-concurrently:
+concurrency:
   group: "pages"
   cancel-in-progress: false
 
@@ -17,7 +17,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps: deployment.outputs.page_url }}
+      url: ${{ steps. deployment.outputs.page_url }}
     runs-on: windows-latest
     steps:
     - name: Checkout
