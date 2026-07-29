@@ -26,13 +26,13 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: '10.0.x' # Укажите версию .NET, которая нужна для сборки вашего проекта
+        dotnet-version: '10.0.x'
 
     - name: Install DocFX
       run: dotnet tool install -g docfx
 
     - name: Build Project
-      run: dotnet build Ans.Net10.Common-master/Ans.Net10.Common.csproj # Замените на относительный путь к вашему .csproj от корня репозитория
+      run: dotnet build Ans.Net10.Common-master/Ans.Net10.Common.csproj # 
 
     - name: Build DocFX
       run: docfx Ans.Net10.Common-master/_Docs/docfx.json
@@ -40,7 +40,7 @@ jobs:
     - name: Upload Artifact
       uses: actions/upload-pages-artifact@v3
       with:
-        path: 'Ans.Net10.Common-master/_Docs/_site' # Путь к готовому сайту от корня репозитория
+        path: 'Ans.Net10.Common-master/_Docs/_site' 
 
     - name: Deploy to GitHub Pages
       id: deployment
