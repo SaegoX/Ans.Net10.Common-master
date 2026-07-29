@@ -35,7 +35,7 @@ jobs:
       run: dotnet build Ans.Net10.Common.csproj # 
 
     - name: Build DocFX
-      run: docfx _Docs/docfx.json
+      run: docfx _Docs/docfx.json --clean
 
     - name: Upload Artifact
       uses: actions/upload-pages-artifact@v3

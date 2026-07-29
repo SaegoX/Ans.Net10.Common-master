@@ -1617,6 +1617,46 @@
             в формате yyyy-0MM-dd_HH-mmmm-ss для именования файлов
             </summary>
         </member>
+        <member name="P:Ans.Net10.Common.WebApiResult`1.StatusCode">
+            <summary>
+            Код ответа от сервера
+            </summary>
+        </member>
+        <member name="P:Ans.Net10.Common.WebApiResult`1.Headers">
+            <summary>
+            Заголовки ответа от сервера
+            </summary>
+        </member>
+        <member name="P:Ans.Net10.Common.WebApiResult`1.Content">
+            <summary>
+            Контент
+            </summary>
+        </member>
+        <member name="P:Ans.Net10.Common.WebApiResult`1.IsDeserializationError">
+            <summary>
+            Индикатор ошибки десериализации
+            </summary>
+        </member>
+        <member name="P:Ans.Net10.Common.WebApiResult`1.DeserializationException">
+            <summary>
+            Исключение ошибки десериализации
+            </summary>
+        </member>
+        <member name="P:Ans.Net10.Common.WebApiResult`1.ErrorBody">
+            <summary>
+            Текст ошибки от сервера
+            </summary>
+        </member>
+        <member name="M:Ans.Net10.Common._e_HttpClient.SendDeleteAsync``1(System.Net.Http.HttpClient,System.String,System.String,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken,System.String,System.String)">
+            <summary>
+            DELETE-запрос без тела (передача параметров через query-строку)
+            </summary>
+        </member>
+        <member name="M:Ans.Net10.Common._e_HttpClient.SendDeleteAsync``2(System.Net.Http.HttpClient,System.String,System.String,``1,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken,System.String,System.String)">
+            <summary>
+            DELETE-запрос с телом (передача сложного объекта в формате JSON)
+            </summary>
+        </member>
         <member name="M:Ans.Net10.Common._e_String.ReplaceFromDict(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
             <summary>
             Замена в строке по словарю
